@@ -1,0 +1,3354 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Orcas Island Skatepark",
+        "description": "The bowl at this park is on a whole other level. The concrete is super smooth and you can really fly around it. It was my first time on real pool ledge and since I had only been back on a skateboard for all of 3 months after an 8 year hiatus I wasn't able to do much. But man was this thing fun to ride. I was there on a Friday afternoon and it was completely empty. Came back on Sunday on the way home at around noon and it was packed full people on the upper deck with about 5 or so riding the shallow end of the bowl.",
+        "address": {
+            "addressLine1": "Orcas Island Skatepark",
+            "addressLine2": "Mt Baker Rd",
+            "city": "Eastsound",
+            "state": "WA",
+            "zipCode": "98245",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d563.5169434965948!2d-122.89911355132428!3d48.70218615860136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54858fbce70af3cb%3A0x8570aa959e32cec4!2sOrcas+Island+Skatepark%2C+Mt+Baker+Rd%2C+Eastsound%2C+WA+98245!5e1!3m2!1sen!2sus!4v1502770933602\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Orcas+Island+Skatepark,+Mt+Baker+Rd,+Eastsound,+WA+98245/@48.7021862,-122.8991136,129m/data=!3m1!1e3!4m13!1m7!3m6!1s0x54858fbce70af3cb:0x8570aa959e32cec4!2sOrcas+Island+Skatepark,+Mt+Baker+Rd,+Eastsound,+WA+98245!3b1!8m2!3d48.7022782!4d-122.8984604!3m4!1s0x54858fbce70af3cb:0x8570aa959e32cec4!8m2!3d48.7022782!4d-122.8984604"
+            }
+        },
+        "albumId": "9cwt4",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Orcas Island Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Ch2QJ9B.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "enjoi"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Po9ccmN.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It was my first time on real pool ledge and it took me a bit to try and axle stall on it."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/GHbkseT.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This little cloud decided to delay my fun for about 15 minutes. Was the only black cloud for miles."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/iwD49ek.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Thought I would get rained out but it dried up pretty quick."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/S6fUOj7.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The nipples drying out."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/crckIkW.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This bowl is huge."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/dT4GL85.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I mean like really huge."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/KSE3ISk.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "So much gnar."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/DOzdAaj.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Too much vert for me."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/XJo3RZz.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Photos don't do it justice, this bowl is deep."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/BiQ9LTs.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Over-vert snake run."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/qT1wI3W.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "No coping to be found in the entire park, all pool ledge."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/jsHmIsH.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Shallow end is about 4.5 feet deep."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/GiTcxpo.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Evidence that is a true DIY park."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Zp4ytMw.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "You could ride over this but definitely felt it."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/6yUk6px.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Should be easy to patch."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/7k1b6lK.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Love-seat in the distance."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/2QNU9RO.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Its super fast and super fun."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Z57h2JD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The outside of the bow is ringed by a snake run and a kind of freestyle-flow area."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Cr42MUh.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I just can't get over how big this thing is."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/BwbOUj0.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Panorama."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Freedom Park",
+        "description": "Medium sized bowl with some decent concrete and a nice street section for the younger crowd. I grew up in Mill Creek but unfortunately this park wasn't built until 2004 and by that point I was about to graduate from high school and had stopped actively skating. When I first rode this bowl in the summer of 2007 I had just got back into skating and had only been riding a 2.5 foot mini-ramp I built in my backyard so I wasn't able to fully appreciate this bowl. Then in the summer of 2017 I really got back into skating and was able to appreciate it.",
+        "address": {
+            "addressLine1": "13901 Heatherwood Dr",
+            "addressLine2": "",
+            "city": "Mill Creek",
+            "state": "WA",
+            "zipCode": "98012",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258.2144706298095!2d-122.21798686514838!3d47.87190441587479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549006885a1bebf7%3A0xcd7cd7ec82841485!2sMill+Creek+Skatepark!5e1!3m2!1sen!2sus!4v1503028692434\" frameborder=\"0\" style=\"width: 100%; height: 100%; border:0;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Mill+Creek+Skatepark/@47.8719044,-122.2179869,59m/data=!3m1!1e3!4m8!1m2!2m1!1smill+creek+skatepark!3m4!1s0x549006885a1bebf7:0xcd7cd7ec82841485!8m2!3d47.8718996!4d-122.2178618"
+            }
+        },
+        "albumId": "JPTXl",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Freedom Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/2e4PbO9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Really wish this bowl existed 20 years ago."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/jV8Ymdo.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The deep end."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/s49TMHF.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Got a real nice curve to it."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/pD5Dj1T.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Street section. Got some nice features, but it all heads in one direction so I imagine traffic jams back in the day must have been frequent."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/VUuxlOV.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Why are skateparks always empty now?"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/XAwBtWV.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A little 2 set."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/TU5Utrh.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "All going in one direction."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/j6cUVio.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Such a nice bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/gV0AOsk.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Took me a couple tries to find a line I liked, but after a while you can start to cruise this thing."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Enterprise Skatepark",
+        "description": "Passed by this skatepark on my way to Lake Wallowa to do some fishing and decided to stop and do a few drop ins. Obviously not the greatest skatepark but it sure as hell beats nothing. I get the feeling that it's mostly used by BMX bikers.",
+        "address": {
+            "addressLine1": "",
+            "addressLine2": "",
+            "city": "Enterprise",
+            "state": "OR",
+            "zipCode": "97828",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m13!1m11!1m3!1d599.6711049405196!2d-117.2731148631298!3d45.42022799173233!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1502771401214\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/@45.420228,-117.2731149,138m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "tLkdC",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Enterprise Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/36q7dfi.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The entire skatepark."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/HjKF3B6.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Two metal quarter pipes and a funky metal pyramid that isn't really a pyramid. Is it a fun box?"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/7SCV3m3.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Artsy photo."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Adams Skatepark",
+        "description": "A small little skatepark in the middle of nowhere Oregon. While not the greatest it still beats what I had in my neighborhood growing up which was nothing. The quarter pipe leaves much to be desired but the street elements are definitely skateable and enjoyable.",
+        "address": {
+            "addressLine1": "215 Morrison St",
+            "addressLine2": "",
+            "city": "Adams",
+            "state": "OR",
+            "zipCode": "97810",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d596.5119663598464!2d-118.56466638969128!3d45.76851597219244!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb0745e606ab3bfce!2sAdams+Skate+Park!5e1!3m2!1sen!2sus!4v1502771614460\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Adams+Skate+Park/@45.768516,-118.5646664,137m/data=!3m1!1e3!4m13!1m7!3m6!1s0x54a2f922c75ad207:0x380ccfb4ef6dd254!2sAdams,+OR+97810!3b1!8m2!3d45.767354!4d-118.5624734!3m4!1s0x0:0xb0745e606ab3bfce!8m2!3d45.7684688!4d-118.5640374"
+            }
+        },
+        "albumId": "ZVgOe",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Adams Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/U5aTsZV.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Look at all that wax. My sweet Del Sol in the distance."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/7qxybRa.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It's got 1 quarter pipe with concrete that was shaped into a \"coping\"."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/sltPJI5.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "For being such a small town it's nice to see a park here."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/LodVCja.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Banked mini-ramp thingy."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/ddFFvUf.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Got a nice little ledge/manny pad and a 4 stair with a rail."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/3ucKQle.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "enjoi"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/y7NNiCW.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I'm guessing someone's dad owns a concrete mixer and donated his time and supplies."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Jefferson Park",
+        "description": "This bowl is deep and it's got the best views in the city. The deep end of this bowl is definitely beyond my abilities but the shallow end is fun to rip around. When I was here on a Saturday around noon I only had to share the bowl with 2 other people.",
+        "address": {
+            "addressLine1": "Jefferson Park",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98108",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d642.7461351025994!2d-122.30967601681685!3d47.569189361332526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906a78f7f757dd%3A0xafadae2e6022a3a5!2sJefferson+Park+Skatepark!5e1!3m2!1sen!2sus!4v1502777152926\" frameborder=\"0\" style=\"width: 100%; height: 100%; border:0;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Jefferson+Park+Skatepark/@47.5691894,-122.309676,148m/data=!3m1!1e3!4m12!1m6!3m5!1s0x54906a78f7f757dd:0xafadae2e6022a3a5!2sJefferson+Park+Skatepark!8m2!3d47.5692148!4d-122.3090982!3m4!1s0x54906a78f7f757dd:0xafadae2e6022a3a5!8m2!3d47.5692148!4d-122.3090982"
+            }
+        },
+        "albumId": "KDfk7",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Jefferson Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/dyqX3dG.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Just look at that view."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/N34IVK9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A bowl with a view."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/1kO7sOa.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Nice and deep."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/VNJhN5N.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It's got a nice little mini-ramp section with a spine."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/4CsqEjx.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Jefferson park is just all around awesome."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Judkins Park",
+        "description": "The snake run here is a blast but watch out for the bowl at the end it's tight. It's got a street section but I stuck to the snake run. Due to it's size it doesn't take a lot of people to make this place feel packed.",
+        "address": {
+            "addressLine1": "2100 Judkins St",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98144",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d375.74784202762334!2d-122.30445825755689!3d47.59158252744828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906a92ced51059%3A0xbb990f73dbd3899b!2sJudkins+Skatepark!5e1!3m2!1sen!2sus!4v1502777268233\" frameborder=\"0\" style=\"width: 100%; height: 100%; border:0;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Judkins+Skatepark/@47.5915825,-122.3044583,86m/data=!3m1!1e3!4m12!1m6!3m5!1s0x54906a92ced51059:0xbb990f73dbd3899b!2sJudkins+Skatepark!8m2!3d47.5916198!4d-122.3040738!3m4!1s0x54906a92ced51059:0xbb990f73dbd3899b!8m2!3d47.5916198!4d-122.3040738"
+            }
+        },
+        "albumId": "CQeCa",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Judkins Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/8DKrqNB.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Snake run."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/BlOJr5q.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Super tight bowl."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Delridge Park",
+        "description": "Your choice of a bowl or a classic pool. The bowl is definitely in contention for the best within the city of Seattle. It's got so much flow and is tons of fun to just pump around. The street section is layed out in a snake run type of format - a really nice design.",
+        "address": {
+            "addressLine1": "2124 SW Genesee St",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98106",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d546.8889155472526!2d-122.36466112130472!3d47.56438407800841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549040520c07593f%3A0xbc48eb3698c1b451!2sDelridge+Skatepark!5e1!3m2!1sen!2sus!4v1502777387728\" frameborder=\"0\" style=\"width: 100%; height: 100%; border:0;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Delridge+Skatepark/@47.5643841,-122.3646611,126m/data=!3m1!1e3!4m5!3m4!1s0x549040520c07593f:0xbc48eb3698c1b451!8m2!3d47.5644844!4d-122.3640489"
+            }
+        },
+        "albumId": "67PDX",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Delridge Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/fuiMRqm.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A huge pool with lots of awesome shade."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/xt8YQ28.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Pool ledge."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/NOdHXP9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Another pool shot."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/w97UvHc.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This thing is big."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/vHdD6yH.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "But the shade is unbeatable."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Rh07XYb.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The snake run around the park is an awesome touch."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/r8oe0pP.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This bowl has got flow for days."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/jVzYAco.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Mini-ramp at the far end."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/eRVjZvU.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Got a nice vert wall in the bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/bXCirDF.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The face of the vert wall."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/4JHZDOy.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "You can really pick up some speed around this thing."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Roxhill Park",
+        "description": "A fun a little skatepark. But not much here if you're not a street skater. A typical entry-level neighborhood type of skatepark that is easily overrun by scootet kids.",
+        "address": {
+            "addressLine1": "Roxhill Skatepark",
+            "addressLine2": "SW Barton St",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98126",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d539.0338924731914!2d-122.37021606253607!3d47.52061270803013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490415c2d5d79fb%3A0xc2855ad7ccf8701e!2sRoxhill+Skatepark%2C+Seattle%2C+WA+98126!5e1!3m2!1sen!2sus!4v1502777542323\"  frameborder=\"0\" style=\"width: 100%; height: 100%; border:0;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Roxhill+Skatepark,+Seattle,+WA+98126/@47.5206127,-122.3702161,124m/data=!3m1!1e3!4m13!1m7!3m6!1s0x5490415c2d5d79fb:0xc2855ad7ccf8701e!2sRoxhill+Skatepark,+Seattle,+WA+98126!3b1!8m2!3d47.5206902!4d-122.3694235!3m4!1s0x5490415c2d5d79fb:0xc2855ad7ccf8701e!8m2!3d47.5206902!4d-122.3694235"
+            }
+        },
+        "albumId": "RhoDS",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Roxhill Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/wQW758t.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A nice little street park."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/ZXzEVRD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lots of street features. But only 1 quarter pipe."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/61Ajf3e.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Also packed full of kids on scooters."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Crossroads Community Center",
+        "description": "A nice big bowl. My only complaint is that it all slopes down to the deep end so it can be hard for a person new to bowl skating (me) to make it back up to the shallow end while still carrying much speed.",
+        "address": {
+            "addressLine1": "16000 NE 10th St",
+            "addressLine2": "",
+            "city": "Bellevue",
+            "state": "WA",
+            "zipCode": "98008",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d772.0588928782932!2d-122.12733254597973!3d47.61905078071631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44f31c1fa6cd5be7!2sCrossroads+Community+Center!5e1!3m2!1sen!2sus!4v1503008527240\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Crossroads+Community+Center/@47.6190508,-122.1273325,177m/data=!3m1!1e3!4m8!1m2!2m1!1sskatepark!3m4!1s0x0:0x44f31c1fa6cd5be7!8m2!3d47.61924!4d-122.1276451"
+            }
+        },
+        "albumId": "XA0kA",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Crossroads Community Center",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/HTP6qe9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This bowl has a natural slope down into the deep end."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/rRznNgn.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lots of \"steep drop off\" warnings all around."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/UEF1dD1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A real nice big bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Z3yyLG7.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The high ground."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/mf3rhg9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The deep end."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/vS4bNJP.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lots of fun to be had, but not really for beginners."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/EQkD6DT.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Oyster dome."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/sK2ks8i.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Oyster dome in black and white."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "'Full Pipe' Skatepark",
+        "description": "This park has got a lot going on. The 'S' shaped bowl here is huge and can't wait to get back here when I'm good enough to actually enjoy it. I would highly recomment a helmet if you want to skate this thing. The kidney pool is super steep with out much flat bottom. The street section is small but has some nice features.",
+        "address": {
+            "addressLine1": "11525 SE 240th St",
+            "addressLine2": "",
+            "city": "Kent",
+            "state": "WA",
+            "zipCode": "98031",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d797.7910812156944!2d-122.18805744421311!3d47.38619612552979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905e9760f875fb%3A0x74eb71cd3d1da4f1!2sArbor+Heights+360+Park!5e1!3m2!1sen!2sus!4v1503008644801\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Arbor+Heights+360+Park/@47.3861961,-122.1880574,183m/data=!3m1!1e3!4m8!1m2!2m1!1sKent+skatepark!3m4!1s0x54905e9760f875fb:0x74eb71cd3d1da4f1!8m2!3d47.3861922!4d-122.1871576"
+            }
+        },
+        "albumId": "kn3N4",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "'Full Pipe' Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/xjc61zr.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Tight and deep pool."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/hAiaDpm.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The shallow end is steep."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/IUuAtNE.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Instead of making a skating pool I think they actually went for a real pool skating feel. Lots of vert."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/z5FvuXJ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A giant S shaped bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/7JpPXu9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Only had 2 people skating this thing at about 10am on a Saturday."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/uzRdHZE.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Other side of the full pipe."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/QboWhqx.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This bowl is huge and deep."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/datZJY9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "People stickering up the full pipe."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/NcsEbRy.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lots of flow."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/KE2dPZX.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The \"shallow\" end."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/DLt1Syq.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Never thought I'd see a full pipe in this state."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "'Old Clover Bowl' Skatepark",
+        "description": "A crusty old park that really shows its age. The coping was literally been bashed in on half of the deep end.",
+        "address": {
+            "addressLine1": "26005 42nd Ave S",
+            "addressLine2": "",
+            "city": "Kent",
+            "state": "WA",
+            "zipCode": "98032",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d560.8231574173672!2d-122.28130921649236!3d47.36978499806071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905bd5af756f17%3A0x3db3b3b4b56ca50e!2sWest+Hill+Skate+Park!5e1!3m2!1sen!2sus!4v1503008753024\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/West+Hill+Skate+Park/@47.369785,-122.2813092,129m/data=!3m1!1e3!4m8!1m2!2m1!1sKent+skatepark!3m4!1s0x54905bd5af756f17:0x3db3b3b4b56ca50e!8m2!3d47.3698289!4d-122.2810012"
+            }
+        },
+        "albumId": "C1Pwz",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "'Old Clover Bowl' Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/xnKMtB1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This park has seen better days. The coping was all smashed-in on half of it."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/OReUdTi.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It's kind of lumpy in spots."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/hYLQurL.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The shallow end is really shallow, only like 1.5 - 2 feet deep."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/kOKhrWM.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Nothing else here besides the clover bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/z2ABBs7.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This was the best part of the bowl."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Seatac Community Center Skatepark",
+        "description": "A nice fun little park that was empty on a Saturday around noon. Not a lot for an old bowl rider like myself but there was a mini-ramp to mess around on.",
+        "address": {
+            "addressLine1": "13735 24th Ave S",
+            "addressLine2": "",
+            "city": "Seatac",
+            "state": "WA",
+            "zipCode": "98168",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d323.8669797356379!2d-122.30555728401524!3d47.48094837263808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1503008987881\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/@47.4809484,-122.3055573,74m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "iqvao",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Seatac Community Center Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/lZaU210.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Standard street features, good for the youth."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/kyRJhKG.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A rising quarter pipe."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/WhV6NpQ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A pretty small park, but beats what I had growing up."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/DXvoK63.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Wish it had rounded hips."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/WKgtrFH.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Mini-ramp."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/0UPqrPD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "You can do some cruising around it but not much."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "River City Skatepark",
+        "description": "With the way its laid out in a circle you can literally pump around and around and around. No coping but the ledges are pretty waxed up in sections.",
+        "address": {
+            "addressLine1": "736 S Cloverdale St",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98108",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d259.21767296048495!2d-122.32404892879444!3d47.52670599588566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490422984d65643%3A0xe1763151749259b7!2sRiver+City+Skatepark!5e1!3m2!1sen!2sus!4v1503009114532\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/River+City+Skatepark/@47.526706,-122.3240489,60m/data=!3m1!1e3!4m5!3m4!1s0x5490422984d65643:0xe1763151749259b7!8m2!3d47.5267355!4d-122.3238024"
+            }
+        },
+        "albumId": "p1WXR",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "River City Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Yzo5Njc.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Interesting park layout."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/kCIfpAZ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "So much good graffiti here."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Lce2Ekb.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Bart Simpson in the distance."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/jDLVzrP.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "You could cruise around the outer edge just pumping though, unexpectedly enjoyable."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/lXaJtMK.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "No coping though the lip was heavily waxed."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Y4VipJq.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The doors made for an interesting feature."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/KJpoicf.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The parking isn't the best, but I would skate here again for sure."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Dan Dever Memorial Skatepark",
+        "description": "I was headed over to Wallowa Lake in Eastern Oregon to go fishing for Father's Day weekend and found this park when I stopped to grab some food in Othello. It's definitely a gem in a the middle of nowhere. The kids to get to grow up riding this don't know how lucky they are.",
+        "address": {
+            "addressLine1": "901-1099 E Hamlet St",
+            "addressLine2": "",
+            "city": "Othello",
+            "state": "WA",
+            "zipCode": "99344",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d915.2189434102048!2d-119.16026717114465!3d46.82953418669932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5498e02915af19f5%3A0x62c5700e9bd40536!2sDan+Dever+Memorial+Skatepark!5e1!3m2!1sen!2sus!4v1503009336547\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Dan+Dever+Memorial+Skatepark/@46.8295342,-119.1602672,210m/data=!3m1!1e3!4m5!3m4!1s0x5498e02915af19f5:0x62c5700e9bd40536!8m2!3d46.829634!4d-119.1596213"
+            }
+        },
+        "albumId": "SYpcJ",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Dan Dever Memorial Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/nAW0UbK.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I really enjoyed skating this park."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/hLEMSGt.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A nice brand new park."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/4KILEN4.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Got a little mini-ramp / bank area for beginners."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/dAl9zEk.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Kinked rail."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/5ipkRvh.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A nice little park that ticks all the boxes on my requirements."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/NiG7sY7.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Nice deep bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/N1l0KbB.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Deep and with a nice smooth tranny."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/DbjCMtI.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It's got ledges around the edge."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/sPquDNy.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A perfect mid-road trip spot to break up the drive Wallowa Lake."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/incu8KC.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The double stair set would have been awesome in my younger years."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Gig Harbor Skatepark",
+        "description": "I really got the feeling that this park was designed by someone who's kids skated or something. It has a lot of random unconnected features seemingly tossed about. But the deep mini-ramp is pretty sweet.",
+        "address": {
+            "addressLine1": "3510 Grandview St",
+            "addressLine2": "",
+            "city": "Gig Harbor",
+            "state": "WA",
+            "zipCode": "98335",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420.22772556128325!2d-122.58697560927804!3d47.32186876287358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549052d0803ebc51%3A0xb4a9982a87304c28!2sSkate+Park!5e1!3m2!1sen!2sus!4v1503009456575\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Skate+Park/@47.3218688,-122.5869756,97m/data=!3m1!1e3!4m5!3m4!1s0x549052d0803ebc51:0xb4a9982a87304c28!8m2!3d47.3219128!4d-122.5866237"
+            }
+        },
+        "albumId": "sHepo",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Gig Harbor Skatepark",
+            "description": "The Gig Harbor skatepark.",
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Xdk1Fdw.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Snake run."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/nZQcgEI.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This bowl would be awesome if it was more enclosed."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/loOxmZQ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lots of random features."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/oikYJRt.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Get the feeling this was designed by someone who once watched their friend skate when they were 8."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/NmwU4Kk.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It's got a nice 6 foot mini though."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Wenatchee Skatepark",
+        "description": "By it's design this park feels older than it actually is. There is no coping, nor any ledge, it's all roll in around the entire park. There was one fidget spinner looking element that had been waxed up, but that was about it for grinding.",
+        "address": {
+            "addressLine1": "",
+            "addressLine2": "",
+            "city": "Wenatchee",
+            "state": "WA",
+            "zipCode": "98801",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d306.933963596236!2d-120.32061510325794!3d47.41229248497764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549bcccf7e1f532b%3A0xd2f4efc66b3ffeeb!2sPioneer+Skate+Park!5e1!3m2!1sen!2sus!4v1503009772216\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Pioneer+Skate+Park/@47.4122925,-120.3206151,70m/data=!3m1!1e3!4m12!1m6!3m5!1s0x549bcccf7e1f532b:0xd2f4efc66b3ffeeb!2sPioneer+Skate+Park!8m2!3d47.4121435!4d-120.3204491!3m4!1s0x549bcccf7e1f532b:0xd2f4efc66b3ffeeb!8m2!3d47.4121435!4d-120.3204491"
+            }
+        },
+        "albumId": "oxuOt",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Wenatchee Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/EnpLCxR.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This bowl was completely unskateable. It wasn't even a bowl as so much an inverted pyramid. Sidewalls where chunky and clearly not designed or poured by anyone that cared. The artwork was nice though."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/bkTd3rR.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Who the hell builds a skatepark with no coping?"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/fyOWygh.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The best feature in the entire park. The fidget spinner was fun to mess around on as it was coated in wax making it the only grind-able element in the entire park."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Walter Hall Park",
+        "description": "Definitely showing it's age. I seriously used to have to wake up at 6 am on a Saturday to make it here before the crowds when I was 14. Now I show up on Saturday at 5 pm and there were less than 3 kids actually skating.",
+        "address": {
+            "addressLine1": "1226 W Casino Rd",
+            "addressLine2": "",
+            "city": "Everett",
+            "state": "WA",
+            "zipCode": "98204",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d417.71231597964754!2d-122.25129824854109!3d47.91914284041031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sEverett+Skatepark!5e1!3m2!1sen!2sus!4v1503009927626\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/search/Everett+Skatepark/@47.9191428,-122.2512982,96m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "mTWWp",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Walter Hall Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/9Cr0CTN.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I grew up on that rail. So many awesome board slides."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/2qEek4h.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Nice deep bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/p83fGhD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I remember when I use to have to wake up at 6:00 am on a Saturday to get here before 7:00 am so we could get a solid hour in before the huge crowds showed up. No one was here on a Saturday at around 5:00 pm now."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "South Whidbey Park",
+        "description": "Something for the whole family. Only complaint I can make is I wish there was something like a giant quater pipe on the open end to connect it all together. But you can get some decent speed crusing this place. Plus there's a giant 'Castle Park' along with play fields so there is something for everyone here. A great addition to the South End.",
+        "address": {
+            "addressLine1": "5481 Maxwelton Rd",
+            "addressLine2": "",
+            "city": "Langley",
+            "state": "WA",
+            "zipCode": "98260",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d619.2444088055857!2d-122.40718625959809!3d48.00859390566867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1503010089945\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/@48.0085939,-122.4071863,142m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "pj2dc",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "South Whidbey Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/rKo9SSV.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Has a nice sized mini-ramp."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/duDuOzU.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Got a 3 ft quarter pipe enclosing the other end."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/XmqRY3f.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It's got nice smooth concrete."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/TRbR45t.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lots of ledges but most of them are kinked and down a steep bank."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/6p8OAKq.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Roll down a bank into the quarter pipe."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/W2xEREG.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "'Table top' with ledges."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/hfsli4S.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Wish they had a giant quarter pipe enclosing the entire park in the distance."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/zVnXCYj.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Extension on the mini-ramp."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/jHRFjdj.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Over the table top and into the mini-ramp."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/22RaqIa.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Quarter pipe has a roll in section."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/wqYEkDL.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A stair set but I'm not sure you can even ollie this thing as it's got a short runway."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/41TDlll.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Flat bar."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/7oOsf7t.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "On the top deck."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/hnOs1gX.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Look at all those ledges."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/HOn6nnb.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Always enjoi."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/i4uCMoq.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This park has a good flow, it's just not the lines you would first expect."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/R6LiYzz.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Mini-ramp."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/rjV1OSo.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Mini-ramp with hip with 1 ft extension and optional roll in."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/0fPbh1C.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Panorama. Has a nice large park around the skatepark for all to enjoy."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/oWM14br.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The park donors."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Crown Hill Park",
+        "description": "It's a mini-ramp. The perfect mini-ramp and it's less than 15 minutes from my house.",
+        "address": {
+            "addressLine1": "9089 Holman Rd NW",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98117",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172.77376125704063!2d-122.37313594552815!3d47.6966349850973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490169b6ab34b35%3A0xd2fdb9de899d24fe!2sCrown+Hill+Park!5e1!3m2!1sen!2sus!4v1503010412077\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Crown+Hill+Park/@47.696635,-122.3731359,40m/data=!3m1!1e3!4m8!1m2!2m1!1sCrown+hill+skatepark!3m4!1s0x5490169b6ab34b35:0xd2fdb9de899d24fe!8m2!3d47.6969063!4d-122.3732137"
+            }
+        },
+        "albumId": "OWcvc",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Crown Hill Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/5I8Honk.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It's basically just a mini-ramp."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/HtvDnt3.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Mini-ramp."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/noT8bhm.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "enjoi"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/uD12MBw.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "But it's always empty, all the time. You just got to deal with 5 year old kids running around and into the mini occasionally."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/8k8iqET.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A nice clean tranny."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Jack V. Crawford Skateboard Park",
+        "description": "The bowl here is incredible. Super smooth and you can really whip around it. But since it's small and doesn't have a lot of features it can only take a small group of people to make it feel packed.",
+        "address": {
+            "addressLine1": "18176 68th Ave NE",
+            "addressLine2": "",
+            "city": "Kenmore",
+            "state": "WA",
+            "zipCode": "98028",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252.00468161020376!2d-122.2495814265002!3d47.761153598623586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54900e280b225625%3A0x258821f74bffd400!2sKenmore+Skatepark!5e1!3m2!1sen!2sus!4v1503010532268\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Kenmore+Skatepark/@47.7611536,-122.2495814,58m/data=!3m1!1e3!4m5!3m4!1s0x54900e280b225625:0x258821f74bffd400!8m2!3d47.7611425!4d-122.2493366"
+            }
+        },
+        "albumId": "tKgG3",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Jack V. Crawford Skateboard Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/tGJOuV2.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Kenmore bowl. Park has minimal features but this bowl has flow."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/uO5nSSS.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A mini-snake run."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/chySLF9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Flat bar and bench."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/3IOG6uI.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Little banks."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/sS3rKxG.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Spine going into the bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/8zTGWcI.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Brick banks. A little difficult to ride but a nice subtle addition to a skatepark."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/9xLJ7Kz.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Stairs."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Hubbard Homestead",
+        "description": "A great intro to bowl riding skatepark setup. Its usually pretty empty but only takes a few people to make it feel cramped. When I started getting back into skating this is usually where I would end up.",
+        "address": {
+            "addressLine1": "11203 5th Ave NE",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98125",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d410.01414516758814!2d-122.3259198126679!3d47.70975640555554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNorthgate+skatepark!5e1!3m2!1sen!2sus!4v1503010696927\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/search/Northgate+skatepark/@47.7097564,-122.3259198,94m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "PZw7z",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Hubbard Homestead",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/BYpQjBM.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Can cruise around this place for hours."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/o6Bqegm.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It has a great bowl feel to it."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/o5kDh4S.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Mini-ramp."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Shoreline Skatepark",
+        "description": "A street oriented skatepark thus not much for a bowl skater here but clearing the pyramid top is endlessly fun.",
+        "address": {
+            "addressLine1": "901-999 BE 155th St",
+            "addressLine2": "",
+            "city": "Shoreline",
+            "state": "WA",
+            "zipCode": "98155",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424.557069498733!2d-122.31970916483695!3d47.74100682812878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490110518d05c39%3A0xdf601913a740e7bb!2sShoreline+Skatepark!5e1!3m2!1sen!2sus!4v1503010791751\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Shoreline+Skatepark/@47.7410068,-122.3197092,97m/data=!3m1!1e3!4m5!3m4!1s0x5490110518d05c39:0xdf601913a740e7bb!8m2!3d47.7410194!4d-122.319312"
+            }
+        },
+        "albumId": "oWxGp",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Shoreline Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/DwH2JMd.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Clearing the pyramid is such a good feeling."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/4p09wVW.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Beware, this place can be a scooter haven."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/ia2VZzZ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It doesn't have that much but has great flow and makes me dabble in some street skating."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/PL1AGqV.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lots of ledges."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Rk2GHrw.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I like how a lot of parks now have mini-picnic tables."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Woodinville Skatepark",
+        "description": "I had a fun time cruising around but it can feel pretty tight with the over abundance of features. It's nice to see lights but wish they weren't so close to park elements.",
+        "address": {
+            "addressLine1": "NE 195th St",
+            "addressLine2": "",
+            "city": "Woodinville",
+            "state": "WA",
+            "zipCode": "98072",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d360.2362516867791!2d-122.15791245502406!3d47.76924414252947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54900e9733c9b2c3%3A0x3ace6d5f10473f73!2sWoodinville+Skatepark!5e1!3m2!1sen!2sus!4v1503010895585\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Woodinville+Skatepark/@47.7692441,-122.1579125,83m/data=!3m1!1e3!4m5!3m4!1s0x54900e9733c9b2c3:0x3ace6d5f10473f73!8m2!3d47.7692988!4d-122.1576787"
+            }
+        },
+        "albumId": "mvNJy",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Woodinville Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/sXiNKI1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Street lamps ring this skatepark."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/3W5mkTO.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lots of street features."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/PmIhpmT.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "You can do a nice ring around the park and generate some decent speed but it's gotta be empty."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Liberty Skatepark",
+        "description": "This park feels a lot older than it actually is. The bowl has a super steep waterfall that is hard to maintain speed back up.",
+        "address": {
+            "addressLine1": "101 Houser Way N",
+            "addressLine2": "",
+            "city": "Renton",
+            "state": "WA",
+            "zipCode": "98057",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d355.94436203321357!2d-122.20046623251824!3d47.481639140065155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906800164187e1%3A0x4833aa27748de1e8!2sLiberty+skatepark!5e1!3m2!1sen!2sus!4v1503010995480\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Liberty+skatepark/@47.4816391,-122.2004662,82m/data=!3m1!1e3!4m8!1m2!2m1!1sRenton+skatepark!3m4!1s0x54906800164187e1:0x4833aa27748de1e8!8m2!3d47.4816853!4d-122.2000551"
+            }
+        },
+        "albumId": "sj4w9",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Liberty Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/ys0ViF1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This park was built in the early 2000s, but this bowl feels way older than that."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/ZSnRGgT.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This waterfall is steep."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/LE4HyNo.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Deep end of the pool."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/gRsShwG.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Can really get some speed charging into the roll in bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/WciCgIZ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I can imagine this place getting crowded due to the layout."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/YmD8u0W.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "An interesting little kicker in the distance."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/ve3QhSw.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Got a nice overall layout for cruising around."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/HZ6BWjE.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Skinny rail on a pyramid that can no longer be used as a pyramid."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/tvgC5DP.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Decent concrete."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Mercerdale Park",
+        "description": "This park was built a while ago and has limited features. I wanted to go here when I was middle school when it was first built but never got the chance and I think I would have enjoyed it when I was little.",
+        "address": {
+            "addressLine1": "77th SE & SE 32nd",
+            "addressLine2": "",
+            "city": "Mercer Island",
+            "state": null,
+            "zipCode": "98040",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d311.65921869644563!2d-122.23588249553515!3d47.58073914613552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMercer+Island+skatepark!5e1!3m2!1sen!2sus!4v1503011108256\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/search/Mercer+Island+skatepark/@47.5807391,-122.2358825,72m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "WHI3t",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Mercerdale Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/LHpYgx2.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Not a whole lot to this park. But I would have tore up that mini-picnic table when I was younger."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/xrLI8xG.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Banked mini-picnic table."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/1Xrpub8.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Just a lot of ledges mostly."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Brier Skatepark",
+        "description": "Another modular park. Modular parks are sub-optimal to say the least. The mini-ramp is decent but feels too tight for my taste.",
+        "address": {
+            "addressLine1": "2501-2699 228th St SW",
+            "addressLine2": "",
+            "city": "Brier",
+            "state": "WA",
+            "zipCode": "98036",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252.82911536736313!2d-122.2674646890145!3d47.792391427060046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85aea44697490f55!2sBrier+Skatepark!5e1!3m2!1sen!2sus!4v1503011222058\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Brier+Skatepark/@47.7923914,-122.2674647,58m/data=!3m1!1e3!4m8!1m2!2m1!1sBrier+skatepark!3m4!1s0x0:0x85aea44697490f55!8m2!3d47.7924348!4d-122.2672353"
+            }
+        },
+        "albumId": "39i9E",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Brier Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/YCCJN6K.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I was an idiot and thought this was the only mini-ramp around my greater area, then I looked on the internet and no longer go here."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/z7xFtjq.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It's a modular mini-ramp so about what you would expect."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Vfjgfsb.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Table top with a rail."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/HW7aPEX.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Friends don't let friends skate modular parks."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/7r6icAf.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The real picnic bench is a nice touch."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Edmonds Skatepark",
+        "description": "Another modular park. It's a modular park so it's got problems, but the mini-ramp is the best modular one I've ridden. The little spine is cool to learn new tricks on.",
+        "address": {
+            "addressLine1": "310 6th Ave N",
+            "addressLine2": "",
+            "city": "Edmonds",
+            "state": "WA",
+            "zipCode": "98020",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356.1056375847713!2d-122.3742025103973!3d47.8126160626736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901ae4d0899b81%3A0xeba5178bcca3508a!2sEdmonds+Skatepark!5e1!3m2!1sen!2sus!4v1503011411630\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Edmonds+Skatepark/@47.8126161,-122.3742025,82m/data=!3m1!1e3!4m5!3m4!1s0x54901ae4d0899b81:0xeba5178bcca3508a!8m2!3d47.8127038!4d-122.3739272"
+            }
+        },
+        "albumId": "a1pM9",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Edmonds Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/zysQ6qR.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Modular mini-ramp."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/VlCiAjV.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "As far as modular parks go, this one isn't that bad."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/bmXB1H4.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Curved ledge."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/2BSKCCO.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Mini-ramp with a spine. Fun, but I wish the quarter pipes were a bit bigger and a had a steeper tranny."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/prxoaa9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Table top with a ledge and rail."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/QZGVmdb.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Nice big bank in the distance."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/8hHOPAo.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This mini-ramp spine combo is what would probably bring me back."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/0fBN2iS.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "And the bigger mini-ramp is actually a little skateable, but the modular metal skirts freak me out."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Lower Woodland Skatepark",
+        "description": "Would you like the bowl or pool today? Super deep bowl that you can really generate some speed in. The pool is steep but comes with real tiles and pool ledge.",
+        "address": {
+            "addressLine1": "Green Lake Way N & N 54th St",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98103",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d504.12462726772856!2d-122.34260294890743!3d47.667696003488864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014457b456bed%3A0x8146145a306b57c6!2sLower+Woodland+Skate+Park!5e1!3m2!1sen!2sus!4v1503011520688\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Lower+Woodland+Skate+Park/@47.667696,-122.3426029,116m/data=!3m1!1e3!4m5!3m4!1s0x549014457b456bed:0x8146145a306b57c6!8m2!3d47.6677183!4d-122.3421789"
+            }
+        },
+        "albumId": "b3C2V",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Lower Woodland Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/o6Sldjd.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The roll in."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/eaiIg3m.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Oyster dome."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/8Q6TKld.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Back of the oyster dome."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/agGRGNP.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Looking onto the street area."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/P5M5RJD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This bowl is simply awesome."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/OWH1Htf.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "You can generate so much speed in this thing."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/DpTdOje.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The 6 foot mini-ramp section in the distance."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/3zwczXc.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The real pool is just on the other side."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/eXCt84L.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I wish I could ride tiles and pool ledge."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/qhLCQsx.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Such a nice pool."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/R09vBls.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Weird little 2 foot vert quarter pipe."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/YDRymmW.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Going to clear the table top one of these days."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/D4TNpAk.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Mini-ramp with a spine."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/YrFoU3p.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Top of the street section."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Dahl Playfield",
+        "description": "Nice neighborhoood park. Not much here but still better than what I had in my neighborhood growing up.",
+        "address": {
+            "addressLine1": "7700 25th Ave NE",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98115",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d282.8114247828162!2d-122.29945370273295!3d47.684672954408875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1503011658437\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/@47.684673,-122.2994537,65m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "vSEIW",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Dahl Playfield",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/GF7QJna.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Curved bench."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/GbmOcT7.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Little kicker."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/iYDJ2Vp.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A rail."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/1vr9MyO.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Quarter pipe on one end of the park."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/1XvLtKC.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Dahl field."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/2wwhwmx.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Bank at the opposite end of the quarter pipe."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/kh09g1r.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "There's no deck to the quarter pipe, I'm not sure why."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Martha Lake Airport Park",
+        "description": "Skateparks are everywhere now. This one is close to Mill Creek and in my mind is a perfect compliment. It's got a different style and feel with lots of cool street oriented elements.",
+        "address": {
+            "addressLine1": "200 146th St SW",
+            "addressLine2": "",
+            "city": "Lynnwood",
+            "state": "WA",
+            "zipCode": "98087",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d297.1592138952896!2d-122.23760394468188!3d47.86501473239643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa701c80924b67c16!2sSkateboard+Park!5e1!3m2!1sen!2sus!4v1503011786682\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Skateboard+Park/@47.8650147,-122.2376039,68m/data=!3m1!1e3!4m12!1m6!3m5!1s0x5490042b414e62c3:0x33cbcd2fa49091d!2sMartha+Lake+Airport+Park!8m2!3d47.8625461!4d-122.2378681!3m4!1s0x0:0xa701c80924b67c16!8m2!3d47.8650133!4d-122.2373293"
+            }
+        },
+        "albumId": "BOB6E",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Martha Lake Airport Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/UyIrPec.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This park has a nice layout, if the mini-ramp had real coping instead of this tiny 1.5\" OD stuff it would be awesome."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/6Se5RoI.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Mini-ramp with a spine."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/qUL9xwK.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Thought the manny-pad disks were a nice touch."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/XW0YRSj.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Nice ledges all around the park."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Xretj2m.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Manny-pad down a bank."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/GOIRpTq.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A 1.5 foot vert quarter pipe."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/iKtqnfi.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This A-Frame style feature was awesome to mess around on."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/pvPZtWb.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Looks like a lot of stuff packed into a tight area but it's layed out well."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/PRrqwVo.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I think I'll come back to this place."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Lynndale Park",
+        "description": "'Fluid in motion'. Used to love this place when I was younger. Going here now it feels dated. Not a whole lot of varying terrain but I found the banks to be more enjoyable than I expected.",
+        "address": {
+            "addressLine1": "",
+            "addressLine2": "",
+            "city": "Lynnwood",
+            "state": "WA",
+            "zipCode": "98037",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234.24417206708023!2d-122.33333841238822!3d47.830221397557125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb94f86b4c609a9cf!2sLynndale+Park+Skate+Park!5e1!3m2!1sen!2sus!4v1503011917749\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Lynndale+Park+Skate+Park/@47.8302214,-122.3333384,54m/data=!3m1!1e3!4m8!1m2!2m1!1sMeadowdale+Skatepark!3m4!1s0x0:0xb94f86b4c609a9cf!8m2!3d47.8302437!4d-122.3331358"
+            }
+        },
+        "albumId": "CAcE3",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Lynndale Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/rHkepe0.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "These banks are awesome, super steep and perfect for powersliding."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/EZuLB5z.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Bank."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/58DOZ7H.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Technically this is an art installation titled \"fluid in motion\". Supposedly that's how they got the budget to build a skatepark was through the already allotted art funds."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/OILfWuI.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The bowl in the distance is disappointing, could have been awesome but it's a roll in all around so there's no lip."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/a9Nxiyz.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I used to kick flip this block all the time, now no one is here. Look at all that vegetation growth at the base."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Wiggums Hollow Park",
+        "description": "A street oriented skatepark. First glance I thought this was only a street park. But while it flows in one direction it's got elements that cater to a bowl style of riding.",
+        "address": {
+            "addressLine1": "2808 10th St",
+            "addressLine2": "",
+            "city": "Everett",
+            "state": "WA",
+            "zipCode": "98201",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d302.2429545247762!2d-122.19468312193926!3d48.003549425313565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1503012066473\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/@48.0035494,-122.1946831,69m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "VB6EM",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Wiggums Hollow Park",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/NpWEugq.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "DOGTOWN \"Z\" Flex Skateboard"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/554BEJI.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I was stoked to see these banks."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/ERTiX9x.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "All flows in one direction, but its spaced out well enough."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/sus4KJE.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "All street stuff but there was enough for me to mess around on."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/rzNLfwz.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The steep pyramid was really fun to wall ride down past the stairs."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/NzU3DTD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The metal ledges were pretty rounded."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/kZ31k8O.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This thing was awesome."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Snohomish Skatepark",
+        "description": "I think this might have been built for bikes. This park has definitely seen better days. The coping is all tore up from use my bmx bikes. Not worth the drive.",
+        "address": {
+            "addressLine1": "400 2nd St",
+            "addressLine2": "",
+            "city": "Snohomish",
+            "state": "WA",
+            "zipCode": "98290",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d292.8329349609678!2d-122.08677529961435!3d47.913485838749025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549aa9b244166983%3A0xf598accc71bbca30!2sSnohomish+Skatepark!5e1!3m2!1sen!2sus!4v1503012149886\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Snohomish+Skatepark/@47.9134858,-122.0867753,67m/data=!3m1!1e3!4m5!3m4!1s0x549aa9b244166983:0xf598accc71bbca30!8m2!3d47.9135204!4d-122.0865386"
+            }
+        },
+        "albumId": "bwqbW",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Snohomish Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/q6DvprM.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The park has a decent layout with a little bit of flow, but hard to cruise around it due to all the intersections."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/jOMFI0h.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The coping all around the park was severely tore up from bike pegs though its' Snohomish so its' what you would expect."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/g2HxNsd.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Evidence that this place was overrun with children."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/YHo9oV1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The pyramids were a little funky, they seemed to small for the amount of speed you could generate."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Seaside Skatepark",
+        "description": "Beware of the sand. There was a lot going in this park and it felt a bit cramped.",
+        "address": {
+            "addressLine1": "1140 Broadway St",
+            "addressLine2": "",
+            "city": "Seaside",
+            "state": "OR",
+            "zipCode": "97138",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d692.4929050005272!2d-123.91740945422052!3d45.993407661031966!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5494a1bf8e4d2b7f%3A0x7753367cff72237c!2sSeaside+Skate+Park!5e1!3m2!1sen!2sus!4v1503547682692\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Seaside+Skate+Park/@45.9934077,-123.9174095,159m/data=!3m1!1e3!4m5!3m4!1s0x5494a1bf8e4d2b7f:0x7753367cff72237c!8m2!3d45.9934361!4d-123.9171644"
+            }
+        },
+        "albumId": "XtTEZ",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Seaside Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/lOXA0eW.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Nice concrete."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/DL75ZI5.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Little quarter pipe area."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/SQsaT5g.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Deeeep bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/ilV6udT.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Pool ledge in about half the park."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/XZr70UD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The skatepark is basically a giant bowl snake run hybrid."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/z6CRC1U.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Some ledges."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/6qEVNE4.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The concrete was nice. But since it's close to the beach and not skated very much there was a a light sprinkling of sand in the deeper sections which made traction tricky."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/1MqFRD1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lots of inlets."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/h0K8a0l.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The only deep section with regular coping."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Astoria Skatepark",
+        "description": "A big giant open bowl. This bowl was deep and the floor slanted towards the deep end so it was a bit tricky to ride back up to the shallow section.",
+        "address": {
+            "addressLine1": "900 W Marine Dr",
+            "addressLine2": "",
+            "city": "Astoria",
+            "state": "OR",
+            "zipCode": "97103",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d653.2974671317721!2d-123.85200984969339!3d46.1787110501007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549364bbbee7f7ed%3A0x3bf0769a067c04a8!2sAstoria+Skate+Park%2C+900+W+Marine+Dr%2C+Astoria%2C+OR+97103!5e1!3m2!1sen!2sus!4v1503548113510\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Astoria+Skate+Park,+900+W+Marine+Dr,+Astoria,+OR+97103/@46.1787111,-123.8520098,150m/data=!3m2!1e3!4b1!4m8!1m2!2m1!1sastoria+Or+skatepark!3m4!1s0x549364bbbee7f7ed:0x3bf0769a067c04a8!8m2!3d46.1786991!4d-123.8514542"
+            }
+        },
+        "albumId": "OBWey",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Astoria Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/bdk9Udz.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A nice big bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/JQNJQOC.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A little street area that appeared to be an after thought."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/v77gXWI.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The deep end is deep, like real deep."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/zXrbfRz.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "All slants down towards the deep end."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/kC6pXpO.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Oververt in the distance."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Q9Z9xdR.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "What up Astoria?"
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Yakima Skatepark",
+        "description": "This park has a lot of nice features. It's a shame that it's used as hangout for bums - they were all around the park and nice enough to leave a dump in the deep end of the bowl.",
+        "address": {
+            "addressLine1": "2301 Fruitvale Blvd",
+            "addressLine2": "",
+            "city": "Yakima",
+            "state": "WA",
+            "zipCode": "98902",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d324.7026310657231!2d-120.4877903356853!3d46.59987347810952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5499d7bda6751121%3A0xdce6ce99307b1fc1!2sKiwanis+Skate+Park!5e1!3m2!1sen!2sus!4v1506309452554\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Kiwanis+Skate+Park/@46.5998735,-120.4877903,75m/data=!3m1!1e3!4m8!1m2!2m1!1syakima+skatepark!3m4!1s0x5499d7bda6751121:0xdce6ce99307b1fc1!8m2!3d46.5998524!4d-120.487681?hl=en"
+            }
+        },
+        "albumId": "BH6Sx",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Yakima Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/1eCW5r4.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This park had a lot of really cool street features. Such a nice easy addition to a park."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/07IdtQt.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "There are bums all around this park."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/dlZIDu1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This bowl had a lot of potential."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/f11Cvnm.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Has a great variety of features in the bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/TBgB12u.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Oyster dome in the distance."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/87VA8Dd.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Tons of nice shade here."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/WFkyGUL.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Enjoyed riding this wall."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/UVV4xeS.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It's obvious this bowl gets tagged almost daily. A thick coat of graffiti cove up made this bowl slick in spots - not to mention the peeling sections that reveled at least 8 layers of paint."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/6Y1Nk8m.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This section of the bowl sported real pool ledge."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/R5jcqF7.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "More graffiti cover up paint."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/YAF6qZ1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "See the peeling layers of paint."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/7Y6HnpY.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Oh and some bum took a shit in the deep end. I came charging in and almost ran right in this."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/vi02lYt.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Pole jammin'."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/laFktRL.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Nice fat rail. Love the little addition of having it over a gap."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/RvGYToo.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Street section of the skatepark."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Ju5i1mW.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lots of cool varying street features, enjoyed the use of red brick."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/O6Um2CH.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Having shade in a skatepark is awesome. So many parks are just complete exposed."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/XGoGhIK.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Red brick quarter pipes and banks."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Federal Way Skatepark",
+        "description": "A tight packed bowl. To me the best part was the super tall banks in the corner. Another park that is showing it's age.",
+        "address": {
+            "addressLine1": "2620 S 312th St",
+            "addressLine2": "",
+            "city": "Federal Way",
+            "state": "WA",
+            "zipCode": "98003",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2258.9712836583767!2d-122.30043709980991!3d47.32165668890243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24964f4fed75cb87!2sSteel+lake+Skatepark!5e1!3m2!1sen!2sus!4v1511457873045\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Steel+lake+Skatepark/@47.3216567,-122.3004371,519m/data=!3m1!1e3!4m8!1m2!2m1!1sFederal+Way+Skatepark!3m4!1s0x0:0x24964f4fed75cb87!8m2!3d47.3218651!4d-122.2982168"
+            }
+        },
+        "albumId": "PIRuI",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Federal Way Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/d7MLvTe.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "skate bench"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/XUZEJYo.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "fun box"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/tkWi7IG.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "notice all the graffiti paint and chain link fence"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/85E0CSM.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "nice tall bank - was probably my favorite feature"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/8cj7Qns.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "spine in the middle of the park"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/tVkbl25.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "some real steep stair sets"
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Milton Skatepark",
+        "description": "A huge bowl with pool ledge all around. This pool is deep in spots and leaves you wondering who it was built for. Has a small street section.",
+        "address": {
+            "addressLine1": "903 23rd Ave",
+            "addressLine2": "",
+            "city": "Milton",
+            "state": "WA",
+            "zipCode": "98354",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1913.7931662186445!2d-122.30675951920898!3d47.24938451863529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f3b16aa82fc9cbf!2sMilton+Skate+Park!5e1!3m2!1sen!2sus!4v1511458000271\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Milton+Skate+Park/@47.2493845,-122.3067595,439m/data=!3m1!1e3!4m8!1m2!2m1!1sFederal+Way+Skatepark!3m4!1s0x0:0x1f3b16aa82fc9cbf!8m2!3d47.2498439!4d-122.3046541"
+            }
+        },
+        "albumId": "LbQ4l",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Milton Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Vt4VZUN.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "viewing stands in the distance"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/xNg5rHi.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "hips and wells"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/gxREY5C.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "standing by the key hole"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/bfbAsLi.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "key hole to the left"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/wmtwDHa.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "oyster dome"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/d9CNcix.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "pool ledge all the way around"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/k8sS41l.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "graffiti paint"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/zP4Wvl6.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "street section"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/1q1SA1c.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "mini-oyster dome"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/tkpjlXb.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "who was this built for?"
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Puyallup Skatepark",
+        "description": "All wood outdoor skateparks are never a good idea. This park has obviously seen better days.",
+        "address": {
+            "addressLine1": "1299 4th St NW",
+            "addressLine2": "",
+            "city": "Puyallup",
+            "state": "WA",
+            "zipCode": "98371",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1360.6524809903517!2d-122.29911496101057!3d47.202140719655105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490f94cda4880e5%3A0x9ed52f3fd53e770c!2sPuyallup+Skatepark!5e1!3m2!1sen!2sus!4v1511458179253\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Puyallup+Skatepark/@47.2021407,-122.299115,312m/data=!3m1!1e3!4m5!3m4!1s0x5490f94cda4880e5:0x9ed52f3fd53e770c!8m2!3d47.2022625!4d-122.2979378"
+            }
+        },
+        "albumId": "nehEp",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Puyallup Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Qb8BycD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "wood mini-ramp with a spine"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/a12gu0K.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "fun boxes galore"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/lMVfeZS.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "friends don't let friends ride wood parks"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/yzGUIE6.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "flat bar"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/L5XG4rD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "other side of the fun boxes"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/YkHjP5T.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "3 foot mini-ramp"
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Lakewood Skatepark",
+        "description": "A lot to like about this park. Has got a nice 6 foot mini-ramp and some interesting street features.",
+        "address": {
+            "addressLine1": "9001-9049 Bridgeport Way SW",
+            "addressLine2": "",
+            "city": "Lakewood",
+            "state": "WA",
+            "zipCode": "98499",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1032.348376690697!2d-122.51862437693786!3d47.17524186156051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x84e7874d879e6dc2!2sKiwanis+Skatepark!5e1!3m2!1sen!2sus!4v1511458279686\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Kiwanis+Skatepark/@47.1752419,-122.5186244,237m/data=!3m1!1e3!4m8!1m2!2m1!1sLakewood+Skatepark!3m4!1s0x0:0x84e7874d879e6dc2!8m2!3d47.1752852!4d-122.5178468"
+            }
+        },
+        "albumId": "bF1dT",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Lakewood Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/QlxRDMl.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "gotta push through the flat bottom"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/dvjMC08.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "lots of flat"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/xeoZQUO.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "extra sized pyramid"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/c38n2RR.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "open face bowl"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/ieqvDAS.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "the features on the left side were quite enjoyable"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/368CMLg.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "mini-ramp to the right"
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "University Place Park Skatepark",
+        "description": "This bowl looks amazing from the parking lot. Once you start riding it you wonder how they could have spent so much money only to leaving the tranny feeling unfinished - it's a real quick transitions in spots.",
+        "address": {
+            "addressLine1": "7454 Cirque Dr W",
+            "addressLine2": "",
+            "city": "University Place",
+            "state": "WA",
+            "zipCode": "98467",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d957.0405020249912!2d-122.53534063194127!3d47.212977469359544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c1d1dc0c205d49d!2sUniversity+Place+Skatepark!5e1!3m2!1sen!2sus!4v1511458511524\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/University+Place+Skatepark/@47.2129775,-122.5353406,220m/data=!3m1!1e3!4m8!1m2!2m1!1sUniversity+Place+skatepark!3m4!1s0x0:0x3c1d1dc0c205d49d!8m2!3d47.213155!4d-122.534507"
+            }
+        },
+        "albumId": "qrMxF",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "University Place Park Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/gHG0Biq.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "so much potential"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/kmv2uuD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "so, so, so much potential"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/bZShYrx.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "spine into the kiddie area"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/KHiZy64.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "a super deep kidney bean pool"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Fat6EaA.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "look at that transition in the neck!??!?"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Y0ptQm1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "rails"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/gay5Oos.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "twisty rail"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/i607ssJ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "6 foot wood mini-ramp with spine"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/2M6nA7t.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "6 foot wood mini-ramp with concrete flat bottom"
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Kandle Park Skatepark",
+        "description": "Simply awesome. It's a 4 foot mini-bowl that has some great lines. I'll definitely be back here at some point.",
+        "address": {
+            "addressLine1": "5101-5299 N 23rd St",
+            "addressLine2": "",
+            "city": "Tacoma",
+            "state": "WA",
+            "zipCode": "98406",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d567.9545631772172!2d-122.50892527470904!3d47.26958758123294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549054c6b163d87b%3A0x721576b667fcae87!2sKandle+Skatepark!5e1!3m2!1sen!2sus!4v1511458615844\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Kandle+Skatepark/@47.2695876,-122.5089253,130m/data=!3m1!1e3!4m12!1m6!3m5!1s0x549054c6b163d87b:0x721576b667fcae87!2sKandle+Skatepark!8m2!3d47.2694741!4d-122.5083252!3m4!1s0x549054c6b163d87b:0x721576b667fcae87!8m2!3d47.2694741!4d-122.5083252"
+            }
+        },
+        "albumId": "AHbRD",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Kandle Park Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/fPuCk3R.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "rounded pyramid inside the mini-bowl"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/mJgoZ4i.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "so much fun"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/tNqJnRD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "lines galore"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Gjzqpjs.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "wax it up"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/dxaICaZ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "pockets"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/OVGEO81.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "early morning shadow (9 am in mid-october)"
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Friday Harbor Skatepark",
+        "description": "Another park that is unfortunately showing it's age.",
+        "address": {
+            "addressLine1": "849 Argyle Ave",
+            "addressLine2": "",
+            "city": "Friday Harbor",
+            "state": "WA",
+            "zipCode": "98250",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d1112.8628513047192!2d-123.01818095536719!3d48.52626145807733!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f7e8bb9ac7769%3A0x9c1d1fb268464fa9!2sSan+Juan+County+Fairgrounds!5e1!3m2!1sen!2sus!4v1513312963204\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/San+Juan+County+Fairgrounds/@48.5262615,-123.018181,256m/data=!3m1!1e3!4m5!3m4!1s0x548f7e8bb9ac7769:0x9c1d1fb268464fa9!8m2!3d48.526558!4d-123.0168095"
+            }
+        },
+        "albumId": "yMN0K",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Friday Harbor Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/zfugorO.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Steep fun box."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/4Nsaz2v.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It's all bowled in."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/TxG8BXL.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "That pimple is steep, huge, and uneven. I'm guessing it's mainly used by bikes if at all."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/9YcrMM3.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lumpy, lumpy, lumpy."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/7r1XwhS.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Has a big bowl on one side."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/NPAfq0l.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A small ledge... with a 10 foot drop on the other side."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Piddsw7.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Small little double set."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/tckjvLj.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A frame with manny pads on the side."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/oH9muNu.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Quarter pipe."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/i8XpxiG.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "That pyramid was definitely not built by skateboarders."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/n1eWDR3.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It was too wet this time, but I imagine you can still get some decent lines around the giant bowl."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/APig7no.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Friday Harbor skatepark."
+                }
+            ]
+        }
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Virgil Flaim Park Skatepark",
+        "description": "A nice new addition to the North Seattle skate options.",
+        "address": {
+            "addressLine1": "2700 NE 123rd St",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98125",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1084.5435853134613!2d-122.30043095750986!3d47.71792148803776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490116473b05e7b%3A0x6fe25b245bb9514a!2sVirgil+Flaim+Park!5e1!3m2!1sen!2sus!4v1513832933977\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Virgil+Flaim+Park/@47.7179215,-122.300431,249m/data=!3m1!1e3!4m8!1m2!2m1!1slake+city+skatepark!3m4!1s0x5490116473b05e7b:0x6fe25b245bb9514a!8m2!3d47.7179895!4d-122.2994898"
+            }
+        },
+        "albumId": "UKtpf",
+        "album": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "title": "Virgil Flaim Park Skatepark",
+            "description": null,
+            "images": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/hwtgCS4.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This park just opened up in August 2017."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/5fTaG5R.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Very creative small park layout."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/BLQQ3CU.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The variety of features is nice."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Z2CkTyv.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Over the manny pads and onto the quarter pipe."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/Nvx0Mam.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "And it's got a mini-bowl!"
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/AVJnkCO.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A very nice addition to the North Seattle area."
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "link": "https://i.imgur.com/DLEsMN8.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Can get a nice line going in and out of the bowl."
+                }
+            ]
+        }
+    }
+]
