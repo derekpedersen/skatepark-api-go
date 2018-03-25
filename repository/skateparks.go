@@ -1,0 +1,43 @@
+package repository
+
+import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+
+	"github.com/derekpedersen/skatepark-api-go/model"
+	"github.com/jeanphorn/log4go"
+)
+
+// SkateparkRepository interface
+type SkateparkRepository interface {
+	GetSkateparks() ([]model.Skatepark, error)
+}
+
+// SkateparkRepositoryImpl implementation
+type SkateparkRepositoryImpl struct {
+}
+
+// NewSkateparkRepository creates a new skate park repository
+func NewSkateparkRepository() *SkateparkRepositoryImpl {
+	return &SkateparkRepositoryImpl{}
+}
+
+// GetSkateparks returns the collection of skateparks
+func (repo *SkateparkRepositoryImpl) GetSkateparks() ([]model.Skatepark, error) {
+	raw, err := ioutil.ReadFile("./repository/json/skateparks.json")
+	if err != err {
+		log4go.Error("Error reading JSON file:\n %v", err)
+		return nil, err
+	}
+
+	str := fmt.Sprintf("%s", raw)
+
+	m := []model.Skatepark{}
+	if err = json.Unmarshal([]byte(str), &m); err != nil {
+		log4go.Error("Error unmarshalling []model.Skatepark:\n %v", err)
+		return nil, err
+	}
+
+	return m, nil
+}

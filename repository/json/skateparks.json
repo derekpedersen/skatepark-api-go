@@ -415,7 +415,7 @@
             "addressLine1": "77th SE & SE 32nd",
             "addressLine2": "",
             "city": "Mercer Island",
-            "state": null,
+            "state": "WA",
             "zipCode": "98040",
             "googleMaps": {
                 "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d311.65921869644563!2d-122.23588249553515!3d47.58073914613552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMercer+Island+skatepark!5e1!3m2!1sen!2sus!4v1503011108256\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
@@ -746,5 +746,126 @@
             }
         },
         "albumId": "UKtpf"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Rainer Trail",
+        "description": "The old Issaquah skatepark, once a jewel of the greater seattle area in the 1990s.",
+        "address": {
+            "addressLine1": "The Rainier Trail",
+            "addressLine2": "",
+            "city": "Issaquah",
+            "state": "WA",
+            "zipCode": "98027",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.81242108657477!2d-122.03338195461713!3d47.52624138340542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906582105813cb%3A0x729bd48294beb6e3!2sIssaquah+Skate+Park!5e1!3m2!1sen!2sus!4v1525409778258\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/fJNrzHNAbyp"
+            }
+        },
+        "albumId": "7B0vA"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Tibbets Valley",
+        "description": "The new Issaquah skatepark. Leaps and bound better than the old one.",
+        "address": {
+            "addressLine1": "965 12th Ave NW,",
+            "addressLine2": "",
+            "city": "Issaquah",
+            "state": "WA",
+            "zipCode": "98027",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d269.12812031708467!2d-122.06222139333242!3d47.540388624426896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfbfa6e2093ffda9c!2sTibbetts+Valley+Park!5e1!3m2!1sen!2sus!4v1525410076020\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/bmnpzzZqrvx"
+            }
+        },
+        "albumId": "PiDfI"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Samamish Skatepark",
+        "description": "A nice little skatepark. Not a big fan of the design, not much for a bowl skater.",
+        "address": {
+            "addressLine1": "801 228th Ave SE",
+            "addressLine2": "",
+            "city": "Samamish",
+            "state": "WA",
+            "zipCode": "98075",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1014.4069535876083!2d-122.03759829398926!3d47.600711929149156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549071e68b48c3d9%3A0x89d36eb81f7cdeb5!2sSammamish+City+Hall!5e1!3m2!1sen!2sus!4v1525410233205\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/nBqnNvt45cz"
+            }
+        },
+        "albumId": "iQc9e"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Cashmere Skatepark",
+        "description": "A nice bowl layout for a small town.",
+        "address": {
+            "addressLine1": "119 W Pleasant Ave",
+            "addressLine2": "",
+            "city": "Cashmere",
+            "state": "WA",
+            "zipCode": "98815",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d524.7916480157925!2d-120.46492485614763!3d47.523752222153384!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549bb52b0edd779d%3A0x3f72bb281ec3d4f6!2sCashmere+Skatepark!5e1!3m2!1sen!2sus!4v1525410354140\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/A4N1CtoS2122"
+            }
+        },
+        "albumId": "q9Cva"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Kenroy Park",
+        "description": "Better than nothing.",
+        "address": {
+            "addressLine1": "Kenroy Park",
+            "addressLine2": "",
+            "city": "East Wenatchee",
+            "state": "WA",
+            "zipCode": "98802",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.73691743478653!2d-120.26922243267786!3d47.41564187677699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xec4146ce3677f4ce!2sKenroy+Park!5e1!3m2!1sen!2sus!4v1525410499548\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/nddKgL4nbez"
+            }
+        },
+        "albumId": "Shif2"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Parksville Skatepark",
+        "description": "Better than nothing.",
+        "address": {
+            "addressLine1": "Parksville Skatepark",
+            "addressLine2": "",
+            "city": "Parksville",
+            "state": "BC",
+            "zipCode": "V9P 2S5",
+            "country": "Canada",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d539.6923044879256!2d-124.30901213874002!3d49.32407090996432!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85a99aa208303cfd!2sParksville+Skatepark!5e1!3m2!1sen!2sus!4v1525410650711\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/TqeEQUAkcNG2"
+            }
+        },
+        "albumId": "aZXTn"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Whistler Skatepark",
+        "description": "A park with some HUGE features. Way better than their old metal ramp park. The snake run is still alive and kickin.",
+        "address": {
+            "addressLine1": "4330 Blackcomb Way",
+            "addressLine2": "",
+            "city": "Whistler",
+            "state": "BC",
+            "zipCode": "V0N 1B4",
+            "country": "Canada",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d519.2302985379558!2d-122.95138745851163!3d50.11763929666937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54873cb2ba35f613%3A0xe8d091f06b8e983a!2sWhistler+Skate+Park!5e1!3m2!1sen!2sus!4v1525410823733\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/bZS2pZpPhj82"
+            }
+        },
+        "albumId": "pcDJBY9"
     }
 ]

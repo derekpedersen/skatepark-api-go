@@ -1,0 +1,37 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: skatepark-api-go-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: skatepark-api-go-deployment
+    spec:
+      containers:
+      - name: skatepark-api-go
+        image: us.gcr.io/%PROJECT_ID%/skatepark-api-go:latest
+        env:
+        - name: IMGUR_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: skateparks-secrets
+              key: imgurAPIKey
+        ports:
+        - containerPort: 8080
+          name: api
+        - containerPort: 8000
+          name: probes
+        livenessProbe:
+          httpGet:
+            path: /alive
+            port: 8000
+          initialDelaySeconds: 30
+          timeoutSeconds: 5
+        readinessProbe:
+          httpGet:
+             path: /alive
+             port: 8000
+          initialDelaySeconds: 30
+          timeoutSeconds: 5
