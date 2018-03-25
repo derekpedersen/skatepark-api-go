@@ -5,6 +5,7 @@ import (
 	"net/http"
 
 	"github.com/derekpedersen/skatepark-api-go/service"
+	"github.com/jeanphorn/log4go"
 )
 
 // StatesController gets a collection of skateparks grouped by state
@@ -13,6 +14,8 @@ func SkateparkStatesController(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
+
+	log4go.Info("Number of States: %v", len(skateparks))
 
 	js, err := json.Marshal(skateparks)
 	if err != nil {

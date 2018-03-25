@@ -1,0 +1,17 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: skatepark-api-go-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: skatepark-api-go-deployment
+    spec:
+      containers:
+      - name: skatepark-api-go
+        image: us.gcr.io/derekpedersen-195304/skatepark-api-go:latest
+        ports:
+        - containerPort: 8080
+      

@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: skatepark-api-go-deployment
+  name: skatepark-api-go-service
+  namespace: default
+spec:
+  ports:
+  - name: 8080-to-8080-tcp
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: api-go-deployment
+  type: ClusterIP
