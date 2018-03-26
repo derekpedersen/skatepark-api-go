@@ -1,11 +1,9 @@
 package service
 
 import (
-	"encoding/json"
-
 	imgurService "github.com/derekpedersen/imgur-go/service"
 	"github.com/derekpedersen/skatepark-api-go/model"
-	"github.com/derekpedersen/skatepark-api-go/utils"
+	"github.com/derekpedersen/skatepark-api-go/repository"
 	"github.com/jeanphorn/log4go"
 )
 
@@ -14,41 +12,61 @@ func init() {
 }
 
 // GetSkateparks gets the full list of skateparks from json repository
-func GetSkateparks() ([]model.Skatepark, error) {
-	str, err := utils.ReadJsonFile("./repository/json/skateparks.json")
-	if err != err {
-		log4go.Error("Error reading JSON file:\n %v", err)
-		return nil, err
-	}
-	res := []model.Skatepark{}
-	if err = json.Unmarshal([]byte(str), &res); err != nil {
-		log4go.Error("Error unmarshalling []Skatepark:\n %v", err)
-		return nil, err
-	}
+func GetSkateparks() (m []model.Skatepark, err error) {
+	m, err = repository.GetSkateparks()
 
-	for i := range res {
-		res[i].Album, err = imgurService.GetAlbum(res[i].AlbumID)
+	for i := range m {
+		m[i].Album, err = imgurService.GetAlbum(m[i].AlbumID)
 		if err != nil {
 			log4go.Error("Error getting album:\n %v", err)
 		}
 	}
 
-	return res, nil
+	return m, nil
 }
 
 // GetSkateparksByState gets a list of skateparks grouped by state from the json repository
-func GetSkateparksByState() ([]model.SkateparkByState, error) {
-	str, err := utils.ReadJsonFile("./repository/json/skateparks-states.json")
+func GetSkateparksByState() (m []model.SkateparkByState, err error) {
+	skateparks, err := GetSkateparks()
 	if err != err {
-		log4go.Error("Error reading JSON file:\n %v", err)
+		log4go.Error("Error getting skateparks", err)
 		return nil, err
 	}
 
-	res := []model.SkateparkByState{}
-	if err = json.Unmarshal([]byte(str), &res); err != nil {
-		log4go.Error("Error unmarshalling []SkateparkByState:\n %v", err)
-		return nil, err
+	states := make(map[string][]model.Skatepark)
+	for i := range skateparks {
+		if _, ok := states[skateparks[i].Address.State]; !ok {
+			states[skateparks[i].Address.State] = []model.Skatepark{}
+		}
+
+		states[skateparks[i].Address.State] = append(states[skateparks[i].Address.State], skateparks[i])
 	}
 
-	return res, nil
+	for k, v := range states {
+		s := model.SkateparkByState{
+			State: k,
+		}
+
+		cities := make(map[string][]model.Skatepark)
+
+		for i := range v {
+			if _, ok := cities[v[i].Address.City]; !ok {
+				cities[v[i].Address.City] = []model.Skatepark{}
+			}
+
+			cities[v[i].Address.City] = append(cities[v[i].Address.City], v[i])
+		}
+
+		for ky, vl := range cities {
+			sc := model.SkateparkByCity{
+				City:       ky,
+				Skateparks: vl,
+			}
+			s.Cities = append(s.Cities, sc)
+		}
+
+		m = append(m, s)
+	}
+
+	return m, nil
 }
