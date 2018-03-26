@@ -1,4 +1,4 @@
-main:
+go-build:
 	dep ensure
 	go build -o bin/skatepark-api-go
 
@@ -11,7 +11,7 @@ build:
 	docker build ./ -t skatepark-api-go
 
 deploy:
-	docker tag api-go us.gcr.io/derekpedersen-195304/skatepark-api-go:latest
+	docker tag skatepark-api-go us.gcr.io/derekpedersen-195304/skatepark-api-go:latest
 	gcloud docker -- push us.gcr.io/derekpedersen-195304/skatepark-api-go:latest
 
 publish:

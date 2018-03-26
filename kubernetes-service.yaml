@@ -12,5 +12,5 @@ spec:
     protocol: TCP
     targetPort: 8080
   selector:
-    app: api-go-deployment
+    app: skatepark-api-go-deployment
   type: ClusterIP

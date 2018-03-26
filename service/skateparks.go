@@ -9,6 +9,10 @@ import (
 	"github.com/jeanphorn/log4go"
 )
 
+func init() {
+	imgurService.NewAlbumService("ae20e9f5a365875")
+}
+
 // GetSkateparks gets the full list of skateparks from json repository
 func GetSkateparks() ([]model.Skatepark, error) {
 	str, err := utils.ReadJsonFile("./repository/json/skateparks.json")
@@ -34,7 +38,7 @@ func GetSkateparks() ([]model.Skatepark, error) {
 
 // GetSkateparksByState gets a list of skateparks grouped by state from the json repository
 func GetSkateparksByState() ([]model.SkateparkByState, error) {
-	str, err := utils.ReadJsonFile("./skateparks/json/skateparks-states.json")
+	str, err := utils.ReadJsonFile("./repository/json/skateparks-states.json")
 	if err != err {
 		log4go.Error("Error reading JSON file:\n %v", err)
 		return nil, err
