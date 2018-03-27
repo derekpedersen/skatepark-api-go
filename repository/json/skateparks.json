@@ -415,7 +415,7 @@
             "addressLine1": "77th SE & SE 32nd",
             "addressLine2": "",
             "city": "Mercer Island",
-            "state": null,
+            "state": "WA",
             "zipCode": "98040",
             "googleMaps": {
                 "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d311.65921869644563!2d-122.23588249553515!3d47.58073914613552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMercer+Island+skatepark!5e1!3m2!1sen!2sus!4v1503011108256\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",

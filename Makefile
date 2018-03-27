@@ -1,3 +1,8 @@
+run:
+	dep ensure
+	go build -o bin/skatepark-api-go
+	./bin/skatepark-api-go
+
 go-build:
 	dep ensure
 	go build -o bin/skatepark-api-go

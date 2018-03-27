@@ -10,16 +10,24 @@ import (
 
 // SkateparkController gets the full collection of skateparks
 func SkateparkController(w http.ResponseWriter, r *http.Request) {
-	skateparks, err := service.GetSkateparks()
+	sk, err := service.GetSkateparks()
 	if err != nil {
 		log4go.Error("Error in getting skateparks:\n %v", err)
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-
+	skateparks := service.Skateparks(sk)
 	log4go.Info("Number of Skateparks: %v", len(skateparks))
 
-	js, err := json.Marshal(skateparks)
+	sortedBy := r.URL.Query().Get("sortedBy")
+	var js []byte
+	switch sortedBy {
+	case "state":
+		js, err = json.Marshal(skateparks.GetSkateparksByState())
+	default:
+		js, err = json.Marshal(skateparks)
+	}
+
 	if err != nil {
 		log4go.Error("Error in marshalling skateparks:\n %v", err)
 		http.Error(w, err.Error(), http.StatusInternalServerError)
