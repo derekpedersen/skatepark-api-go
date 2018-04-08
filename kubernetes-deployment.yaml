@@ -14,4 +14,15 @@ spec:
         image: us.gcr.io/derekpedersen-195304/skatepark-api-go:latest
         ports:
         - containerPort: 8080
-      
+        livenessProbe:
+          httpGet:
+            path: /alive
+            port: 8080
+          initialDelaySeconds: 30
+          timeoutSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /alive
+            port: 8080
+          initialDelaySeconds: 30
+          timeoutSeconds: 5
