@@ -7,9 +7,23 @@ import (
 	"github.com/derekpedersen/skatepark-api-go/service"
 )
 
-// Controller
-func AliveController(w http.ResponseWriter, r *http.Request) {
-	alive := service.GetAliveMessage()
+type AliveAPIController interface {
+	GetAliveMessage(w http.ResponseWriter, r *http.Request)
+}
+
+type AliveAPIControllerImpl struct {
+	svc service.AliveService
+}
+
+func NewAliveAPIController(svc service.AliveService) *AliveAPIControllerImpl {
+	return &AliveAPIControllerImpl{
+		svc: svc,
+	}
+}
+
+// GetAliveMessage controller
+func (api *AliveAPIControllerImpl) GetAliveMessage(w http.ResponseWriter, r *http.Request) {
+	alive := api.svc.GetAliveMessage()
 
 	js, err := json.Marshal(*alive)
 	if err != nil {

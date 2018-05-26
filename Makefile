@@ -20,6 +20,8 @@ publish:
 	gcloud docker -- push us.gcr.io/derekpedersen-195304/skatepark-api-go:latest
 
 deploy:
-	kubectl delete deployment skatepark-api-go-deployment
+#	kubectl delete deployment skatepark-api-go-deployment
 	kubectl create -f ./kubernetes-deployment.yaml
 	kubectl apply -f ./kubernetes-service.yaml
+
+kubernetes: test build publish deploy

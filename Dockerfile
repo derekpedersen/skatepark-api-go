@@ -18,3 +18,4 @@ ENTRYPOINT cd /go/src/github.com/derekpedersen/skatepark-api-go && ./bin/skatepa
 
 # Document that the service listens on port 8080.
 EXPOSE 8080
+EXPOSE 8000

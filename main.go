@@ -2,8 +2,9 @@ package main
 
 import (
 	"net/http"
+	"sync"
 
-	"github.com/derekpedersen/skatepark-api-go/controller"
+	"github.com/derekpedersen/skatepark-api-go/appcfg"
 	"github.com/jeanphorn/log4go"
 )
 
@@ -11,13 +12,21 @@ func main() {
 	// configure logging
 	log4go.LoadConfiguration("./log4go.json")
 
-	// alive
-	http.HandleFunc("/alive", controller.AliveController)
+	var wg sync.WaitGroup
 
-	// skateparks
-	http.HandleFunc("/api/skatepark", controller.SkateparkController)
-	http.HandleFunc("/api/skatepark/states", controller.SkateparkStatesController)
+	skateparkRouter, _ := appcfg.NewSkateparkAPIRouter()
+	wg.Add(1)
+	go func() {
+		defer wg.Done()
+		http.ListenAndServe(":8080", skateparkRouter)
+	}()
 
-	// start server
-	http.ListenAndServe(":8080", nil)
+	aliveRouter, _ := appcfg.NewAliveAPIRouter()
+	wg.Add(1)
+	go func() {
+		defer wg.Done()
+		http.ListenAndServe(":8000", aliveRouter)
+	}()
+
+	wg.Wait()
 }
