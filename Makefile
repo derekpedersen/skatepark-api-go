@@ -25,4 +25,4 @@ deploy:
 	kubectl create -f ./kubernetes-deployment.yaml
 	kubectl apply -f ./kubernetes-service.yaml
 
-kubernetes: test build publish deploy
+kubernetes: build test publish deploy
