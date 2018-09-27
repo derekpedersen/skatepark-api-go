@@ -25,4 +25,7 @@ deploy:
 	kubectl create -f ./kubernetes-deployment.yaml
 	kubectl apply -f ./kubernetes-service.yaml
 
+secret:
+	kubectl create -f ./kubernetes-secret.yaml
+
 kubernetes: build test publish deploy
