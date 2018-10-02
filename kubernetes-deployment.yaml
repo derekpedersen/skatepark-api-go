@@ -18,6 +18,8 @@ spec:
             secretKeyRef:
               name: skateparks-secrets
               key: imgurAPIKey
+        - name: SKATEPARKS_FILE
+          value: "./repository/json/skateparks.json"
         ports:
         - containerPort: 8080
           name: api

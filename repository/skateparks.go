@@ -11,7 +11,7 @@ import (
 
 // SkateparkRepository interface
 type SkateparkRepository interface {
-	GetSkateparks() ([]model.Skatepark, error)
+	ParseSkateparks(filepath string) ([]model.Skatepark, error)
 }
 
 // SkateparkRepositoryImpl implementation
@@ -19,13 +19,14 @@ type SkateparkRepositoryImpl struct {
 }
 
 // NewSkateparkRepository creates a new skate park repository
-func NewSkateparkRepository() *SkateparkRepositoryImpl {
+func NewSkateparkRepository() SkateparkRepository {
 	return &SkateparkRepositoryImpl{}
 }
 
-// GetSkateparks returns the collection of skateparks
-func (repo *SkateparkRepositoryImpl) GetSkateparks() ([]model.Skatepark, error) {
-	raw, err := ioutil.ReadFile("./repository/json/skateparks.json")
+// ParseSkateparks returns the collection of skateparks from a json file
+// TODO: make this query a sql db, obvi
+func (repo *SkateparkRepositoryImpl) ParseSkateparks(filepath string) ([]model.Skatepark, error) {
+	raw, err := ioutil.ReadFile(filepath)
 	if err != err {
 		log4go.Error("Error reading JSON file:\n %v", err)
 		return nil, err

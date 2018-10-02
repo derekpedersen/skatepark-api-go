@@ -21,9 +21,7 @@ type SkateparksServiceImpl struct {
 }
 
 // NewSkateparksService creates a new skateparks service
-func NewSkateparksService(repo repository.SkateparkRepository) *SkateparksServiceImpl {
-	apiKey := os.Getenv("IMGUR_API_KEY")
-	imgSvc := imgurService.NewAlbumService(apiKey)
+func NewSkateparksService(imgSvc imgurService.AlbumsService, repo repository.SkateparkRepository) SkateparksService {
 	return &SkateparksServiceImpl{
 		repo:   repo,
 		imgSvc: imgSvc,
@@ -32,13 +30,14 @@ func NewSkateparksService(repo repository.SkateparkRepository) *SkateparksServic
 
 // GetSkateparks gets the full list of skateparks from json repository
 func (svc *SkateparksServiceImpl) GetSkateparks() (domain.Skateparks, error) {
-	m, err := svc.repo.GetSkateparks()
+	fp := os.Getenv("SKATEPARKS_FILE")
+	m, err := svc.repo.ParseSkateparks(fp)
 	if err != nil {
 		return nil, err
 	}
 
 	for i := range m {
-		m[i].Album, err = svc.imgSvc.GetAlbum(m[i].AlbumID)
+		m[i].Album, err = svc.imgSvc.GetAlbum(m[i].AlbumID) // TODO: caching on this
 		if err != nil {
 			log4go.Error("Error getting album:\n %v", err)
 		}

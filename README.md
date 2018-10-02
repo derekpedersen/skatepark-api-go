@@ -1,6 +1,6 @@
 # Skatepark API - GO #
 
-[![Build Status](http://jenkins.derekpedersen.com/buildStatus/icon?job=the-cluster/skatepark-api-go)](http://jenkins.derekpedersen.com/job/the-cluster/job/skatepark-api-go)
+[![Build Status](http://jenkins.derekpedersen.com/buildStatus/icon?job=the-cluster/skatepark-api-go)](http://jenkins.derekpedersen.com/job/the-cluster/skatepark-api-go)
 
 My skatepark api written in golang. It exposes all of the skateparks that I have been too.
 
@@ -16,6 +16,17 @@ My skatepark api written in golang. It exposes all of the skateparks that I have
 
 - https://github.com/jeanphorn/log4go
 - dep ensure -add github.com/jeanphorn/log4go
+
+## Testing ##
+
+### gomock ###
+
+https://github.com/golang/mock
+
+```bash
+go get github.com/golang/mock/gomock
+go install github.com/golang/mock/mockgen
+```
 
 ## Docker ##
 

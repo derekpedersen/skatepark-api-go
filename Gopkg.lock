@@ -2,15 +2,23 @@
 
 
 [[projects]]
-  branch = "master"
-  digest = "1:ada7f4a7fefa8cdd328a8639ee3d03b8e916a0938b3a14cddb2738bed99e1223"
+  digest = "1:c5b3c5c058078f2a5859a1bb571284927366df1b80b3e8cf77eb594e554c3f84"
   name = "github.com/derekpedersen/imgur-go"
   packages = [
     "model",
     "service",
   ]
   pruneopts = ""
-  revision = "69e611b5a66e9053c6bbd35421798e1cfdb06b7e"
+  revision = "7a7fe93203241a3363f5e71509fb4582d1f8b340"
+  version = "v0.1.0"
+
+[[projects]]
+  digest = "1:73a7106c799f98af4f3da7552906efc6a2570329f4cd2d2f5fb8f9d6c053ff2f"
+  name = "github.com/golang/mock"
+  packages = ["gomock"]
+  pruneopts = ""
+  revision = "c34cdb4725f4c3844d095133c6e40e448b86589b"
+  version = "v1.1.1"
 
 [[projects]]
   digest = "1:dbbeb8ddb0be949954c8157ee8439c2adfd8dc1c9510eb44a6e58cb68c3dce28"
@@ -30,11 +38,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:4262d2f2ffa4d48518d6126d11ed70b4263579ba44a28be4c8bcd199e32a7f96"
+  digest = "1:81a615a6125dc40676dffaead8285e27cca0aa06206bf1c8101321bcf29c8615"
   name = "github.com/jeanphorn/log4go"
   packages = ["."]
   pruneopts = ""
-  revision = "617cc1d0be3c03ef4a409aec8c3fccea0aa36de7"
+  revision = "b1be4187aa93483452d5ad872779799c05ab1300"
 
 [[projects]]
   branch = "master"
@@ -44,12 +52,21 @@
   pruneopts = ""
   revision = "a5b3c5147e07f934d9f9d00b901a20b2529f1a57"
 
+[[projects]]
+  branch = "master"
+  digest = "1:08e41d63f8dac84d83797368b56cf0b339e42d0224e5e56668963c28aec95685"
+  name = "golang.org/x/net"
+  packages = ["context"]
+  pruneopts = ""
+  revision = "4dfa2610cdf3b287375bbba5b8f2a14d3b01d8de"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
     "github.com/derekpedersen/imgur-go/model",
     "github.com/derekpedersen/imgur-go/service",
+    "github.com/golang/mock/gomock",
     "github.com/gorilla/mux",
     "github.com/jeanphorn/log4go",
   ]

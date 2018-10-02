@@ -1,3 +1,7 @@
+mocks:
+	mockgen -source=service/skateparks.go -destination=mock/mock_skateparks.go -package=mock
+	mockgen -source=vendor/github.com/derekpedersen/imgur-go/service/album.go -destination=mock/mock_album.go -package=mock
+
 run:
 	dep ensure
 	go build -o bin/skatepark-api-go
@@ -8,7 +12,7 @@ go-build:
 	go build -o bin/skatepark-api-go
 
 test:
-	go test ./... -v
+	go test ./... -v -coverprofile cp.out
 
 build:
 	dep ensure

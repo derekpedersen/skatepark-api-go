@@ -21,7 +21,7 @@ func main() {
 		http.ListenAndServe(":8080", skateparkRouter)
 	}()
 
-	aliveRouter, _ := appcfg.NewAliveAPIRouter()
+	aliveRouter, _ := appcfg.NewHealthAPIRouter()
 	wg.Add(1)
 	go func() {
 		defer wg.Done()
