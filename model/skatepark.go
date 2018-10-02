@@ -2,7 +2,7 @@ package model
 
 import imgurModel "github.com/derekpedersen/imgur-go/model"
 
-// skatepark
+// Skatepark model
 type Skatepark struct {
 	ID          string `json:"id"`
 	Name        string `json:"name"`

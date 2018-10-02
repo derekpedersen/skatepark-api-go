@@ -9,6 +9,10 @@ import (
 // Skateparks represents the collection of skateparks
 type Skateparks []model.Skatepark
 
+func (sk Skateparks) Len() int           { return len(sk) }
+func (sk Skateparks) Swap(i, j int)      { sk[i], sk[j] = sk[j], sk[i] }
+func (sk Skateparks) Less(i, j int) bool { return sk[i].Address.State < sk[j].Address.State }
+
 // GetSkateparksByCityMap organizes a map of skateparks by city
 func (s Skateparks) GetSkateparksByCityMap() (cities map[string][]model.Skatepark) {
 	cities = make(map[string][]model.Skatepark)
