@@ -5,12 +5,11 @@ import (
 	"sync"
 
 	"github.com/derekpedersen/skatepark-api-go/appcfg"
-	"github.com/jeanphorn/log4go"
+	log "github.com/sirupsen/logrus"
 )
 
 func main() {
-	// configure logging
-	log4go.LoadConfiguration("./log4go.json")
+	log.SetLevel(log.DebugLevel) // TODO: make this a flag
 
 	var wg sync.WaitGroup
 

@@ -10,6 +10,7 @@
 
 # Test binary, build with `go test -c`
 *.test
+*.out
 
 # Mocks
 mock/*
@@ -18,12 +19,15 @@ mock/*
 *.out
 
 # Third party libraries
-vendor/
+vendor/*
 _vendor*
 
 # Build artifacts
-bin/
+bin/*
+
+# Deploy artifacts
+*.sed.yaml
 
 # VS Code
-.vscode/
+.vscode/*
 debug

@@ -14,8 +14,8 @@ My skatepark api written in golang. It exposes all of the skateparks that I have
 
 ## Logging ##
 
-- https://github.com/jeanphorn/log4go
-- dep ensure -add github.com/jeanphorn/log4go
+- https://github.com/sirupsen/logrus
+- dep ensure -add github.com/sirupsen/logrus
 
 ## Testing ##
 

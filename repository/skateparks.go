@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 
 	"github.com/derekpedersen/skatepark-api-go/model"
-	"github.com/jeanphorn/log4go"
+	log "github.com/sirupsen/logrus"
 )
 
 // SkateparkRepository interface
@@ -28,7 +28,7 @@ func NewSkateparkRepository() SkateparkRepository {
 func (repo *SkateparkRepositoryImpl) ParseSkateparks(filepath string) ([]model.Skatepark, error) {
 	raw, err := ioutil.ReadFile(filepath)
 	if err != err {
-		log4go.Error("Error reading JSON file:\n %v", err)
+		log.Errorf("Error reading JSON file:\n %v", err)
 		return nil, err
 	}
 
@@ -36,7 +36,7 @@ func (repo *SkateparkRepositoryImpl) ParseSkateparks(filepath string) ([]model.S
 
 	m := []model.Skatepark{}
 	if err = json.Unmarshal([]byte(str), &m); err != nil {
-		log4go.Error("Error unmarshalling []model.Skatepark:\n %v", err)
+		log.Errorf("Error unmarshalling []model.Skatepark:\n %v", err)
 		return nil, err
 	}
 
