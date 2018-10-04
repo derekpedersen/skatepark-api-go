@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: skatepark-api-go
-        image: us.gcr.io/%PROJECT_ID%/skatepark-api-go:latest
+        image: us.gcr.io/%GCLOUD_PROJECT_ID%/skatepark-api-go:%GIT_COMMIT_SHA%
         env:
         - name: IMGUR_API_KEY
           valueFrom:

@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/derekpedersen/skatepark-api-go/service"
-	"github.com/jeanphorn/log4go"
+	log "github.com/sirupsen/logrus"
 )
 
 // SkateparksAPIController interface
@@ -30,11 +30,11 @@ func NewSkateparksAPIController(svc service.SkateparksService) *SkateparksAPICon
 func (api *SkateparksAPIControllerImpl) GetSkateparks(w http.ResponseWriter, r *http.Request) {
 	skateparks, err := api.svc.GetSkateparks()
 	if err != nil {
-		log4go.Error("Error in getting skateparks:\n %v", err)
+		log.Errorf("Error in getting skateparks:\n %v", err)
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	log4go.Info("Number of Skateparks: %v", len(skateparks))
+	log.Infof("Number of Skateparks: %v", len(skateparks))
 
 	sortedBy := r.URL.Query().Get("sortedBy")
 	var js []byte
@@ -46,7 +46,7 @@ func (api *SkateparksAPIControllerImpl) GetSkateparks(w http.ResponseWriter, r *
 	}
 
 	if err != nil {
-		log4go.Error("Error in marshalling skateparks:\n %v", err)
+		log.Errorf("Error in marshalling skateparks:\n %v", err)
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
@@ -59,16 +59,16 @@ func (api *SkateparksAPIControllerImpl) GetSkateparks(w http.ResponseWriter, r *
 func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWriter, r *http.Request) {
 	skateparks, err := api.svc.GetSkateparks()
 	if err != nil {
-		log4go.Error("Error in getting skateparks:\n %v", err)
+		log.Errorf("Error in getting skateparks:\n %v", err)
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	log4go.Info("Number of Skateparks: %v", len(skateparks))
+	log.Infof("Number of Skateparks: %v", len(skateparks))
 
 	js, err := json.Marshal(skateparks.GetSkateparksByState())
 
 	if err != nil {
-		log4go.Error("Error in marshalling skateparks:\n %v", err)
+		log.Errorf("Error in marshalling skateparks:\n %v", err)
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}

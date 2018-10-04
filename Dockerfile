@@ -10,7 +10,7 @@ RUN ls -l /go/src/github.com/derekpedersen/skatepark-api-go
 # (You may fetch or manage dependencies here,
 # either manually or with a tool like "godep".)
 RUN go get -u github.com/golang/dep/cmd/dep
-RUN cd /go/src/github.com/derekpedersen/skatepark-api-go && make go-build
+RUN cd /go/src/github.com/derekpedersen/skatepark-api-go && make build
 
 # Run the command by default when the container starts.
 RUN ls -l /go/src/github.com/derekpedersen/skatepark-api-go/bin

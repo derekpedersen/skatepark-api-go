@@ -6,7 +6,7 @@ import (
 	imgurService "github.com/derekpedersen/imgur-go/service"
 	"github.com/derekpedersen/skatepark-api-go/domain"
 	"github.com/derekpedersen/skatepark-api-go/repository"
-	"github.com/jeanphorn/log4go"
+	log "github.com/sirupsen/logrus"
 )
 
 // SkateparksService interface
@@ -17,11 +17,11 @@ type SkateparksService interface {
 // SkateparksServiceImpl implementation
 type SkateparksServiceImpl struct {
 	repo   repository.SkateparkRepository
-	imgSvc imgurService.AlbumsService
+	imgSvc imgurService.AlbumService
 }
 
 // NewSkateparksService creates a new skateparks service
-func NewSkateparksService(imgSvc imgurService.AlbumsService, repo repository.SkateparkRepository) SkateparksService {
+func NewSkateparksService(imgSvc imgurService.AlbumService, repo repository.SkateparkRepository) SkateparksService {
 	return &SkateparksServiceImpl{
 		repo:   repo,
 		imgSvc: imgSvc,
@@ -39,7 +39,7 @@ func (svc *SkateparksServiceImpl) GetSkateparks() (domain.Skateparks, error) {
 	for i := range m {
 		m[i].Album, err = svc.imgSvc.GetAlbum(m[i].AlbumID) // TODO: caching on this
 		if err != nil {
-			log4go.Error("Error getting album:\n %v", err)
+			log.Errorf("Error getting album:\n %v", err)
 		}
 	}
 

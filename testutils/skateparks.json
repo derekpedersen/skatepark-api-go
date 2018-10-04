@@ -1,0 +1,36 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Orcas Island Skatepark",
+        "description": "The bowl at this park is on a whole other level. The concrete is super smooth and you can really fly around it. It was my first time on real pool ledge and since I had only been back on a skateboard for all of 3 months after an 8 year hiatus I wasn't able to do much. But man was this thing fun to ride. I was there on a Friday afternoon and it was completely empty. Came back on Sunday on the way home at around noon and it was packed full people on the upper deck with about 5 or so riding the shallow end of the bowl.",
+        "address": {
+            "addressLine1": "Orcas Island Skatepark",
+            "addressLine2": "Mt Baker Rd",
+            "city": "Eastsound",
+            "state": "WA",
+            "zipCode": "98245",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d563.5169434965948!2d-122.89911355132428!3d48.70218615860136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54858fbce70af3cb%3A0x8570aa959e32cec4!2sOrcas+Island+Skatepark%2C+Mt+Baker+Rd%2C+Eastsound%2C+WA+98245!5e1!3m2!1sen!2sus!4v1502770933602\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Orcas+Island+Skatepark,+Mt+Baker+Rd,+Eastsound,+WA+98245/@48.7021862,-122.8991136,129m/data=!3m1!1e3!4m13!1m7!3m6!1s0x54858fbce70af3cb:0x8570aa959e32cec4!2sOrcas+Island+Skatepark,+Mt+Baker+Rd,+Eastsound,+WA+98245!3b1!8m2!3d48.7022782!4d-122.8984604!3m4!1s0x54858fbce70af3cb:0x8570aa959e32cec4!8m2!3d48.7022782!4d-122.8984604"
+            }
+        },
+        "albumId": "9cwt4"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Freedom Park",
+        "description": "Medium sized bowl with some decent concrete and a nice street section for the younger crowd. I grew up in Mill Creek but unfortunately this park wasn't built until 2004 and by that point I was about to graduate from high school and had stopped actively skating. When I first rode this bowl in the summer of 2007 I had just got back into skating and had only been riding a 2.5 foot mini-ramp I built in my backyard so I wasn't able to fully appreciate this bowl. Then in the summer of 2017 I really got back into skating and was able to appreciate it.",
+        "address": {
+            "addressLine1": "13901 Heatherwood Dr",
+            "addressLine2": "",
+            "city": "Mill Creek",
+            "state": "WA",
+            "zipCode": "98012",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258.2144706298095!2d-122.21798686514838!3d47.87190441587479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549006885a1bebf7%3A0xcd7cd7ec82841485!2sMill+Creek+Skatepark!5e1!3m2!1sen!2sus!4v1503028692434\" frameborder=\"0\" style=\"width: 100%; height: 100%; border:0;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Mill+Creek+Skatepark/@47.8719044,-122.2179869,59m/data=!3m1!1e3!4m8!1m2!2m1!1smill+creek+skatepark!3m4!1s0x549006885a1bebf7:0xcd7cd7ec82841485!8m2!3d47.8718996!4d-122.2178618"
+            }
+        },
+        "albumId": "JPTXl"
+    }
+]
