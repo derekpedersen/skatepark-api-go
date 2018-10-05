@@ -10,6 +10,7 @@ import (
 
 func main() {
 	log.SetLevel(log.DebugLevel) // TODO: make this a flag
+	log.Infof("log level: %v", log.GetLevel())
 
 	var wg sync.WaitGroup
 
@@ -17,14 +18,7 @@ func main() {
 	wg.Add(1)
 	go func() {
 		defer wg.Done()
-		http.ListenAndServe(":8080", skateparkRouter)
-	}()
-
-	aliveRouter, _ := appcfg.NewHealthAPIRouter()
-	wg.Add(1)
-	go func() {
-		defer wg.Done()
-		http.ListenAndServe(":8000", aliveRouter)
+		log.Fatal(http.ListenAndServe(":8080", skateparkRouter))
 	}()
 
 	wg.Wait()

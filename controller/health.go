@@ -10,6 +10,8 @@ import (
 // HealthAPIController interface
 type HealthAPIController interface {
 	GetAliveMessage(w http.ResponseWriter, r *http.Request)
+	GetReadyMessage(w http.ResponseWriter, r *http.Request)
+	GetHealthyMessage(w http.ResponseWriter, r *http.Request)
 }
 
 // HealthAPIControllerImpl struct
@@ -40,6 +42,20 @@ func (api *HealthAPIControllerImpl) GetAliveMessage(w http.ResponseWriter, r *ht
 
 // GetReadyMessage controller
 func (api *HealthAPIControllerImpl) GetReadyMessage(w http.ResponseWriter, r *http.Request) {
+	alive := api.svc.GetReadyMessage()
+
+	js, err := json.Marshal(*alive)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
+}
+
+// GetHealthyMessage controller
+func (api *HealthAPIControllerImpl) GetHealthyMessage(w http.ResponseWriter, r *http.Request) {
 	alive := api.svc.GetReadyMessage()
 
 	js, err := json.Marshal(*alive)

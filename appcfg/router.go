@@ -16,23 +16,24 @@ func NewSkateparkAPIRouter() (*mux.Router, error) {
 	apiKey := os.Getenv("IMGUR_API_KEY")
 	imgSvc := imgurService.NewAlbumService(apiKey)
 
-	// set "api" path prefix
-	router := mux.NewRouter().StrictSlash(true).PathPrefix("/api").Subrouter()
+	router := mux.NewRouter()
 
+	// health routes
+	hsvc := service.NewHealthService()
+	hctrl := controller.NewHealthAPIController(hsvc)
+	router.HandleFunc("/alive", hctrl.GetAliveMessage)
+	router.HandleFunc("/ready", hctrl.GetReadyMessage)
+	router.HandleFunc("/healthy", hctrl.GetHealthyMessage)
+
+	// api subrouter
+	api := router.StrictSlash(true).PathPrefix("/api").Subrouter()
+
+	// skatepark routes
 	skRepo := repository.NewSkateparkRepository()
 	skSvc := service.NewSkateparksService(imgSvc, skRepo)
 	skCtrl := controller.NewSkateparksAPIController(skSvc)
-	router.HandleFunc("/skateparks", skCtrl.GetSkateparks)
-	router.HandleFunc("/skatepark/states", skCtrl.GetSkateparksByState) // TODO: this is the legacy one, but need to update SPA first before removing
+	api.HandleFunc("/skateparks", skCtrl.GetSkateparks)
+	api.HandleFunc("/skatepark/states", skCtrl.GetSkateparksByState) // TODO: this is the legacy one, but need to update SPA first before removing
 
-	return router, nil
-}
-
-// NewHealthAPIRouter creates a new mux router for the health api
-func NewHealthAPIRouter() (*mux.Router, error) {
-	router := mux.NewRouter()
-	alSvc := service.NewHealthService()
-	alCtrl := controller.NewHealthAPIController(alSvc)
-	router.HandleFunc("/alive", alCtrl.GetAliveMessage)
 	return router, nil
 }
