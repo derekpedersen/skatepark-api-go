@@ -1,8 +1,8 @@
 export GIT_COMMIT_SHA = $(shell git rev-parse HEAD)
 
 mocks:
-	rm -f mocks
-	mkdir mocks
+	rm -fr mock
+	mkdir mock
 	mockgen -source=repository/skateparks.go -destination=mock/mock_skateparks_repository.go -package=mock
 	mockgen -source=service/skateparks.go -destination=mock/mock_skateparks_service.go -package=mock
 	mockgen -source=vendor/github.com/derekpedersen/imgur-go/service/album.go -destination=mock/mock_album_service.go -package=mock
