@@ -2,6 +2,7 @@ package service
 
 import (
 	"os"
+	"time"
 
 	imgurService "github.com/derekpedersen/imgur-go/service"
 	"github.com/derekpedersen/skatepark-api-go/domain"
@@ -16,8 +17,12 @@ type SkateparksService interface {
 
 // SkateparksServiceImpl implementation
 type SkateparksServiceImpl struct {
-	repo   repository.SkateparkRepository
-	imgSvc imgurService.AlbumService
+	repo       repository.SkateparkRepository
+	imgSvc     imgurService.AlbumService
+	parkscache struct {
+		skateparks  domain.Skateparks
+		refreshedat time.Time
+	}
 }
 
 // NewSkateparksService creates a new skateparks service
@@ -30,19 +35,23 @@ func NewSkateparksService(imgSvc imgurService.AlbumService, repo repository.Skat
 
 // GetSkateparks gets the full list of skateparks from json repository
 func (svc *SkateparksServiceImpl) GetSkateparks() (domain.Skateparks, error) {
-	fp := os.Getenv("SKATEPARKS_FILE")
-	m, err := svc.repo.ParseSkateparks(fp)
-	if err != nil {
-		return nil, err
-	}
-
-	for i := range m {
-		m[i].Album, err = svc.imgSvc.GetAlbum(m[i].AlbumID) // TODO: caching on this
+	if svc.parkscache.skateparks == nil || len(svc.parkscache.skateparks) == 0 || time.Now().UTC().Sub(svc.parkscache.refreshedat).Hours() > 24 {
+		fp := os.Getenv("SKATEPARKS_FILE")
+		m, err := svc.repo.ParseSkateparks(fp)
 		if err != nil {
-			log.Errorf("Error getting album:\n %v", err)
+			return nil, err
 		}
+
+		for i := range m {
+			m[i].Album, err = svc.imgSvc.GetAlbum(m[i].AlbumID)
+			if err != nil {
+				log.Errorf("Error getting album:\n %v", err)
+			}
+		}
+
+		svc.parkscache.skateparks = domain.Skateparks(m)
+		svc.parkscache.refreshedat = time.Now().UTC()
 	}
 
-	d := domain.Skateparks(m)
-	return d, nil
+	return svc.parkscache.skateparks, nil
 }

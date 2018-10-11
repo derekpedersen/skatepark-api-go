@@ -31,7 +31,6 @@ spec:
           timeoutSeconds: 5
         readinessProbe:
           httpGet:
-             path: /ready
+             path: /api/skateparks
              port: 8080
           initialDelaySeconds: 30
-          timeoutSeconds: 5
