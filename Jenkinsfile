@@ -27,9 +27,9 @@ pipeline {
             }
         }
         stage('Publish') {
-            when {
-                expression { env.BRANCH_NAME == 'master' }
-            }
+            // when {
+            //     expression { env.BRANCH_NAME == 'master' }
+            // }
             steps {
                 withCredentials([[$class: 'StringBinding', credentialsId: 'PROJECT_ID', variable: 'GCLOUD_PROJECT_ID']]) {
                     dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
