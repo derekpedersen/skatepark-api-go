@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label 'k8s'
+    }
     stages {
         stage('Checkout') {
             steps{
