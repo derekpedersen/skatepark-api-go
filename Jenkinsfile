@@ -20,9 +20,10 @@ pipeline {
         stage('Test') {
             steps {
                 dir('/root/workspace/src/github.com/derekpedersen/skatepark-api-go') {
-                    sh 'go get github.com/golang/mock/gomock && \
-                        go install github.com/golang/mock/mockgen && \
-                        make test'
+                    // sh 'go get github.com/golang/mock/gomock && \
+                    //     go install github.com/golang/mock/mockgen && \
+                    //     make test'
+                    sh 'make test'
                 }
             }
         }
