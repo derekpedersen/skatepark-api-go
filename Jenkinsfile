@@ -5,21 +5,21 @@ pipeline {
     stages {
         stage('Checkout') {
             steps{
-                dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                dir('/root/workspace/src/github.com/derekpedersen/skatepark-api-go') {
                     checkout scm
                 }
             }
         }
         stage('Build') {
             steps{
-                dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                dir('/root/workspace/src/github.com/derekpedersen/skatepark-api-go') {
                     sh 'make build'
                 }
             }
         }
         stage('Test') {
             steps {
-                dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                dir('/root/workspace/src/github.com/derekpedersen/skatepark-api-go') {
                     sh 'go get github.com/golang/mock/gomock && \
                         go install github.com/golang/mock/mockgen && \
                         make test'
@@ -32,7 +32,7 @@ pipeline {
             // }
             steps {
                 withCredentials([[$class: 'StringBinding', credentialsId: 'GCLOUD_PROJECT_ID', variable: 'GCLOUD_PROJECT_ID']]) {
-                    dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                    dir('/root/workspace/src/github.com/derekpedersen/skatepark-api-go') {
                         sh 'make publish'
                     }
                 }
@@ -44,7 +44,7 @@ pipeline {
             }
             steps {
                 withCredentials([[$class: 'StringBinding', credentialsId: 'GCLOUD_PROJECT_ID', variable: 'GCLOUD_PROJECT_ID']]) {
-                    dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                    dir('/root/workspace/src/github.com/derekpedersen/skatepark-api-go') {
                         sh 'make deploy'
                     }
                 }
