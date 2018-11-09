@@ -31,7 +31,7 @@ pipeline {
             //     expression { env.BRANCH_NAME == 'master' }
             // }
             steps {
-                withCredentials([[$class: 'StringBinding', credentialsId: 'PROJECT_ID', variable: 'GCLOUD_PROJECT_ID']]) {
+                withCredentials([[$class: 'StringBinding', credentialsId: 'GCLOUD_PROJECT_ID', variable: 'GCLOUD_PROJECT_ID']]) {
                     dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                         sh 'make publish'
                     }
@@ -43,7 +43,7 @@ pipeline {
                 expression { env.BRANCH_NAME == 'master' }
             }
             steps {
-                withCredentials([[$class: 'StringBinding', credentialsId: 'PROJECT_ID', variable: 'GCLOUD_PROJECT_ID']]) {
+                withCredentials([[$class: 'StringBinding', credentialsId: 'GCLOUD_PROJECT_ID', variable: 'GCLOUD_PROJECT_ID']]) {
                     dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                         sh 'make deploy'
                     }
