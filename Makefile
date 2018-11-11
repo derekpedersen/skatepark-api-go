@@ -18,14 +18,14 @@ build:
 run: build
 	./bin/skatepark-api-go
 
-docker: build
+docker:
 	docker build ./ -t skatepark-api-go
 
-publish: docker
+publish:
 	docker tag skatepark-api-go us.gcr.io/${GCLOUD_PROJECT_ID}/skatepark-api-go:${GIT_COMMIT_SHA}
 	gcloud docker -- push us.gcr.io/${GCLOUD_PROJECT_ID}/skatepark-api-go:${GIT_COMMIT_SHA}
 
-deploy: publish
+deploy:
 	sed -e 's/%GCLOUD_PROJECT_ID%/${GCLOUD_PROJECT_ID}/g' -e 's/%GIT_COMMIT_SHA%/${GIT_COMMIT_SHA}/g' ./kubernetes-deployment.yaml > deployment.sed.yaml
 	kubectl apply -f ./deployment.sed.yaml
 	kubectl apply -f ./kubernetes-service.yaml
