@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'k8s'
+        label 'build-golang-stable'
     }
     stages {
         stage('Checkout') {
