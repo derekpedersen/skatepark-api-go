@@ -1,6 +1,6 @@
 # Skatepark API - GO #
 
-[![Build Status](https://jenkins.derekpedersen.com/job/derekpedersen/skatepark-api-go/master/badge/icon?.png)](https://jenkins.derekpedersen.com/job/derekpedersen/skatepark-api-go/master)
+[![Build Status](https://jenkins.derekpedersen.com/buildStatus/icon?job=derekpedersen/skatepark-api-go/master&.png)](https://jenkins.derekpedersen.com/job/derekpedersen/job/skatepark-api-go/job/master/)
 
 My skatepark api written in golang. It exposes all of the skateparks that I have been too.
 
