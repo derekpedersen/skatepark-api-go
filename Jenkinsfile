@@ -2,6 +2,9 @@ pipeline {
     agent {
         label 'build-golang-stable'
     }
+    environment {
+        COVERALLS_TOKEN = credentials('COVERALLS_TOKEN')
+    }
     stages {
         stage('Checkout') {
             steps{
