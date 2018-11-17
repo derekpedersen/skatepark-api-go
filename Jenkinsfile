@@ -64,7 +64,7 @@ pipeline {
             //withCredentials([[$class: 'StringBinding', credentialsId: 'COVERALLS_TOKEN', variable: 'COVERALLS_TOKEN']]) {
                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                     //step([$class: 'CoberturaPublisher', autoUpdateHealth: false, autoUpdateStability: false, coberturaReportFile: '**/cp.xml', failUnhealthy: false, failUnstable: false, maxNumberOfBuilds: 0, onlyStable: false, sourceEncoding: 'ASCII', zoomCoverageChart: false]) 
-                    sh 'go get github.com/mattn/goveralls'
+                    sh 'go get github.com/derekpedersen/goveralls'
                     sh 'echo $BUILD_NUMBER'
                     sh 'goveralls -coverprofile=cp.out -v'
                 }
