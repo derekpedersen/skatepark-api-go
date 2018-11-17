@@ -62,7 +62,7 @@ pipeline {
                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                     step([$class: 'CoberturaPublisher', autoUpdateHealth: false, autoUpdateStability: false, coberturaReportFile: '**/cp.xml', failUnhealthy: false, failUnstable: false, maxNumberOfBuilds: 0, onlyStable: false, sourceEncoding: 'ASCII', zoomCoverageChart: false]) 
                     sh 'go get github.com/mattn/goveralls'
-                    sh 'goveralls -coverprofile=cp.out -repotoken $COVERALLS_TOKEN'
+                    sh 'goveralls -coverprofile=cp.out -service=travis-ci -repotoken $COVERALLS_TOKEN'
                 }
             }
         }
