@@ -3,7 +3,7 @@ pipeline {
         label 'build-golang-stable'
     }
     stages {
-        stage('Declarative: Checkout SCM') {
+        stage('Checkout') {
             steps{
                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                     checkout scm
@@ -62,7 +62,7 @@ pipeline {
                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                     step([$class: 'CoberturaPublisher', autoUpdateHealth: false, autoUpdateStability: false, coberturaReportFile: '**/cp.xml', failUnhealthy: false, failUnstable: false, maxNumberOfBuilds: 0, onlyStable: false, sourceEncoding: 'ASCII', zoomCoverageChart: false]) 
                     sh 'go get github.com/mattn/goveralls'
-                    sh 'goveralls -coverprofile=cp.out'
+                    sh 'goveralls -coverprofile=cp.out -repotoken $COVERALLS_TOKEN'
                 }
             }
         }
