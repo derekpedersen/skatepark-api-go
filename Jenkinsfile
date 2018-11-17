@@ -3,7 +3,7 @@ pipeline {
         label 'build-golang-stable'
     }
     environment {
-        COVERALLS_TOKEN = credentials('COVERALLS_TOKEN')
+        COVERALLS_TOKEN = 'pqv1XDPHWrijFGkHy7cnBXEkZOLk51LMq'
     }
     stages {
         stage('Checkout') {
