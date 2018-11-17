@@ -3,7 +3,7 @@ pipeline {
         label 'build-golang-stable'
     }
     stages {
-        stage('Checkout') {
+        stage(Declarative: Checkout SCM) {
             steps{
                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                     checkout scm
