@@ -2,9 +2,6 @@ pipeline {
     agent {
         label 'build-golang-stable'
     }
-    // environment {
-    //     COVERALLS_TOKEN = credentials('COVERALLS_TOKEN')
-    // }
     stages {
         stage('Checkout') {
             steps{
@@ -65,7 +62,7 @@ pipeline {
                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                     step([$class: 'CoberturaPublisher', autoUpdateHealth: false, autoUpdateStability: false, coberturaReportFile: '**/cp.xml', failUnhealthy: false, failUnstable: false, maxNumberOfBuilds: 0, onlyStable: false, sourceEncoding: 'ASCII', zoomCoverageChart: false]) 
                     sh 'go get github.com/derekpedersen/goveralls'
-                    sh 'goveralls -coverprofile=cp.out -v'
+                    sh 'goveralls -coverprofile=cp.out'
                 }
             }
         }
