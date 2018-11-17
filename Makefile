@@ -8,8 +8,9 @@ mocks:
 	mockgen -source=vendor/github.com/derekpedersen/imgur-go/service/album.go -destination=mock/mock_album_service.go -package=mock
 
 test: mocks
-	go test ./... -v -coverprofile cp.out
-	go tool cover -html=cp.out
+	go test ./... -v  -covermode=count -coverprofile cp.out
+	go get github.com/t-yuki/gocover-cobertura
+	go tool cover -html=cp.out -o cp.html && gocover-cobertura < cp.out > cp.xml
 
 build:
 	dep ensure

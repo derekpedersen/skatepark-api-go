@@ -17,6 +17,8 @@ mock/*
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+cp.xml
+cp.html
 
 # Third party libraries
 vendor/*
