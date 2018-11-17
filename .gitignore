@@ -11,14 +11,14 @@
 # Test binary, build with `go test -c`
 *.test
 *.out
-cp.xml
-cp.html
 
 # Mocks
 mock/*
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+cp.xml
+cp.html
 
 # Third party libraries
 vendor/*
