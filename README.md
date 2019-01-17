@@ -7,6 +7,8 @@ My skatepark api written in golang. It exposes all of the skateparks that I have
 
 ## Dependency Management ##
 
+This project currently uses `dep` as it's dependency management.
+
 - https://github.com/golang/dep
 - go get -u github.com/golang/dep/cmd/dep
 - dep init
@@ -19,6 +21,8 @@ My skatepark api written in golang. It exposes all of the skateparks that I have
 - dep ensure -add github.com/sirupsen/logrus
 
 ## Testing ##
+
+Tests? Who needs tests... I have some, but not enough.
 
 ### gomock ###
 
