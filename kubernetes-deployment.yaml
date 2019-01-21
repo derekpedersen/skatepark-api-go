@@ -34,3 +34,10 @@ spec:
              path: /api/skateparks
              port: 8080
           initialDelaySeconds: 30
+        resources:
+          limits:
+            cpu: "50m"
+            memory: "50Mi"
+          requests:
+            cpu: "10m"
+            memory: "10Mi"
