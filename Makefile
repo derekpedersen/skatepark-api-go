@@ -13,14 +13,15 @@ test: mocks
 	go tool cover -html=cp.out -o cp.html && gocover-cobertura < cp.out > cp.xml
 
 build:
+	rm -rf bin
 	dep ensure
 	go build -o bin/skatepark-api-go
 
 run: build
 	./bin/skatepark-api-go
 
-docker:
-	docker build ./ -t skatepark-api-go
+docker: build
+	docker build ./ -t skatepark-api-go:latest --no-cache
 
 publish:
 	docker tag skatepark-api-go us.gcr.io/${GCLOUD_PROJECT_ID}/skatepark-api-go:${GIT_COMMIT_SHA}

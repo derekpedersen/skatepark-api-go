@@ -10,7 +10,7 @@ My skatepark api written in golang. It exposes all of the skateparks that I have
 This project currently uses `dep` as it's dependency management.
 
 - https://github.com/golang/dep
-- go get -u github.com/golang/dep/cmd/dep
+- go get -u github.com/golang/dep/cmd/dep (curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh)
 - dep init
 - dep ensure
 - dep ensure -add github.com/foo/bar

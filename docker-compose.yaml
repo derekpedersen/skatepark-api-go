@@ -4,12 +4,6 @@ services:
     image: skatepark-api-go
     deploy:
       replicas: 1
-      #resources:
-      #  limits:
-      #    cpus: "0.1"
-      #    memory: 50M
-      #restart_policy:
-      #  condition: on-failure
     ports:
       - "9090:8080"
       - "9000:8000"

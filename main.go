@@ -5,6 +5,8 @@ import (
 	"sync"
 
 	"github.com/derekpedersen/skatepark-api-go/appcfg"
+	"github.com/rs/cors"
+
 	log "github.com/sirupsen/logrus"
 )
 
@@ -15,10 +17,14 @@ func main() {
 	var wg sync.WaitGroup
 
 	skateparkRouter, _ := appcfg.NewSkateparkAPIRouter()
+
+	// Use default options
+	handler := cors.Default().Handler(skateparkRouter)
+
 	wg.Add(1)
 	go func() {
 		defer wg.Done()
-		log.Fatal(http.ListenAndServe(":8080", skateparkRouter))
+		log.Fatal(http.ListenAndServe(":8080", handler))
 	}()
 
 	wg.Wait()
