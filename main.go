@@ -23,6 +23,7 @@ func main() {
 	c := cors.New(cors.Options{
 		AllowedOrigins: []string{
 			"http://localhost",
+			"http://localhost:4200",
 			"http://localhost:8080",
 			"http://skatepark-api",
 			"http://skatepark-api:8080",
