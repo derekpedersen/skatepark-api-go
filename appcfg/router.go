@@ -33,8 +33,9 @@ func NewSkateparkAPIRouter() (*mux.Router, error) {
 	skRepo := repository.NewSkateparkRepository()
 	skSvc := service.NewSkateparksService(imgSvc, skRepo)
 	skCtrl := controller.NewSkateparksAPIController(skSvc)
-	api.HandleFunc("/skateparks", skCtrl.GetSkateparks).Methods(http.MethodGet, http.MethodOptions)
-	api.HandleFunc("/skatepark/states", skCtrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions) // TODO: this is the legacy one, but need to update SPA first before removing
-
+	//api.HandleFunc("/skateparks", skCtrl.GetSkateparks).Methods(http.MethodGet, http.MethodOptions)
+	api.HandleFunc("/skatepark/states", skCtrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
+	api.HandleFunc("/skatepark/states/{state}", skCtrl.GetSkateparksByCity).Methods(http.MethodGet, http.MethodOptions)
+	api.HandleFunc("/skatepark/states/{state}/{city}", skCtrl.GetSkateparksByCity).Methods(http.MethodGet, http.MethodOptions)
 	return router, nil
 }

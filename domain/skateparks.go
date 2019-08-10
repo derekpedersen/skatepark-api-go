@@ -1,91 +1,61 @@
 package domain
 
 import (
-	"sort"
-
 	"github.com/derekpedersen/skatepark-api-go/model"
 )
 
 // Skateparks represents the collection of skateparks
 type Skateparks []model.Skatepark
 
-func (sk Skateparks) Len() int           { return len(sk) }
-func (sk Skateparks) Swap(i, j int)      { sk[i], sk[j] = sk[j], sk[i] }
-func (sk Skateparks) Less(i, j int) bool { return sk[i].Address.State < sk[j].Address.State }
+func (dom Skateparks) Len() int           { return len(dom) }
+func (dom Skateparks) Swap(i, j int)      { dom[i], dom[j] = dom[j], dom[i] }
+func (dom Skateparks) Less(i, j int) bool { return dom[i].Address.State < dom[j].Address.State }
 
-// GetSkateparksByCityMap organizes a map of skateparks by city
-func (s Skateparks) GetSkateparksByCityMap() (cities map[string][]model.Skatepark) {
-	cities = make(map[string][]model.Skatepark)
-	for i := range s {
-		if _, ok := cities[s[i].Address.City]; !ok {
-			cities[s[i].Address.City] = []model.Skatepark{
-				s[i],
+// CitySkateparkMap is a map of skateparks with the city as a key
+type CitySkateparkMap map[string]Skateparks
+
+// StateSkateparkMap is a map of skateparks with the state as a key
+type StateSkateparkMap map[string]CitySkateparkMap
+
+// CitySkateparkMap organizes a map of skateparks by city
+func (dom Skateparks) CitySkateparkMap() CitySkateparkMap {
+	cities := make(CitySkateparkMap)
+	for i := range dom {
+		if _, ok := cities[dom[i].Address.City]; !ok {
+			cities[dom[i].Address.City] = []model.Skatepark{
+				dom[i],
 			}
 			continue
 		}
-		cities[s[i].Address.City] = append(cities[s[i].Address.City], s[i])
+		cities[dom[i].Address.City] = append(cities[dom[i].Address.City], dom[i])
 	}
 
-	return
+	return cities
 }
 
-// GetSkateparksByStateMap oranizes a map of skateparks by state then by city
-func (s Skateparks) GetSkateparksByStateMap() (states map[string]map[string][]model.Skatepark) {
-	states = make(map[string]map[string][]model.Skatepark)
+// StateSkateparkMap oranizes a map of skateparks by state then by city
+func (dom Skateparks) StateSkateparkMap() StateSkateparkMap {
+	states := make(StateSkateparkMap)
 
 	// first go through and create a map of the states
-	for i := range s {
-		if _, ok := states[s[i].Address.State]; !ok {
-			states[s[i].Address.State] = make(map[string][]model.Skatepark)
+	for i := range dom {
+		if _, ok := states[dom[i].Address.State]; !ok {
+			states[dom[i].Address.State] = make(CitySkateparkMap)
 		}
 	}
 
 	// get a map of the cities
-	cities := s.GetSkateparksByCityMap()
+	cities := dom.CitySkateparkMap()
 
 	// now loop through and get the cities within each state
 	for k, v := range states {
-		for i := range s {
+		for i := range dom {
 			// determine if in the same state
-			if k == s[i].Address.State {
-				v[s[i].Address.City] = cities[s[i].Address.City]
+			if k == dom[i].Address.State {
+				v[dom[i].Address.City] = cities[dom[i].Address.City]
 			}
 		}
 	}
 
-	return
-}
-
-// GetSkateparksByState gets the skateparks organized by state
-func (s Skateparks) GetSkateparksByState() SkateparksByState {
-	// get our handy map
-	m := s.GetSkateparksByStateMap()
-	states := make([]model.SkateparkByState, 0)
-
-	// iterate over each state
-	for km, vm := range m {
-		state := model.SkateparkByState{
-			State:  km,
-			Cities: make([]model.SkateparkByCity, 0),
-		}
-
-		// iterate over each city
-		for kc, vc := range vm {
-			city := model.SkateparkByCity{
-				City:       kc,
-				Skateparks: vc,
-			}
-
-			state.Cities = append(state.Cities, city)
-		}
-
-		c := SkateparksByCity(state.Cities)
-		sort.Sort(c)
-		state.Cities = c
-
-		states = append(states, state)
-	}
-	d := SkateparksByState(states)
-	sort.Sort(d)
-	return d
+	return states
 }

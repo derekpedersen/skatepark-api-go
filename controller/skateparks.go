@@ -26,8 +26,8 @@ func NewSkateparksAPIController(svc service.SkateparksService) *SkateparksAPICon
 	}
 }
 
-// GetSkateparks gets the full collection of skateparks
-func (api *SkateparksAPIControllerImpl) GetSkateparks(w http.ResponseWriter, r *http.Request) {
+// GetSkateparksByState gets the full collection of skateparks
+func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWriter, r *http.Request) {
 	skateparks, err := api.svc.GetSkateparks()
 	if err != nil {
 		log.Errorf("Error in getting skateparks:\n %v", err)
@@ -36,14 +36,7 @@ func (api *SkateparksAPIControllerImpl) GetSkateparks(w http.ResponseWriter, r *
 	}
 	log.Infof("Number of Skateparks: %v", len(skateparks))
 
-	sortedBy := r.URL.Query().Get("sortedBy")
-	var js []byte
-	switch sortedBy {
-	case "state":
-		js, err = json.Marshal(skateparks.GetSkateparksByState())
-	default:
-		js, err = json.Marshal(skateparks)
-	}
+	js, err := json.Marshal(skateparks.StateSkateparkMap())
 
 	if err != nil {
 		log.Errorf("Error in marshalling skateparks:\n %v", err)
@@ -55,8 +48,8 @@ func (api *SkateparksAPIControllerImpl) GetSkateparks(w http.ResponseWriter, r *
 	w.Write(js)
 }
 
-// GetSkateparksByState gets the full collection of skateparks
-func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWriter, r *http.Request) {
+// GetSkateparksByCity gets the full collection of skateparks
+func (api *SkateparksAPIControllerImpl) GetSkateparksByCity(w http.ResponseWriter, r *http.Request) {
 	skateparks, err := api.svc.GetSkateparks()
 	if err != nil {
 		log.Errorf("Error in getting skateparks:\n %v", err)
@@ -65,7 +58,7 @@ func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWrit
 	}
 	log.Infof("Number of Skateparks: %v", len(skateparks))
 
-	js, err := json.Marshal(skateparks.GetSkateparksByState())
+	js, err := json.Marshal(skateparks.CitySkateparkMap())
 
 	if err != nil {
 		log.Errorf("Error in marshalling skateparks:\n %v", err)
