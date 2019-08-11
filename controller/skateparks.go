@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/gorilla/mux"
+
 	"github.com/derekpedersen/skatepark-api-go/service"
 	log "github.com/sirupsen/logrus"
 )
@@ -28,6 +30,8 @@ func NewSkateparksAPIController(svc service.SkateparksService) *SkateparksAPICon
 
 // GetSkateparksByState gets the full collection of skateparks
 func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+
 	skateparks, err := api.svc.GetSkateparks()
 	if err != nil {
 		log.Errorf("Error in getting skateparks:\n %v", err)
@@ -36,16 +40,20 @@ func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWrit
 	}
 	log.Infof("Number of Skateparks: %v", len(skateparks))
 
-	js, err := json.Marshal(skateparks.StateSkateparkMap())
-
-	if err != nil {
-		log.Errorf("Error in marshalling skateparks:\n %v", err)
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
+	m := skateparks.StateSkateparkMap()
+	state := mux.Vars(r)["state"]
+	if val, ok := m[state]; ok {
+		js, err := json.Marshal(val)
+		if err != nil {
+			log.Errorf("Error in marshalling skateparks:\n %v", err)
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
+		}
+		w.Write(js)
+	} else {
+		http.NotFound(w, r)
 	}
-
-	w.Header().Set("Content-Type", "application/json")
-	w.Write(js)
+	return
 }
 
 // GetSkateparksByCity gets the full collection of skateparks
