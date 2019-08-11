@@ -66,7 +66,7 @@ func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWrit
 	}
 	log.Infof("Number of Skateparks: %v", len(skateparks))
 
-	js, err := json.Marshal(skateparks.CitySkateparkMap())
+	js, err := json.Marshal(skateparks.StateSkateparkMap())
 
 	if err != nil {
 		log.Errorf("Error in marshalling skateparks:\n %v", err)
