@@ -28,6 +28,45 @@ func NewSkateparksAPIController(svc service.SkateparksService) *SkateparksAPICon
 	}
 }
 
+// GetSkateparksByState gets the full collection of skateparks
+func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWriter, r *http.Request) {
+	skateparks, err := api.svc.GetSkateparks()
+	if err != nil {
+		log.Errorf("Error in getting skateparks:\n %v", err)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	log.Infof("Number of Skateparks: %v", len(skateparks))
+
+	m := skateparks.StateSkateparkMap()
+	state := mux.Vars(r)["state"]
+	if len(state) > 0 {
+		if val, ok := m[state]; ok {
+			js, err := json.Marshal(val)
+			if err != nil {
+				log.Errorf("Error in marshalling skateparks:\n %v", err)
+				http.Error(w, err.Error(), http.StatusInternalServerError)
+				return
+			}
+			w.Write(js)
+			return
+		}
+		http.NotFound(w, r)
+		return
+	}
+
+	js, err := json.Marshal(skateparks.StateSkateparkMap())
+
+	if err != nil {
+		log.Errorf("Error in marshalling skateparks:\n %v", err)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
+}
+
 // GetSkateparksByCity gets the full collection of skateparks
 func (api *SkateparksAPIControllerImpl) GetSkateparksByCity(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
@@ -40,9 +79,9 @@ func (api *SkateparksAPIControllerImpl) GetSkateparksByCity(w http.ResponseWrite
 	}
 	log.Infof("Number of Skateparks: %v", len(skateparks))
 
-	m := skateparks.StateSkateparkMap()
-	state := mux.Vars(r)["state"]
-	if val, ok := m[state]; ok {
+	m := skateparks.CitySkateparkMap()
+	city := mux.Vars(r)["city"]
+	if val, ok := m[city]; ok {
 		js, err := json.Marshal(val)
 		if err != nil {
 			log.Errorf("Error in marshalling skateparks:\n %v", err)
@@ -54,26 +93,4 @@ func (api *SkateparksAPIControllerImpl) GetSkateparksByCity(w http.ResponseWrite
 		http.NotFound(w, r)
 	}
 	return
-}
-
-// GetSkateparksByState gets the full collection of skateparks
-func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWriter, r *http.Request) {
-	skateparks, err := api.svc.GetSkateparks()
-	if err != nil {
-		log.Errorf("Error in getting skateparks:\n %v", err)
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
-	log.Infof("Number of Skateparks: %v", len(skateparks))
-
-	js, err := json.Marshal(skateparks.StateSkateparkMap())
-
-	if err != nil {
-		log.Errorf("Error in marshalling skateparks:\n %v", err)
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
-
-	w.Header().Set("Content-Type", "application/json")
-	w.Write(js)
 }
