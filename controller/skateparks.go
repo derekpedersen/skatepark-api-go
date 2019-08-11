@@ -28,8 +28,8 @@ func NewSkateparksAPIController(svc service.SkateparksService) *SkateparksAPICon
 	}
 }
 
-// GetSkateparksByState gets the full collection of skateparks
-func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWriter, r *http.Request) {
+// GetSkateparksByCity gets the full collection of skateparks
+func (api *SkateparksAPIControllerImpl) GetSkateparksByCity(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	skateparks, err := api.svc.GetSkateparks()
@@ -56,8 +56,8 @@ func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWrit
 	return
 }
 
-// GetSkateparksByCity gets the full collection of skateparks
-func (api *SkateparksAPIControllerImpl) GetSkateparksByCity(w http.ResponseWriter, r *http.Request) {
+// GetSkateparksByState gets the full collection of skateparks
+func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWriter, r *http.Request) {
 	skateparks, err := api.svc.GetSkateparks()
 	if err != nil {
 		log.Errorf("Error in getting skateparks:\n %v", err)
