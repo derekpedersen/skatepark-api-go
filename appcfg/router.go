@@ -35,7 +35,7 @@ func NewSkateparkAPIRouter() (*mux.Router, error) {
 	skCtrl := controller.NewSkateparksAPIController(skSvc)
 	//api.HandleFunc("/skateparks", skCtrl.GetSkateparks).Methods(http.MethodGet, http.MethodOptions)
 	api.HandleFunc("/skatepark/states", skCtrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
-	api.HandleFunc("/skatepark/states/{state}", skCtrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
-	api.HandleFunc("/skatepark/states/{state}/{city}", skCtrl.GetSkateparksByCity).Methods(http.MethodGet, http.MethodOptions)
+	api.HandleFunc("/skatepark/{state}", skCtrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
+	api.HandleFunc("/skatepark/{state}/{city}", skCtrl.GetSkateparksByCity).Methods(http.MethodGet, http.MethodOptions)
 	return router, nil
 }
