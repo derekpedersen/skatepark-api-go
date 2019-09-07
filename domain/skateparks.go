@@ -1,6 +1,8 @@
 package domain
 
 import (
+	"strings"
+
 	"github.com/derekpedersen/skatepark-api-go/model"
 )
 
@@ -16,6 +18,16 @@ type CitySkateparkMap map[string]Skateparks
 
 // StateSkateparkMap is a map of skateparks with the state as a key
 type StateSkateparkMap map[string]CitySkateparkMap
+
+func (dom Skateparks) GetSkateparkByName(name string) model.Skatepark {
+	s := model.Skatepark{}
+	for i := range dom {
+		if strings.ToLower(dom[i].Name) == strings.ToLower(name) {
+			s = dom[i]
+		}
+	}
+	return s
+}
 
 // CitySkateparkMap organizes a map of skateparks by city
 func (dom Skateparks) CitySkateparkMap() CitySkateparkMap {

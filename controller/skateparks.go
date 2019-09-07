@@ -14,6 +14,7 @@ import (
 type SkateparksAPIController interface {
 	GetSkateparks(w http.ResponseWriter, r *http.Request)
 	GetSkateparksByState(w http.ResponseWriter, r *http.Request)
+	GetSkateparksByName(w http.ResponseWriter, r *http.Request)
 }
 
 // SkateparksAPIControllerImpl implementation
@@ -92,5 +93,30 @@ func (api *SkateparksAPIControllerImpl) GetSkateparksByCity(w http.ResponseWrite
 	} else {
 		http.NotFound(w, r)
 	}
+	return
+}
+
+// GetSkateparksByName gets the full collection of skateparks
+func (api *SkateparksAPIControllerImpl) GetSkateparksByName(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+
+	skateparks, err := api.svc.GetSkateparks()
+	if err != nil {
+		log.Errorf("Error in getting skateparks:\n %v", err)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	log.Infof("Number of Skateparks: %v", len(skateparks))
+
+	name := mux.Vars(r)["skatepark"]
+
+	s := skateparks.GetSkateparkByName(name)
+	js, err := json.Marshal(s)
+	if err != nil {
+		log.Errorf("Error in marshalling skatepark:\n %v", err)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	w.Write(js)
 	return
 }
