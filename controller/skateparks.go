@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/gorilla/mux"
+
 	"github.com/derekpedersen/skatepark-api-go/service"
 	log "github.com/sirupsen/logrus"
 )
@@ -12,6 +14,7 @@ import (
 type SkateparksAPIController interface {
 	GetSkateparks(w http.ResponseWriter, r *http.Request)
 	GetSkateparksByState(w http.ResponseWriter, r *http.Request)
+	GetSkateparksByName(w http.ResponseWriter, r *http.Request)
 }
 
 // SkateparksAPIControllerImpl implementation
@@ -26,8 +29,8 @@ func NewSkateparksAPIController(svc service.SkateparksService) *SkateparksAPICon
 	}
 }
 
-// GetSkateparks gets the full collection of skateparks
-func (api *SkateparksAPIControllerImpl) GetSkateparks(w http.ResponseWriter, r *http.Request) {
+// GetSkateparksByState gets the full collection of skateparks
+func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWriter, r *http.Request) {
 	skateparks, err := api.svc.GetSkateparks()
 	if err != nil {
 		log.Errorf("Error in getting skateparks:\n %v", err)
@@ -36,14 +39,24 @@ func (api *SkateparksAPIControllerImpl) GetSkateparks(w http.ResponseWriter, r *
 	}
 	log.Infof("Number of Skateparks: %v", len(skateparks))
 
-	sortedBy := r.URL.Query().Get("sortedBy")
-	var js []byte
-	switch sortedBy {
-	case "state":
-		js, err = json.Marshal(skateparks.GetSkateparksByState())
-	default:
-		js, err = json.Marshal(skateparks)
+	m := skateparks.StateSkateparkMap()
+	state := mux.Vars(r)["state"]
+	if len(state) > 0 {
+		if val, ok := m[state]; ok {
+			js, err := json.Marshal(val)
+			if err != nil {
+				log.Errorf("Error in marshalling skateparks:\n %v", err)
+				http.Error(w, err.Error(), http.StatusInternalServerError)
+				return
+			}
+			w.Write(js)
+			return
+		}
+		http.NotFound(w, r)
+		return
 	}
+
+	js, err := json.Marshal(skateparks.StateSkateparkMap())
 
 	if err != nil {
 		log.Errorf("Error in marshalling skateparks:\n %v", err)
@@ -55,8 +68,10 @@ func (api *SkateparksAPIControllerImpl) GetSkateparks(w http.ResponseWriter, r *
 	w.Write(js)
 }
 
-// GetSkateparksByState gets the full collection of skateparks
-func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWriter, r *http.Request) {
+// GetSkateparksByCity gets the full collection of skateparks
+func (api *SkateparksAPIControllerImpl) GetSkateparksByCity(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+
 	skateparks, err := api.svc.GetSkateparks()
 	if err != nil {
 		log.Errorf("Error in getting skateparks:\n %v", err)
@@ -65,14 +80,43 @@ func (api *SkateparksAPIControllerImpl) GetSkateparksByState(w http.ResponseWrit
 	}
 	log.Infof("Number of Skateparks: %v", len(skateparks))
 
-	js, err := json.Marshal(skateparks.GetSkateparksByState())
+	m := skateparks.CitySkateparkMap()
+	city := mux.Vars(r)["city"]
+	if val, ok := m[city]; ok {
+		js, err := json.Marshal(val)
+		if err != nil {
+			log.Errorf("Error in marshalling skateparks:\n %v", err)
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
+		}
+		w.Write(js)
+	} else {
+		http.NotFound(w, r)
+	}
+	return
+}
 
+// GetSkateparksByName gets the full collection of skateparks
+func (api *SkateparksAPIControllerImpl) GetSkateparksByName(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+
+	skateparks, err := api.svc.GetSkateparks()
 	if err != nil {
-		log.Errorf("Error in marshalling skateparks:\n %v", err)
+		log.Errorf("Error in getting skateparks:\n %v", err)
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
+	log.Infof("Number of Skateparks: %v", len(skateparks))
 
-	w.Header().Set("Content-Type", "application/json")
+	name := mux.Vars(r)["skatepark"]
+
+	s := skateparks.GetSkateparkByName(name)
+	js, err := json.Marshal(s)
+	if err != nil {
+		log.Errorf("Error in marshalling skatepark:\n %v", err)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
 	w.Write(js)
+	return
 }
