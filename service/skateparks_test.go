@@ -1,4 +1,4 @@
-package service
+package service_test
 
 import (
 	"fmt"
@@ -8,6 +8,7 @@ import (
 	imgModel "github.com/derekpedersen/imgur-go/model"
 	"github.com/derekpedersen/skatepark-api-go/mock"
 	"github.com/derekpedersen/skatepark-api-go/repository"
+	"github.com/derekpedersen/skatepark-api-go/service"
 	"github.com/golang/mock/gomock"
 )
 
@@ -21,7 +22,7 @@ func TestSkateparksService_GetSkateparks_Success(t *testing.T) {
 	os.Setenv("SKATEPARKS_FILE", "../testutils/skateparks.json")
 
 	repo := repository.NewSkateparkRepository()
-	svc := NewSkateparksService(imgSvc, repo)
+	svc := service.NewSkateparksService(imgSvc, repo)
 
 	// Act
 	parks, err := svc.GetSkateparks()
@@ -44,7 +45,7 @@ func TestSkateparks_GetSkateparks_Error_FileRead(t *testing.T) {
 	os.Setenv("SKATEPARKS_FILE", "../testutils/iamnotafile.json")
 
 	repo := repository.NewSkateparkRepository()
-	svc := NewSkateparksService(imgSvc, repo)
+	svc := service.NewSkateparksService(imgSvc, repo)
 
 	// Act
 	_, err := svc.GetSkateparks()
@@ -64,7 +65,7 @@ func TestSkateparks_GetSkateparks_Error_Parse(t *testing.T) {
 	os.Setenv("SKATEPARKS_FILE", "../testutils/bad.json")
 
 	repo := repository.NewSkateparkRepository()
-	svc := NewSkateparksService(imgSvc, repo)
+	svc := service.NewSkateparksService(imgSvc, repo)
 
 	// Act
 	_, err := svc.GetSkateparks()
@@ -85,7 +86,7 @@ func TestSkateparksService_GetSkateparks_Error_Imgur(t *testing.T) {
 	os.Setenv("SKATEPARKS_FILE", "../testutils/skateparks.json")
 
 	repo := repository.NewSkateparkRepository()
-	svc := NewSkateparksService(imgSvc, repo)
+	svc := service.NewSkateparksService(imgSvc, repo)
 
 	// Act
 	parks, err := svc.GetSkateparks()
