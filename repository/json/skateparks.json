@@ -188,12 +188,12 @@
     },
     {
         "id": "00000000-0000-0000-0000-000000000000",
-        "name": "Seatac Community Center Skatepark",
+        "name": "SeaTac Community Center Skatepark",
         "description": "A nice fun little park that was empty on a Saturday around noon. Not a lot for an old bowl rider like myself but there was a mini-ramp to mess around on.",
         "address": {
             "addressLine1": "13735 24th Ave S",
             "addressLine2": "",
-            "city": "Seatac",
+            "city": "SeaTac",
             "state": "WA",
             "zipCode": "98168",
             "googleMaps": {
