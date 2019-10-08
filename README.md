@@ -5,11 +5,10 @@
 
 My skatepark api written in golang. It exposes all of the skateparks that I have been too.
 
-## Dependency Management ##
+## [dep](https://github.com/golang/dep) ##
 
 This project currently uses `dep` as it's dependency management.
 
-- https://github.com/golang/dep
 - go get -u github.com/golang/dep/cmd/dep (curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh)
 - dep init
 - dep ensure
@@ -24,14 +23,16 @@ This project currently uses `dep` as it's dependency management.
 
 Tests? Who needs tests... I have some, but not enough.
 
-### gomock ###
-
-https://github.com/golang/mock
+### [gomock](https://github.com/golang/mock) ###
 
 ```bash
 go get github.com/golang/mock/gomock
 go install github.com/golang/mock/mockgen
 ```
+
+#### [cgo](https://github.com/golang/go/wiki/cgo) ####
+
+`gomock` requires that `gcc` be installed, if lucky enough to be using `apt-get`: `sudo apt-get install gcc libc6-dev`.
 
 ## Docker ##
 
