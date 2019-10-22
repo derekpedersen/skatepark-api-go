@@ -2,9 +2,14 @@ package main
 
 import (
 	"net/http"
+	"os"
 	"sync"
 
+	imgurService "github.com/derekpedersen/imgur-go/service"
 	"github.com/derekpedersen/skatepark-api-go/appcfg"
+	"github.com/derekpedersen/skatepark-api-go/controller"
+	"github.com/derekpedersen/skatepark-api-go/repository"
+	"github.com/derekpedersen/skatepark-api-go/service"
 	"github.com/rs/cors"
 
 	log "github.com/sirupsen/logrus"
@@ -14,7 +19,21 @@ func main() {
 	log.SetLevel(log.DebugLevel) // TODO: make this a flag
 	log.Infof("log level: %v", log.GetLevel())
 
-	skateparkRouter, err := appcfg.NewSkateparkAPIRouter()
+	// setup imgur services
+	apiKey := os.Getenv("IMGUR_API_KEY")
+	imgSvc := imgurService.NewAlbumService(apiKey)
+
+	// set skatepark services
+	skRepo := repository.NewSkateparkRepository()
+	skSvc := service.NewSkateparksService(imgSvc, skRepo)
+	skCtrl := controller.NewSkateparksAPIController(skSvc)
+
+	// setup api routers
+	baseRouter, err := appcfg.NewBaseRouter()
+	if err != nil {
+		log.Fatalf("failed to create baseRouter: %v", err)
+	}
+	skateparkRouter, err := appcfg.NewSkateparkAPIRouter(baseRouter, imgSvc, skCtrl)
 	if err != nil {
 		log.Fatalf("failed to create skateparkRouter: %v", err)
 	}

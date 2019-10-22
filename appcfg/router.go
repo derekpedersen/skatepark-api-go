@@ -2,21 +2,15 @@ package appcfg
 
 import (
 	"net/http"
-	"os"
 
 	imgurService "github.com/derekpedersen/imgur-go/service"
 	"github.com/derekpedersen/skatepark-api-go/controller"
-	"github.com/derekpedersen/skatepark-api-go/repository"
 	"github.com/derekpedersen/skatepark-api-go/service"
 	"github.com/gorilla/mux"
 )
 
-// NewSkateparkAPIRouter creates a new mux router for the skatepark api
-func NewSkateparkAPIRouter() (*mux.Router, error) {
-	// setup imgur service
-	apiKey := os.Getenv("IMGUR_API_KEY")
-	imgSvc := imgurService.NewAlbumService(apiKey)
-
+// NewBaseRouter creates a new base router with standard health checks
+func NewBaseRouter() (*mux.Router, error) {
 	router := mux.NewRouter()
 
 	// health routes
@@ -26,17 +20,22 @@ func NewSkateparkAPIRouter() (*mux.Router, error) {
 	router.HandleFunc("/ready", hctrl.GetReadyMessage)
 	router.HandleFunc("/healthy", hctrl.GetHealthyMessage)
 
+	return router, nil
+}
+
+// NewSkateparkAPIRouter creates a new mux router for the skatepark api
+func NewSkateparkAPIRouter(
+	router *mux.Router,
+	imgur imgurService.AlbumService,
+	skatectrl controller.SkateparksAPIController,
+) (*mux.Router, error) {
 	// api subrouter
 	api := router.StrictSlash(true).PathPrefix("/api").Subrouter()
 
-	// skatepark routes
-	skRepo := repository.NewSkateparkRepository()
-	skSvc := service.NewSkateparksService(imgSvc, skRepo)
-	skCtrl := controller.NewSkateparksAPIController(skSvc)
-	//api.HandleFunc("/skateparks", skCtrl.GetSkateparks).Methods(http.MethodGet, http.MethodOptions)
-	api.HandleFunc("/skatepark/states", skCtrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
-	api.HandleFunc("/skatepark/{state}", skCtrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
-	api.HandleFunc("/skatepark/{state}/{city}", skCtrl.GetSkateparksByCity).Methods(http.MethodGet, http.MethodOptions)
-	api.HandleFunc("/skatepark/{state}/{city}/{skatepark}", skCtrl.GetSkateparksByName).Methods(http.MethodGet, http.MethodOptions)
+	//api.HandleFunc("/skateparks", skatectrl.GetSkateparks).Methods(http.MethodGet, http.MethodOptions)
+	api.HandleFunc("/skatepark/states", skatectrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
+	api.HandleFunc("/skatepark/{state}", skatectrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
+	api.HandleFunc("/skatepark/{state}/{city}", skatectrl.GetSkateparksByCity).Methods(http.MethodGet, http.MethodOptions)
+	api.HandleFunc("/skatepark/{state}/{city}/{skatepark}", skatectrl.GetSkateparksByName).Methods(http.MethodGet, http.MethodOptions)
 	return router, nil
 }
