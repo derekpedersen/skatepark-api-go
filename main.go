@@ -23,16 +23,21 @@ func main() {
 	apiKey := os.Getenv("IMGUR_API_KEY")
 	imgSvc := imgurService.NewAlbumService(apiKey)
 
-	// set skatepark services
+	// setup skatepark services
 	skRepo := repository.NewSkateparkRepository()
 	skSvc := service.NewSkateparksService(imgSvc, skRepo)
 	skCtrl := controller.NewSkateparksAPIController(skSvc)
+
+	// setup health services1
+	hsvc := service.NewHealthService()
+	hctrl := controller.NewHealthAPIController(hsvc)
 
 	// setup api routers
 	baseRouter, err := appcfg.NewBaseRouter()
 	if err != nil {
 		log.Fatalf("failed to create baseRouter: %v", err)
 	}
+	appcfg.AddHealthRoutes(baseRouter, hctrl)
 	skateparkRouter, err := appcfg.NewSkateparkAPIRouter(baseRouter, imgSvc, skCtrl)
 	if err != nil {
 		log.Fatalf("failed to create skateparkRouter: %v", err)
