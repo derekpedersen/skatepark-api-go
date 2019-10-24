@@ -13,6 +13,14 @@ test: mocks
 	go tool cover -html=cp.out -o cp.html && gocover-cobertura < cp.out > cp.xml
 	go tool cover -func=cp.out
 
+swagger:
+	rm -f .docs/swagger/swagger.json
+	go generate
+	swagger validate .docs/swagger/swagger.json
+
+swagger-view: swagger
+	swagger serve .docs/swagger/swagger.json
+
 build:
 	rm -rf bin
 	dep ensure

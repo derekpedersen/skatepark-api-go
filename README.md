@@ -19,6 +19,10 @@ This project currently uses `dep` as it's dependency management.
 - https://github.com/sirupsen/logrus
 - dep ensure -add github.com/sirupsen/logrus
 
+## Swagger ##
+
+This project uses [go-swagger](https://github.com/go-swagger/go-swagger).
+
 ## Testing ##
 
 Tests? Who needs tests... I have some, but not enough.
