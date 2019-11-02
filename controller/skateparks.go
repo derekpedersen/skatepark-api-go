@@ -12,7 +12,8 @@ import (
 
 // SkateparksAPIController interface
 type SkateparksAPIController interface {
-	GetSkateparks(w http.ResponseWriter, r *http.Request)
+	//GetSkateparks(w http.ResponseWriter, r *http.Request)
+	GetSkateparksByCity(w http.ResponseWriter, r *http.Request)
 	GetSkateparksByState(w http.ResponseWriter, r *http.Request)
 	GetSkateparksByName(w http.ResponseWriter, r *http.Request)
 }

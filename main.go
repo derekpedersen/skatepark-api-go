@@ -1,10 +1,71 @@
+//go:generate swagger generate spec -o .docs/swagger/swagger.json
+
+// Package classification Petstore API.
+//
+// the purpose of this application is to provide an application
+// that is using plain go code to define an API
+//
+// This should demonstrate all the possible comment annotations
+// that are available to turn go code into a fully compliant swagger 2.0 spec
+//
+// Terms Of Service:
+//
+// there are no TOS at this moment, use at your own risk we take no responsibility
+//
+//     Schemes: http, https
+//     Host: localhost
+//     BasePath: /v2
+//     Version: 0.0.1
+//     License: MIT http://opensource.org/licenses/MIT
+//     Contact: John Doe<john.doe@example.com> http://john.doe.com
+//
+//     Consumes:
+//     - application/json
+//     - application/xml
+//
+//     Produces:
+//     - application/json
+//     - application/xml
+//
+//     Security:
+//     - api_key:
+//
+//     SecurityDefinitions:
+//     api_key:
+//          type: apiKey
+//          name: KEY
+//          in: header
+//     oauth2:
+//         type: oauth2
+//         authorizationUrl: /oauth2/auth
+//         tokenUrl: /oauth2/token
+//         in: header
+//         scopes:
+//           bar: foo
+//         flow: accessCode
+//
+//     Extensions:
+//     x-meta-value: value
+//     x-meta-array:
+//       - value1
+//       - value2
+//     x-meta-array-obj:
+//       - name: obj
+//         value: field
+//
+// swagger:meta
 package main
 
 import (
 	"net/http"
+	"os"
 	"sync"
 
+	imgurService "github.com/derekpedersen/imgur-go/service"
 	"github.com/derekpedersen/skatepark-api-go/appcfg"
+	"github.com/derekpedersen/skatepark-api-go/controller"
+	"github.com/derekpedersen/skatepark-api-go/repository"
+	"github.com/derekpedersen/skatepark-api-go/service"
 	"github.com/rs/cors"
 
 	log "github.com/sirupsen/logrus"
@@ -14,7 +75,26 @@ func main() {
 	log.SetLevel(log.DebugLevel) // TODO: make this a flag
 	log.Infof("log level: %v", log.GetLevel())
 
-	skateparkRouter, err := appcfg.NewSkateparkAPIRouter()
+	// setup imgur services
+	apiKey := os.Getenv("IMGUR_API_KEY")
+	imgSvc := imgurService.NewAlbumService(apiKey)
+
+	// setup skatepark services
+	skRepo := repository.NewSkateparkRepository()
+	skSvc := service.NewSkateparksService(imgSvc, skRepo)
+	skCtrl := controller.NewSkateparksAPIController(skSvc)
+
+	// setup health services1
+	hsvc := service.NewHealthService()
+	hctrl := controller.NewHealthAPIController(hsvc)
+
+	// setup api routers
+	baseRouter, err := appcfg.NewBaseRouter()
+	if err != nil {
+		log.Fatalf("failed to create baseRouter: %v", err)
+	}
+	appcfg.AddHealthRoutes(baseRouter, hctrl)
+	skateparkRouter, err := appcfg.NewSkateparkAPIRouter(baseRouter, imgSvc, skCtrl)
 	if err != nil {
 		log.Fatalf("failed to create skateparkRouter: %v", err)
 	}

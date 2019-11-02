@@ -2,41 +2,179 @@ package appcfg
 
 import (
 	"net/http"
-	"os"
 
 	imgurService "github.com/derekpedersen/imgur-go/service"
 	"github.com/derekpedersen/skatepark-api-go/controller"
-	"github.com/derekpedersen/skatepark-api-go/repository"
-	"github.com/derekpedersen/skatepark-api-go/service"
 	"github.com/gorilla/mux"
 )
 
+// NewBaseRouter creates a new base router with standard health checks
+func NewBaseRouter() (*mux.Router, error) {
+	return mux.NewRouter(), nil
+}
+
+// AddHealthRoutes adds alive, ready, and healthy routes to the router
+func AddHealthRoutes(
+	router *mux.Router,
+	healthctrl controller.HealthAPIController,
+) {
+	router.HandleFunc("/alive", healthctrl.GetAliveMessage)
+	router.HandleFunc("/ready", healthctrl.GetReadyMessage)
+	router.HandleFunc("/healthy", healthctrl.GetHealthyMessage)
+}
+
 // NewSkateparkAPIRouter creates a new mux router for the skatepark api
-func NewSkateparkAPIRouter() (*mux.Router, error) {
-	// setup imgur service
-	apiKey := os.Getenv("IMGUR_API_KEY")
-	imgSvc := imgurService.NewAlbumService(apiKey)
-
-	router := mux.NewRouter()
-
-	// health routes
-	hsvc := service.NewHealthService()
-	hctrl := controller.NewHealthAPIController(hsvc)
-	router.HandleFunc("/alive", hctrl.GetAliveMessage)
-	router.HandleFunc("/ready", hctrl.GetReadyMessage)
-	router.HandleFunc("/healthy", hctrl.GetHealthyMessage)
-
+func NewSkateparkAPIRouter(
+	router *mux.Router,
+	imgur imgurService.AlbumService,
+	skatectrl controller.SkateparksAPIController,
+) (*mux.Router, error) {
 	// api subrouter
 	api := router.StrictSlash(true).PathPrefix("/api").Subrouter()
 
-	// skatepark routes
-	skRepo := repository.NewSkateparkRepository()
-	skSvc := service.NewSkateparksService(imgSvc, skRepo)
-	skCtrl := controller.NewSkateparksAPIController(skSvc)
-	//api.HandleFunc("/skateparks", skCtrl.GetSkateparks).Methods(http.MethodGet, http.MethodOptions)
-	api.HandleFunc("/skatepark/states", skCtrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
-	api.HandleFunc("/skatepark/{state}", skCtrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
-	api.HandleFunc("/skatepark/{state}/{city}", skCtrl.GetSkateparksByCity).Methods(http.MethodGet, http.MethodOptions)
-	api.HandleFunc("/skatepark/{state}/{city}/{skatepark}", skCtrl.GetSkateparksByName).Methods(http.MethodGet, http.MethodOptions)
+	// swagger:route GET /pets pets users listPets
+	//
+	// Lists pets filtered by some parameters.
+	//
+	// This will show all available pets by default.
+	// You can get the pets that are out of stock
+	//
+	//     Consumes:
+	//     - application/json
+	//     - application/x-protobuf
+	//
+	//     Produces:
+	//     - application/json
+	//     - application/x-protobuf
+	//
+	//     Schemes: http, https, ws, wss
+	//
+	//     Deprecated: true
+	//
+	//     Security:
+	//       api_key:
+	//       oauth: read, write
+	//
+	//     Responses:
+	//       default: genericError
+	//       200: someResponse
+	//       422: validationError
+	//api.HandleFunc("/skateparks", skatectrl.GetSkateparks).Methods(http.MethodGet, http.MethodOptions)
+
+	// swagger:route GET /pets pets users listPets
+	//
+	// Lists pets filtered by some parameters.
+	//
+	// This will show all available pets by default.
+	// You can get the pets that are out of stock
+	//
+	//     Consumes:
+	//     - application/json
+	//     - application/x-protobuf
+	//
+	//     Produces:
+	//     - application/json
+	//     - application/x-protobuf
+	//
+	//     Schemes: http, https, ws, wss
+	//
+	//     Deprecated: true
+	//
+	//     Security:
+	//       api_key:
+	//       oauth: read, write
+	//
+	//     Responses:
+	//       default: genericError
+	//       200: someResponse
+	//       422: validationError
+	api.HandleFunc("/skatepark/states", skatectrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
+
+	// swagger:route GET /pets pets users listPets
+	//
+	// Lists pets filtered by some parameters.
+	//
+	// This will show all available pets by default.
+	// You can get the pets that are out of stock
+	//
+	//     Consumes:
+	//     - application/json
+	//     - application/x-protobuf
+	//
+	//     Produces:
+	//     - application/json
+	//     - application/x-protobuf
+	//
+	//     Schemes: http, https, ws, wss
+	//
+	//     Deprecated: true
+	//
+	//     Security:
+	//       api_key:
+	//       oauth: read, write
+	//
+	//     Responses:
+	//       default: genericError
+	//       200: someResponse
+	//       422: validationError
+	api.HandleFunc("/skatepark/{state}", skatectrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
+
+	// swagger:route GET /pets pets users listPets
+	//
+	// Lists pets filtered by some parameters.
+	//
+	// This will show all available pets by default.
+	// You can get the pets that are out of stock
+	//
+	//     Consumes:
+	//     - application/json
+	//     - application/x-protobuf
+	//
+	//     Produces:
+	//     - application/json
+	//     - application/x-protobuf
+	//
+	//     Schemes: http, https, ws, wss
+	//
+	//     Deprecated: true
+	//
+	//     Security:
+	//       api_key:
+	//       oauth: read, write
+	//
+	//     Responses:
+	//       default: genericError
+	//       200: someResponse
+	//       422: validationError
+	api.HandleFunc("/skatepark/{state}/{city}", skatectrl.GetSkateparksByCity).Methods(http.MethodGet, http.MethodOptions)
+
+	// swagger:route GET /pets pets users listPets
+	//
+	// Lists pets filtered by some parameters.
+	//
+	// This will show all available pets by default.
+	// You can get the pets that are out of stock
+	//
+	//     Consumes:
+	//     - application/json
+	//     - application/x-protobuf
+	//
+	//     Produces:
+	//     - application/json
+	//     - application/x-protobuf
+	//
+	//     Schemes: http, https, ws, wss
+	//
+	//     Deprecated: true
+	//
+	//     Security:
+	//       api_key:
+	//       oauth: read, write
+	//
+	//     Responses:
+	//       default: genericError
+	//       200: someResponse
+	//       422: validationError
+	api.HandleFunc("/skatepark/{state}/{city}/{skatepark}", skatectrl.GetSkateparksByName).Methods(http.MethodGet, http.MethodOptions)
 	return router, nil
 }
