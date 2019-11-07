@@ -1,0 +1,35 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "'Full Pipe' Skatepark",
+        "description": "This park has got a lot going on. The 'S' shaped bowl here is huge and can't wait to get back here when I'm good enough to actually enjoy it. I would highly recomment a helmet if you want to skate this thing. The kidney pool is super steep with out much flat bottom. The street section is small but has some nice features.",
+        "address": {
+            "addressLine1": "11525 SE 240th St",
+            "addressLine2": "",
+            "city": "Kent",
+            "state": "WA",
+            "zipCode": "98031",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d797.7910812156944!2d-122.18805744421311!3d47.38619612552979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905e9760f875fb%3A0x74eb71cd3d1da4f1!2sArbor+Heights+360+Park!5e1!3m2!1sen!2sus!4v1503008644801\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Arbor+Heights+360+Park/@47.3861961,-122.1880574,183m/data=!3m1!1e3!4m8!1m2!2m1!1sKent+skatepark!3m4!1s0x54905e9760f875fb:0x74eb71cd3d1da4f1!8m2!3d47.3861922!4d-122.1871576"
+            }
+        },
+        "albumId": "kn3N4"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "'Old Clover Bowl' Skatepark",
+        "description": "A crusty old park that really shows its age. The coping was literally been bashed in on half of the deep end.",
+        "address": {
+            "addressLine1": "26005 42nd Ave S",
+            "addressLine2": "",
+            "city": "Kent",
+            "state": "WA",
+            "zipCode": "98032",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d560.8231574173672!2d-122.28130921649236!3d47.36978499806071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905bd5af756f17%3A0x3db3b3b4b56ca50e!2sWest+Hill+Skate+Park!5e1!3m2!1sen!2sus!4v1503008753024\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/West+Hill+Skate+Park/@47.369785,-122.2813092,129m/data=!3m1!1e3!4m8!1m2!2m1!1sKent+skatepark!3m4!1s0x54905bd5af756f17:0x3db3b3b4b56ca50e!8m2!3d47.3698289!4d-122.2810012"
+            }
+        },
+        "albumId": "C1Pwz"
+    }]

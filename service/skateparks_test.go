@@ -19,7 +19,7 @@ func TestSkateparksService_GetSkateparks_Success(t *testing.T) {
 	// Arrange
 	imgSvc := mock.NewMockAlbumService(ctrl)
 	imgSvc.EXPECT().GetAlbum(gomock.Any()).Return(&imgModel.Album{}, nil).Times(2)
-	os.Setenv("SKATEPARKS_FILE", "../testutils/skateparks.json")
+	os.Setenv("SKATEPARKS_FILE", "../.tools/test-data/good/")
 
 	repo := repository.NewSkateparkRepository()
 	svc := service.NewSkateparksService(imgSvc, repo)
@@ -42,7 +42,7 @@ func TestSkateparks_GetSkateparks_Error_FileRead(t *testing.T) {
 
 	// Arrange
 	imgSvc := mock.NewMockAlbumService(ctrl)
-	os.Setenv("SKATEPARKS_FILE", "../testutils/iamnotafile.json")
+	os.Setenv("SKATEPARKS_FILE", "../.tools/")
 
 	repo := repository.NewSkateparkRepository()
 	svc := service.NewSkateparksService(imgSvc, repo)
@@ -62,7 +62,7 @@ func TestSkateparks_GetSkateparks_Error_Parse(t *testing.T) {
 
 	// Arrange
 	imgSvc := mock.NewMockAlbumService(ctrl)
-	os.Setenv("SKATEPARKS_FILE", "../testutils/bad.json")
+	os.Setenv("SKATEPARKS_FILE", "../.tools/test-data/bad/")
 
 	repo := repository.NewSkateparkRepository()
 	svc := service.NewSkateparksService(imgSvc, repo)
@@ -83,7 +83,7 @@ func TestSkateparksService_GetSkateparks_Error_Imgur(t *testing.T) {
 	// Arrange
 	imgSvc := mock.NewMockAlbumService(ctrl)
 	imgSvc.EXPECT().GetAlbum(gomock.Any()).Return(nil, fmt.Errorf("imgur is down")).Times(2)
-	os.Setenv("SKATEPARKS_FILE", "../testutils/skateparks.json")
+	os.Setenv("SKATEPARKS_FILE", "../.tools/test-data/good/")
 
 	repo := repository.NewSkateparkRepository()
 	svc := service.NewSkateparksService(imgSvc, repo)

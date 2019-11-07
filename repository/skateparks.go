@@ -10,7 +10,7 @@ import (
 
 // SkateparkRepository interface
 type SkateparkRepository interface {
-	ParseSkateparks(filepath string) ([]model.Skatepark, error)
+	ParseSkateparks(dir string) ([]model.Skatepark, error)
 }
 
 // SkateparkRepositoryImpl implementation
@@ -24,18 +24,27 @@ func NewSkateparkRepository() SkateparkRepository {
 
 // ParseSkateparks returns the collection of skateparks from a json file
 // TODO: make this query a sql db, obvi
-func (repo *SkateparkRepositoryImpl) ParseSkateparks(filepath string) ([]model.Skatepark, error) {
-	raw, err := ioutil.ReadFile(filepath)
+func (repo *SkateparkRepositoryImpl) ParseSkateparks(dir string) ([]model.Skatepark, error) {
+	var result []model.Skatepark
+	files, err := ioutil.ReadDir(dir)
 	if err != nil {
-		log.Errorf("Error reading JSON file:\n %v", err)
-		return nil, err
+		log.Fatal(err)
 	}
 
-	m := []model.Skatepark{}
-	if err = json.Unmarshal(raw, &m); err != nil {
-		log.Errorf("Error unmarshalling []model.Skatepark:\n %v", err)
-		return nil, err
+	for _, v := range files {
+		raw, err := ioutil.ReadFile(dir + v.Name())
+		if err != nil {
+			log.Errorf("Error reading JSON file:\n %v", err)
+			return nil, err
+		}
+
+		m := []model.Skatepark{}
+		if err = json.Unmarshal(raw, &m); err != nil {
+			log.Errorf("Error unmarshalling []model.Skatepark from %v: %v", dir+v.Name(), err)
+			return nil, err
+		}
+		result = append(result, m...)
 	}
 
-	return m, nil
+	return result, nil
 }

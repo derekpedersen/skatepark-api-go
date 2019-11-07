@@ -1,0 +1,172 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Jefferson Park",
+        "description": "This bowl is deep and it's got the best views in the city. The deep end of this bowl is definitely beyond my abilities but the shallow end is fun to rip around. When I was here on a Saturday around noon I only had to share the bowl with 2 other people.",
+        "address": {
+            "addressLine1": "Jefferson Park",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98108",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d642.7461351025994!2d-122.30967601681685!3d47.569189361332526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906a78f7f757dd%3A0xafadae2e6022a3a5!2sJefferson+Park+Skatepark!5e1!3m2!1sen!2sus!4v1502777152926\" frameborder=\"0\" style=\"width: 100%; height: 100%; border:0;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Jefferson+Park+Skatepark/@47.5691894,-122.309676,148m/data=!3m1!1e3!4m12!1m6!3m5!1s0x54906a78f7f757dd:0xafadae2e6022a3a5!2sJefferson+Park+Skatepark!8m2!3d47.5692148!4d-122.3090982!3m4!1s0x54906a78f7f757dd:0xafadae2e6022a3a5!8m2!3d47.5692148!4d-122.3090982"
+            }
+        },
+        "albumId": "KDfk7"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Judkins Park",
+        "description": "The snake run here is a blast but watch out for the bowl at the end it's tight. It's got a street section but I stuck to the snake run. Due to it's size it doesn't take a lot of people to make this place feel packed.",
+        "address": {
+            "addressLine1": "2100 Judkins St",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98144",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d375.74784202762334!2d-122.30445825755689!3d47.59158252744828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906a92ced51059%3A0xbb990f73dbd3899b!2sJudkins+Skatepark!5e1!3m2!1sen!2sus!4v1502777268233\" frameborder=\"0\" style=\"width: 100%; height: 100%; border:0;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Judkins+Skatepark/@47.5915825,-122.3044583,86m/data=!3m1!1e3!4m12!1m6!3m5!1s0x54906a92ced51059:0xbb990f73dbd3899b!2sJudkins+Skatepark!8m2!3d47.5916198!4d-122.3040738!3m4!1s0x54906a92ced51059:0xbb990f73dbd3899b!8m2!3d47.5916198!4d-122.3040738"
+            }
+        },
+        "albumId": "CQeCa"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Delridge Park",
+        "description": "Your choice of a bowl or a classic pool. The bowl is definitely in contention for the best within the city of Seattle. It's got so much flow and is tons of fun to just pump around. The street section is layed out in a snake run type of format - a really nice design.",
+        "address": {
+            "addressLine1": "2124 SW Genesee St",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98106",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d546.8889155472526!2d-122.36466112130472!3d47.56438407800841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549040520c07593f%3A0xbc48eb3698c1b451!2sDelridge+Skatepark!5e1!3m2!1sen!2sus!4v1502777387728\" frameborder=\"0\" style=\"width: 100%; height: 100%; border:0;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Delridge+Skatepark/@47.5643841,-122.3646611,126m/data=!3m1!1e3!4m5!3m4!1s0x549040520c07593f:0xbc48eb3698c1b451!8m2!3d47.5644844!4d-122.3640489"
+            }
+        },
+        "albumId": "67PDX"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Roxhill Park",
+        "description": "A fun a little skatepark. But not much here if you're not a street skater. A typical entry-level neighborhood type of skatepark that is easily overrun by scootet kids.",
+        "address": {
+            "addressLine1": "Roxhill Skatepark",
+            "addressLine2": "SW Barton St",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98126",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d539.0338924731914!2d-122.37021606253607!3d47.52061270803013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490415c2d5d79fb%3A0xc2855ad7ccf8701e!2sRoxhill+Skatepark%2C+Seattle%2C+WA+98126!5e1!3m2!1sen!2sus!4v1502777542323\"  frameborder=\"0\" style=\"width: 100%; height: 100%; border:0;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Roxhill+Skatepark,+Seattle,+WA+98126/@47.5206127,-122.3702161,124m/data=!3m1!1e3!4m13!1m7!3m6!1s0x5490415c2d5d79fb:0xc2855ad7ccf8701e!2sRoxhill+Skatepark,+Seattle,+WA+98126!3b1!8m2!3d47.5206902!4d-122.3694235!3m4!1s0x5490415c2d5d79fb:0xc2855ad7ccf8701e!8m2!3d47.5206902!4d-122.3694235"
+            }
+        },
+        "albumId": "RhoDS"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "River City Skatepark",
+        "description": "With the way its laid out in a circle you can literally pump around and around and around. No coping but the ledges are pretty waxed up in sections.",
+        "address": {
+            "addressLine1": "736 S Cloverdale St",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98108",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d259.21767296048495!2d-122.32404892879444!3d47.52670599588566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490422984d65643%3A0xe1763151749259b7!2sRiver+City+Skatepark!5e1!3m2!1sen!2sus!4v1503009114532\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/River+City+Skatepark/@47.526706,-122.3240489,60m/data=!3m1!1e3!4m5!3m4!1s0x5490422984d65643:0xe1763151749259b7!8m2!3d47.5267355!4d-122.3238024"
+            }
+        },
+        "albumId": "p1WXR"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Crown Hill Park",
+        "description": "It's a mini-ramp. The perfect mini-ramp and it's less than 15 minutes from my house.",
+        "address": {
+            "addressLine1": "9089 Holman Rd NW",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98117",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172.77376125704063!2d-122.37313594552815!3d47.6966349850973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490169b6ab34b35%3A0xd2fdb9de899d24fe!2sCrown+Hill+Park!5e1!3m2!1sen!2sus!4v1503010412077\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Crown+Hill+Park/@47.696635,-122.3731359,40m/data=!3m1!1e3!4m8!1m2!2m1!1sCrown+hill+skatepark!3m4!1s0x5490169b6ab34b35:0xd2fdb9de899d24fe!8m2!3d47.6969063!4d-122.3732137"
+            }
+        },
+        "albumId": "OWcvc"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Lower Woodland Skatepark",
+        "description": "Would you like the bowl or pool today? Super deep bowl that you can really generate some speed in. The pool is steep but comes with real tiles and pool ledge.",
+        "address": {
+            "addressLine1": "Green Lake Way N & N 54th St",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98103",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d504.12462726772856!2d-122.34260294890743!3d47.667696003488864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014457b456bed%3A0x8146145a306b57c6!2sLower+Woodland+Skate+Park!5e1!3m2!1sen!2sus!4v1503011520688\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Lower+Woodland+Skate+Park/@47.667696,-122.3426029,116m/data=!3m1!1e3!4m5!3m4!1s0x549014457b456bed:0x8146145a306b57c6!8m2!3d47.6677183!4d-122.3421789"
+            }
+        },
+        "albumId": "b3C2V"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Dahl Playfield",
+        "description": "Nice neighborhoood park. Not much here but still better than what I had in my neighborhood growing up.",
+        "address": {
+            "addressLine1": "7700 25th Ave NE",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98115",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d282.8114247828162!2d-122.29945370273295!3d47.684672954408875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1503011658437\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/@47.684673,-122.2994537,65m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "vSEIW"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Virgil Flaim Park Skatepark",
+        "description": "A nice new addition to the North Seattle skate options.",
+        "address": {
+            "addressLine1": "2700 NE 123rd St",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98125",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1084.5435853134613!2d-122.30043095750986!3d47.71792148803776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490116473b05e7b%3A0x6fe25b245bb9514a!2sVirgil+Flaim+Park!5e1!3m2!1sen!2sus!4v1513832933977\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Virgil+Flaim+Park/@47.7179215,-122.300431,249m/data=!3m1!1e3!4m8!1m2!2m1!1slake+city+skatepark!3m4!1s0x5490116473b05e7b:0x6fe25b245bb9514a!8m2!3d47.7179895!4d-122.2994898"
+            }
+        },
+        "albumId": "UKtpf"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Hubbard Homestead",
+        "description": "A great intro to bowl riding skatepark setup. Its usually pretty empty but only takes a few people to make it feel cramped. When I started getting back into skating this is usually where I would end up.",
+        "address": {
+            "addressLine1": "11203 5th Ave NE",
+            "addressLine2": "",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98125",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d410.01414516758814!2d-122.3259198126679!3d47.70975640555554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNorthgate+skatepark!5e1!3m2!1sen!2sus!4v1503010696927\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/search/Northgate+skatepark/@47.7097564,-122.3259198,94m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "PZw7z"
+    }
+]
