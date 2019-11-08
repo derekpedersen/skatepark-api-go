@@ -11,7 +11,7 @@ RUN apt-get update \
 
 # Copy the local package files to the container's workspace.
 COPY ./bin/skatepark-api-go /go/bin/
-COPY ./repository/json/skateparks.json /repository/json/
+COPY ./repository/json/ /repository/json/
 
 # Run the command by default when the container starts.
 CMD /go/bin/skatepark-api-go
