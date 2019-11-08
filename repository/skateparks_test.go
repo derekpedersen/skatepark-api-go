@@ -24,7 +24,7 @@ func TestSkateparks_GetSkateparks_Success(t *testing.T) {
 
 func TestSkateparks_GetSkateparks_Error_FileRead(t *testing.T) {
 	// Arrange
-	fp := "../.tools/"
+	fp := "../.tools/test-data/bad/"
 
 	repo := NewSkateparkRepository()
 
