@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Federal Way Skatepark",
+        "description": "A tight packed bowl. To me the best part was the super tall banks in the corner. Another park that is showing it's age.",
+        "address": {
+            "addressLine1": "2620 S 312th St",
+            "addressLine2": "",
+            "city": "Federal Way",
+            "state": "WA",
+            "zipCode": "98003",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2258.9712836583767!2d-122.30043709980991!3d47.32165668890243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24964f4fed75cb87!2sSteel+lake+Skatepark!5e1!3m2!1sen!2sus!4v1511457873045\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Steel+lake+Skatepark/@47.3216567,-122.3004371,519m/data=!3m1!1e3!4m8!1m2!2m1!1sFederal+Way+Skatepark!3m4!1s0x0:0x24964f4fed75cb87!8m2!3d47.3218651!4d-122.2982168"
+            }
+        },
+        "albumId": "PIRuI"
+    }
+]

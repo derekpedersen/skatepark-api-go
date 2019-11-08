@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Dan Dever Memorial Skatepark",
+        "description": "I was headed over to Wallowa Lake in Eastern Oregon to go fishing for Father's Day weekend and found this park when I stopped to grab some food in Othello. It's definitely a gem in a the middle of nowhere. The kids to get to grow up riding this don't know how lucky they are.",
+        "address": {
+            "addressLine1": "901-1099 E Hamlet St",
+            "addressLine2": "",
+            "city": "Othello",
+            "state": "WA",
+            "zipCode": "99344",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d915.2189434102048!2d-119.16026717114465!3d46.82953418669932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5498e02915af19f5%3A0x62c5700e9bd40536!2sDan+Dever+Memorial+Skatepark!5e1!3m2!1sen!2sus!4v1503009336547\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Dan+Dever+Memorial+Skatepark/@46.8295342,-119.1602672,210m/data=!3m1!1e3!4m5!3m4!1s0x5498e02915af19f5:0x62c5700e9bd40536!8m2!3d46.829634!4d-119.1596213"
+            }
+        },
+        "albumId": "SYpcJ"
+    }
+]

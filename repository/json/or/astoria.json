@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Astoria Skatepark",
+        "description": "A big giant open bowl. This bowl was deep and the floor slanted towards the deep end so it was a bit tricky to ride back up to the shallow section.",
+        "address": {
+            "addressLine1": "900 W Marine Dr",
+            "addressLine2": "",
+            "city": "Astoria",
+            "state": "OR",
+            "zipCode": "97103",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d653.2974671317721!2d-123.85200984969339!3d46.1787110501007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549364bbbee7f7ed%3A0x3bf0769a067c04a8!2sAstoria+Skate+Park%2C+900+W+Marine+Dr%2C+Astoria%2C+OR+97103!5e1!3m2!1sen!2sus!4v1503548113510\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Astoria+Skate+Park,+900+W+Marine+Dr,+Astoria,+OR+97103/@46.1787111,-123.8520098,150m/data=!3m2!1e3!4b1!4m8!1m2!2m1!1sastoria+Or+skatepark!3m4!1s0x549364bbbee7f7ed:0x3bf0769a067c04a8!8m2!3d46.1786991!4d-123.8514542"
+            }
+        },
+        "albumId": "OBWey"
+    }
+]

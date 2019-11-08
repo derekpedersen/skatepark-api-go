@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Liberty Skatepark",
+        "description": "This park feels a lot older than it actually is. The bowl has a super steep waterfall that is hard to maintain speed back up.",
+        "address": {
+            "addressLine1": "101 Houser Way N",
+            "addressLine2": "",
+            "city": "Renton",
+            "state": "WA",
+            "zipCode": "98057",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d355.94436203321357!2d-122.20046623251824!3d47.481639140065155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906800164187e1%3A0x4833aa27748de1e8!2sLiberty+skatepark!5e1!3m2!1sen!2sus!4v1503010995480\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Liberty+skatepark/@47.4816391,-122.2004662,82m/data=!3m1!1e3!4m8!1m2!2m1!1sRenton+skatepark!3m4!1s0x54906800164187e1:0x4833aa27748de1e8!8m2!3d47.4816853!4d-122.2000551"
+            }
+        },
+        "albumId": "sj4w9"
+    }
+]

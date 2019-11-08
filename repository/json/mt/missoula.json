@@ -1,0 +1,20 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Missoula Skatepark",
+        "description": "A nice big new style park. Got a nice bowl along with a pool and street area.",
+        "address": {
+            "addressLine1": "15 S Orange St",
+            "addressLine2": "",
+            "city": "Missoula",
+            "state": "MT",
+            "zipCode": "59801",
+            "country": "United States",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2204.862038684614!2d-114.00438358439492!3d46.87145407914284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535dcdd59dd40673%3A0x4714554586b9fd5f!2sMobash+Skate+Park!5e1!3m2!1sen!2sus!4v1531709936155\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/9oeRTKBdGq82"
+            }
+        },
+        "albumId": "JDJuw4J"
+    }
+]

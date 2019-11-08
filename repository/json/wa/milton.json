@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Milton Skatepark",
+        "description": "A huge bowl with pool ledge all around. This pool is deep in spots and leaves you wondering who it was built for. Has a small street section.",
+        "address": {
+            "addressLine1": "903 23rd Ave",
+            "addressLine2": "",
+            "city": "Milton",
+            "state": "WA",
+            "zipCode": "98354",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1913.7931662186445!2d-122.30675951920898!3d47.24938451863529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f3b16aa82fc9cbf!2sMilton+Skate+Park!5e1!3m2!1sen!2sus!4v1511458000271\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Milton+Skate+Park/@47.2493845,-122.3067595,439m/data=!3m1!1e3!4m8!1m2!2m1!1sFederal+Way+Skatepark!3m4!1s0x0:0x1f3b16aa82fc9cbf!8m2!3d47.2498439!4d-122.3046541"
+            }
+        },
+        "albumId": "LbQ4l"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Gig Harbor Skatepark",
+        "description": "I really got the feeling that this park was designed by someone who's kids skated or something. It has a lot of random unconnected features seemingly tossed about. But the deep mini-ramp is pretty sweet.",
+        "address": {
+            "addressLine1": "3510 Grandview St",
+            "addressLine2": "",
+            "city": "Gig Harbor",
+            "state": "WA",
+            "zipCode": "98335",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420.22772556128325!2d-122.58697560927804!3d47.32186876287358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549052d0803ebc51%3A0xb4a9982a87304c28!2sSkate+Park!5e1!3m2!1sen!2sus!4v1503009456575\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Skate+Park/@47.3218688,-122.5869756,97m/data=!3m1!1e3!4m5!3m4!1s0x549052d0803ebc51:0xb4a9982a87304c28!8m2!3d47.3219128!4d-122.5866237"
+            }
+        },
+        "albumId": "sHepo"
+    }
+]

@@ -3,6 +3,8 @@ package repository
 import (
 	"encoding/json"
 	"io/ioutil"
+	"os"
+	"path/filepath"
 
 	"github.com/derekpedersen/skatepark-api-go/model"
 	log "github.com/sirupsen/logrus"
@@ -10,7 +12,7 @@ import (
 
 // SkateparkRepository interface
 type SkateparkRepository interface {
-	ParseSkateparks(filepath string) ([]model.Skatepark, error)
+	ParseSkateparks(dir string) ([]model.Skatepark, error)
 }
 
 // SkateparkRepositoryImpl implementation
@@ -24,18 +26,37 @@ func NewSkateparkRepository() SkateparkRepository {
 
 // ParseSkateparks returns the collection of skateparks from a json file
 // TODO: make this query a sql db, obvi
-func (repo *SkateparkRepositoryImpl) ParseSkateparks(filepath string) ([]model.Skatepark, error) {
-	raw, err := ioutil.ReadFile(filepath)
+func (repo *SkateparkRepositoryImpl) ParseSkateparks(dir string) ([]model.Skatepark, error) {
+	var result []model.Skatepark
+
+	err := filepath.Walk(dir,
+		func(path string, info os.FileInfo, err error) error {
+			if err != nil {
+				return err
+			}
+			if info.IsDir() {
+				return nil
+			}
+			raw, err := ioutil.ReadFile(path)
+			if err != nil {
+				log.Errorf("Error reading JSON file:\n %v", err)
+				return err
+			}
+
+			m := []model.Skatepark{}
+			if err = json.Unmarshal(raw, &m); err != nil {
+				log.Errorf("Error unmarshalling []model.Skatepark from %v: %v", dir+info.Name(), err)
+				return err
+			}
+			result = append(result, m...)
+
+			return nil
+		})
+
 	if err != nil {
-		log.Errorf("Error reading JSON file:\n %v", err)
+		log.Error(err)
 		return nil, err
 	}
 
-	m := []model.Skatepark{}
-	if err = json.Unmarshal(raw, &m); err != nil {
-		log.Errorf("Error unmarshalling []model.Skatepark:\n %v", err)
-		return nil, err
-	}
-
-	return m, nil
+	return result, nil
 }

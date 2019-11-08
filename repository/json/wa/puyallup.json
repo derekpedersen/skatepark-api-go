@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Puyallup Skatepark",
+        "description": "All wood outdoor skateparks are never a good idea. This park has obviously seen better days.",
+        "address": {
+            "addressLine1": "1299 4th St NW",
+            "addressLine2": "",
+            "city": "Puyallup",
+            "state": "WA",
+            "zipCode": "98371",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1360.6524809903517!2d-122.29911496101057!3d47.202140719655105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490f94cda4880e5%3A0x9ed52f3fd53e770c!2sPuyallup+Skatepark!5e1!3m2!1sen!2sus!4v1511458179253\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Puyallup+Skatepark/@47.2021407,-122.299115,312m/data=!3m1!1e3!4m5!3m4!1s0x5490f94cda4880e5:0x9ed52f3fd53e770c!8m2!3d47.2022625!4d-122.2979378"
+            }
+        },
+        "albumId": "nehEp"
+    }
+]

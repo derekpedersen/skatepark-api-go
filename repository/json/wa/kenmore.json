@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Jack V. Crawford Skateboard Park",
+        "description": "The bowl here is incredible. Super smooth and you can really whip around it. But since it's small and doesn't have a lot of features it can only take a small group of people to make it feel packed.",
+        "address": {
+            "addressLine1": "18176 68th Ave NE",
+            "addressLine2": "",
+            "city": "Kenmore",
+            "state": "WA",
+            "zipCode": "98028",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252.00468161020376!2d-122.2495814265002!3d47.761153598623586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54900e280b225625%3A0x258821f74bffd400!2sKenmore+Skatepark!5e1!3m2!1sen!2sus!4v1503010532268\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Kenmore+Skatepark/@47.7611536,-122.2495814,58m/data=!3m1!1e3!4m5!3m4!1s0x54900e280b225625:0x258821f74bffd400!8m2!3d47.7611425!4d-122.2493366"
+            }
+        },
+        "albumId": "tKgG3"
+    }
+]

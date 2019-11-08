@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Adams Skatepark",
+        "description": "A small little skatepark in the middle of nowhere Oregon. While not the greatest it still beats what I had in my neighborhood growing up which was nothing. The quarter pipe leaves much to be desired but the street elements are definitely skateable and enjoyable.",
+        "address": {
+            "addressLine1": "215 Morrison St",
+            "addressLine2": "",
+            "city": "Adams",
+            "state": "OR",
+            "zipCode": "97810",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d596.5119663598464!2d-118.56466638969128!3d45.76851597219244!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb0745e606ab3bfce!2sAdams+Skate+Park!5e1!3m2!1sen!2sus!4v1502771614460\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Adams+Skate+Park/@45.768516,-118.5646664,137m/data=!3m1!1e3!4m13!1m7!3m6!1s0x54a2f922c75ad207:0x380ccfb4ef6dd254!2sAdams,+OR+97810!3b1!8m2!3d45.767354!4d-118.5624734!3m4!1s0x0:0xb0745e606ab3bfce!8m2!3d45.7684688!4d-118.5640374"
+            }
+        },
+        "albumId": "ZVgOe"
+    }
+]

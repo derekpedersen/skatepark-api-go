@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Wenatchee Skatepark",
+        "description": "By it's design this park feels older than it actually is. There is no coping, nor any ledge, it's all roll in around the entire park. There was one fidget spinner looking element that had been waxed up, but that was about it for grinding.",
+        "address": {
+            "addressLine1": "",
+            "addressLine2": "",
+            "city": "Wenatchee",
+            "state": "WA",
+            "zipCode": "98801",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d306.933963596236!2d-120.32061510325794!3d47.41229248497764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549bcccf7e1f532b%3A0xd2f4efc66b3ffeeb!2sPioneer+Skate+Park!5e1!3m2!1sen!2sus!4v1503009772216\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Pioneer+Skate+Park/@47.4122925,-120.3206151,70m/data=!3m1!1e3!4m12!1m6!3m5!1s0x549bcccf7e1f532b:0xd2f4efc66b3ffeeb!2sPioneer+Skate+Park!8m2!3d47.4121435!4d-120.3204491!3m4!1s0x549bcccf7e1f532b:0xd2f4efc66b3ffeeb!8m2!3d47.4121435!4d-120.3204491"
+            }
+        },
+        "albumId": "oxuOt"
+    }
+ ]
