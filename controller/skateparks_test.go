@@ -9,14 +9,14 @@ import (
 	"github.com/golang/mock/gomock"
 )
 
-func TestNewHealthAPIController(t *testing.T) {
+func TestNewSkateparksAPIController(t *testing.T) {
 	// Arrange
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
-	svc := mock.NewMockHealthService(ctrl)
+	svc := mock.NewMockSkateparksService(ctrl)
 
 	// Act
-	r := controller.NewHealthAPIController(svc)
+	r := controller.NewSkateparksAPIController(svc)
 
 	// Assert
 	if r == nil {
