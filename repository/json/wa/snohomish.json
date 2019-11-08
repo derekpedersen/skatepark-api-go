@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Snohomish Skatepark",
+        "description": "I think this might have been built for bikes. This park has definitely seen better days. The coping is all tore up from use my bmx bikes. Not worth the drive.",
+        "address": {
+            "addressLine1": "400 2nd St",
+            "addressLine2": "",
+            "city": "Snohomish",
+            "state": "WA",
+            "zipCode": "98290",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d292.8329349609678!2d-122.08677529961435!3d47.913485838749025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549aa9b244166983%3A0xf598accc71bbca30!2sSnohomish+Skatepark!5e1!3m2!1sen!2sus!4v1503012149886\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/Snohomish+Skatepark/@47.9134858,-122.0867753,67m/data=!3m1!1e3!4m5!3m4!1s0x549aa9b244166983:0xf598accc71bbca30!8m2!3d47.9135204!4d-122.0865386"
+            }
+        },
+        "albumId": "bwqbW"
+    }
+]

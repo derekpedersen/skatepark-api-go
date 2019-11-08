@@ -1,0 +1,37 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "SeaTac Community Center Skatepark",
+        "description": "A nice fun little park that was empty on a Saturday around noon. Not a lot for an old bowl rider like myself but there was a mini-ramp to mess around on.",
+        "address": {
+            "addressLine1": "13735 24th Ave S",
+            "addressLine2": "",
+            "city": "SeaTac",
+            "state": "WA",
+            "zipCode": "98168",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d323.8669797356379!2d-122.30555728401524!3d47.48094837263808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1503008987881\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/@47.4809484,-122.3055573,74m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "iqvao"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Valley Ridge",
+        "description": "A small local park.",
+        "address": {
+            "addressLine1": "4644 S 188th St",
+            "addressLine2": "",
+            "city": "SeaTac",
+            "state": "WA",
+            "zipCode": "98188",
+            "country": "United States",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2185.7060362461475!2d-122.27803044926662!3d47.43632467907154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905cbd486374d1%3A0xdae89a2781500453!2sValley+Ridge+Park!5e1!3m2!1sen!2sus!4v1531710262464\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/6t1tZs2fVX62"
+            }
+        },
+        "albumId": "M89S6fi"
+    }
+]

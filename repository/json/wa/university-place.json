@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "University Place Park Skatepark",
+        "description": "This bowl looks amazing from the parking lot. Once you start riding it you wonder how they could have spent so much money only to leaving the tranny feeling unfinished - it's a real quick transitions in spots.",
+        "address": {
+            "addressLine1": "7454 Cirque Dr W",
+            "addressLine2": "",
+            "city": "University Place",
+            "state": "WA",
+            "zipCode": "98467",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d957.0405020249912!2d-122.53534063194127!3d47.212977469359544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c1d1dc0c205d49d!2sUniversity+Place+Skatepark!5e1!3m2!1sen!2sus!4v1511458511524\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/place/University+Place+Skatepark/@47.2129775,-122.5353406,220m/data=!3m1!1e3!4m8!1m2!2m1!1sUniversity+Place+skatepark!3m4!1s0x0:0x3c1d1dc0c205d49d!8m2!3d47.213155!4d-122.534507"
+            }
+        },
+        "albumId": "qrMxF"
+    }
+]

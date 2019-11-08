@@ -1,0 +1,36 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Wiggums Hollow Park",
+        "description": "A street oriented skatepark. First glance I thought this was only a street park. But while it flows in one direction it's got elements that cater to a bowl style of riding.",
+        "address": {
+            "addressLine1": "2808 10th St",
+            "addressLine2": "",
+            "city": "Everett",
+            "state": "WA",
+            "zipCode": "98201",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d302.2429545247762!2d-122.19468312193926!3d48.003549425313565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1503012066473\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/@48.0035494,-122.1946831,69m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "VB6EM"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Walter Hall Park",
+        "description": "Definitely showing it's age. I seriously used to have to wake up at 6 am on a Saturday to make it here before the crowds when I was 14. Now I show up on Saturday at 5 pm and there were less than 3 kids actually skating.",
+        "address": {
+            "addressLine1": "1226 W Casino Rd",
+            "addressLine2": "",
+            "city": "Everett",
+            "state": "WA",
+            "zipCode": "98204",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d417.71231597964754!2d-122.25129824854109!3d47.91914284041031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sEverett+Skatepark!5e1!3m2!1sen!2sus!4v1503009927626\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/search/Everett+Skatepark/@47.9191428,-122.2512982,96m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "mTWWp"
+    }
+]
