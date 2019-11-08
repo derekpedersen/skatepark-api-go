@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Girdwood Skatepark",
+        "description": "Wood ramps in Alaska? Has a decent looking 6' mini-ramp.",
+        "address": {
+            "addressLine1": "",
+            "addressLine2": "",
+            "city": "Girdwood",
+            "state": "AK",
+            "zipCode": "",
+            "googleMaps": {
+                "embedMap": "",
+                "ShareLink": ""
+            }
+        },
+        "albumId": "4TZhhtk"
+    }
+]

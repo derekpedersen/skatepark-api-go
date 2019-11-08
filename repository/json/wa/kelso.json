@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Kelso Skatepark",
+        "description": "I've always wanted to visit this park as I pass it every time I drive to Portland, slightly aged in it's build quality, it did not disappoint.",
+        "address": {
+            "addressLine1": "",
+            "addressLine2": "",
+            "city": "Kelso",
+            "state": "WA",
+            "zipCode": "",
+            "googleMaps": {
+                "embedMap": "",
+                "ShareLink": ""
+            }
+        },
+        "albumId": "bTd6ciL"
+    }
+]
