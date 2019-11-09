@@ -94,7 +94,7 @@ func main() {
 		log.Fatalf("failed to create baseRouter: %v", err)
 	}
 	appcfg.AddHealthRoutes(baseRouter, hctrl)
-	skateparkRouter, err := appcfg.NewSkateparkAPIRouter(baseRouter, imgSvc, skCtrl)
+	skateparkRouter, err := appcfg.NewSkateparkAPIRouter(baseRouter, skCtrl)
 	if err != nil {
 		log.Fatalf("failed to create skateparkRouter: %v", err)
 	}
