@@ -8,7 +8,7 @@ import (
 	"github.com/derekpedersen/skatepark-api-go/model"
 )
 
-func TestSkateparks(t *testing.T) {
+func TestGetSkateparkByName(t *testing.T) {
 	// Arrange
 	skateparks := []model.Skatepark{
 		model.Skatepark{
@@ -28,3 +28,28 @@ func TestSkateparks(t *testing.T) {
 		t.Error("expected to find a result")
 	}
 }
+
+// func TestGetSkateparkByName(t *testing.T) {
+// 	t.Skip()
+// 	// Arrange
+// 	skateparks := []model.Skatepark{
+// 		model.Skatepark{
+// 			Name: "ted",
+// 			Address: struct {
+// 				AddressLine string
+// 			}{},
+// 		},
+// 		model.Skatepark{
+// 			Name: "bill",
+// 		},
+// 	}
+// 	dom := domain.Skateparks(skateparks)
+
+// 	// Act
+// 	r := dom.CitySkateparkMap("ted")
+
+// 	// Assert
+// 	if r.Name != "ted" {
+// 		t.Error("expected to find a result")
+// 	}
+// }
