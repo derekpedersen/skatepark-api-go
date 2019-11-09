@@ -29,27 +29,29 @@ func TestGetSkateparkByName(t *testing.T) {
 	}
 }
 
-// func TestGetSkateparkByName(t *testing.T) {
-// 	t.Skip()
-// 	// Arrange
-// 	skateparks := []model.Skatepark{
-// 		model.Skatepark{
-// 			Name: "ted",
-// 			Address: struct {
-// 				AddressLine string
-// 			}{},
-// 		},
-// 		model.Skatepark{
-// 			Name: "bill",
-// 		},
-// 	}
-// 	dom := domain.Skateparks(skateparks)
+func TestCitySkateparkMap(t *testing.T) {
+	// Arrange
+	skateparks := []model.Skatepark{
+		model.Skatepark{
+			Name: "ted",
+			Address: model.Address{
+				City: "ted",
+			},
+		},
+		model.Skatepark{
+			Name: "bill",
+			Address: model.Address{
+				City: "bill",
+			},
+		},
+	}
+	dom := domain.Skateparks(skateparks)
 
-// 	// Act
-// 	r := dom.CitySkateparkMap("ted")
+	// Act
+	r := dom.CitySkateparkMap()
 
-// 	// Assert
-// 	if r.Name != "ted" {
-// 		t.Error("expected to find a result")
-// 	}
-// }
+	// Assert
+	if len(r) != 2 {
+		t.Error("expected a result of 2 cities")
+	}
+}
