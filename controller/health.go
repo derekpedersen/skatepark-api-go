@@ -56,7 +56,7 @@ func (api *HealthAPIControllerImpl) GetReadyMessage(w http.ResponseWriter, r *ht
 
 // GetHealthyMessage controller
 func (api *HealthAPIControllerImpl) GetHealthyMessage(w http.ResponseWriter, r *http.Request) {
-	alive := api.svc.GetReadyMessage()
+	alive := api.svc.GetHealthyMessage()
 
 	js, err := json.Marshal(*alive)
 	if err != nil {

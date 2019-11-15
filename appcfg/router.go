@@ -3,7 +3,6 @@ package appcfg
 import (
 	"net/http"
 
-	imgurService "github.com/derekpedersen/imgur-go/service"
 	"github.com/derekpedersen/skatepark-api-go/controller"
 	"github.com/gorilla/mux"
 )
@@ -26,7 +25,6 @@ func AddHealthRoutes(
 // NewSkateparkAPIRouter creates a new mux router for the skatepark api
 func NewSkateparkAPIRouter(
 	router *mux.Router,
-	imgur imgurService.AlbumService,
 	skatectrl controller.SkateparksAPIController,
 ) (*mux.Router, error) {
 	// api subrouter

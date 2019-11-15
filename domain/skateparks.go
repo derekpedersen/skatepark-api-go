@@ -19,6 +19,7 @@ type CitySkateparkMap map[string]Skateparks
 // StateSkateparkMap is a map of skateparks with the state as a key
 type StateSkateparkMap map[string]CitySkateparkMap
 
+// GetSkateparkByName does just that!
 func (dom Skateparks) GetSkateparkByName(name string) model.Skatepark {
 	s := model.Skatepark{}
 	for i := range dom {
