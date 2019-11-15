@@ -30,7 +30,7 @@
   "host": "localhost",
   "basePath": "/v2",
   "paths": {
-    "/pets": {
+    "/skateparks": {
       "get": {
         "security": [
           {
@@ -43,7 +43,7 @@
             ]
           }
         ],
-        "description": "This will show all available pets by default.\nYou can get the pets that are out of stock",
+        "description": "This will show all available skateparks by default.\nYou can get the skateparks that are out of stock",
         "consumes": [
           "application/json",
           "application/x-protobuf"
@@ -59,11 +59,10 @@
           "wss"
         ],
         "tags": [
-          "pets",
-          "users"
+          "skateparks"
         ],
-        "summary": "Lists pets filtered by some parameters.",
-        "operationId": "listPets",
+        "summary": "Lists skateparks filtered by some parameters.",
+        "operationId": "listSkateparks",
         "deprecated": true,
         "responses": {
           "200": {
