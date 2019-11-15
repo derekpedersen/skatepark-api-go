@@ -30,41 +30,12 @@ func NewSkateparkAPIRouter(
 	// api subrouter
 	api := router.StrictSlash(true).PathPrefix("/api").Subrouter()
 
-	// swagger:route GET /pets pets users listPets
+	// swagger:route GET /skateparks skateparks listSkateparks
 	//
-	// Lists pets filtered by some parameters.
+	// Lists skateparks filtered by some parameters.
 	//
-	// This will show all available pets by default.
-	// You can get the pets that are out of stock
-	//
-	//     Consumes:
-	//     - application/json
-	//     - application/x-protobuf
-	//
-	//     Produces:
-	//     - application/json
-	//     - application/x-protobuf
-	//
-	//     Schemes: http, https, ws, wss
-	//
-	//     Deprecated: true
-	//
-	//     Security:
-	//       api_key:
-	//       oauth: read, write
-	//
-	//     Responses:
-	//       default: genericError
-	//       200: someResponse
-	//       422: validationError
-	//api.HandleFunc("/skateparks", skatectrl.GetSkateparks).Methods(http.MethodGet, http.MethodOptions)
-
-	// swagger:route GET /pets pets users listPets
-	//
-	// Lists pets filtered by some parameters.
-	//
-	// This will show all available pets by default.
-	// You can get the pets that are out of stock
+	// This will show all available skateparks by default.
+	// You can get the skateparks that are out of stock
 	//
 	//     Consumes:
 	//     - application/json
@@ -86,14 +57,14 @@ func NewSkateparkAPIRouter(
 	//       default: genericError
 	//       200: someResponse
 	//       422: validationError
-	api.HandleFunc("/skatepark/states", skatectrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
+	api.HandleFunc("/skateparks", skatectrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
 
-	// swagger:route GET /pets pets users listPets
+	// swagger:route GET /skateparks skateparks listSkateparks
 	//
-	// Lists pets filtered by some parameters.
+	// Lists skateparks filtered by some parameters.
 	//
-	// This will show all available pets by default.
-	// You can get the pets that are out of stock
+	// This will show all available skateparks by default.
+	// You can get the skateparks that are out of stock
 	//
 	//     Consumes:
 	//     - application/json
@@ -117,12 +88,12 @@ func NewSkateparkAPIRouter(
 	//       422: validationError
 	api.HandleFunc("/skatepark/{state}", skatectrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
 
-	// swagger:route GET /pets pets users listPets
+	// swagger:route GET /skateparks skateparks listSkateparks
 	//
-	// Lists pets filtered by some parameters.
+	// Lists skateparks filtered by some parameters.
 	//
-	// This will show all available pets by default.
-	// You can get the pets that are out of stock
+	// This will show all available skateparks by default.
+	// You can get the skateparks that are out of stock
 	//
 	//     Consumes:
 	//     - application/json
@@ -146,12 +117,12 @@ func NewSkateparkAPIRouter(
 	//       422: validationError
 	api.HandleFunc("/skatepark/{state}/{city}", skatectrl.GetSkateparksByCity).Methods(http.MethodGet, http.MethodOptions)
 
-	// swagger:route GET /pets pets users listPets
+	// swagger:route GET /skateparks skateparks listSkateparks
 	//
-	// Lists pets filtered by some parameters.
+	// Lists skateparks filtered by some parameters.
 	//
-	// This will show all available pets by default.
-	// You can get the pets that are out of stock
+	// This will show all available skateparks by default.
+	// You can get the skateparks that are out of stock
 	//
 	//     Consumes:
 	//     - application/json
