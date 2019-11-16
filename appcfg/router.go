@@ -22,7 +22,7 @@ func AddHealthRoutes(
 	router.HandleFunc("/healthy", healthctrl.GetHealthyMessage)
 }
 
-// NewSkateparkAPIRouter creates a new mux router for the skatepark api
+// NewSkateparkAPIRouter creates a new mux router for the skateparks api
 func NewSkateparkAPIRouter(
 	router *mux.Router,
 	skatectrl controller.SkateparksAPIController,
@@ -54,9 +54,7 @@ func NewSkateparkAPIRouter(
 	//       oauth: read, write
 	//
 	//     Responses:
-	//       default: genericError
-	//       200: someResponse
-	//       422: validationError
+	//       200: stateSkateparkMap
 	api.HandleFunc("/skateparks", skatectrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
 
 	// swagger:route GET /skateparks skateparks listSkateparks
@@ -83,10 +81,8 @@ func NewSkateparkAPIRouter(
 	//       oauth: read, write
 	//
 	//     Responses:
-	//       default: genericError
-	//       200: someResponse
-	//       422: validationError
-	api.HandleFunc("/skatepark/{state}", skatectrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
+	//       200: stateSkateparkMap
+	api.HandleFunc("/skateparks/{state}", skatectrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
 
 	// swagger:route GET /skateparks skateparks listSkateparks
 	//
@@ -112,10 +108,8 @@ func NewSkateparkAPIRouter(
 	//       oauth: read, write
 	//
 	//     Responses:
-	//       default: genericError
-	//       200: someResponse
-	//       422: validationError
-	api.HandleFunc("/skatepark/{state}/{city}", skatectrl.GetSkateparksByCity).Methods(http.MethodGet, http.MethodOptions)
+	//       200: citySkateparkMap
+	api.HandleFunc("/skateparks/{state}/{city}", skatectrl.GetSkateparksByCity).Methods(http.MethodGet, http.MethodOptions)
 
 	// swagger:route GET /skateparks skateparks listSkateparks
 	//
@@ -141,9 +135,7 @@ func NewSkateparkAPIRouter(
 	//       oauth: read, write
 	//
 	//     Responses:
-	//       default: genericError
-	//       200: someResponse
-	//       422: validationError
-	api.HandleFunc("/skatepark/{state}/{city}/{skatepark}", skatectrl.GetSkateparksByName).Methods(http.MethodGet, http.MethodOptions)
+	//       200: skateparks
+	api.HandleFunc("/skateparks/{state}/{city}/{skateparks}", skatectrl.GetSkateparksByName).Methods(http.MethodGet, http.MethodOptions)
 	return router, nil
 }

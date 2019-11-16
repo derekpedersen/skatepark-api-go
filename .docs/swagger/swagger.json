@@ -66,13 +66,7 @@
         "deprecated": true,
         "responses": {
           "200": {
-            "$ref": "#/responses/someResponse"
-          },
-          "422": {
-            "$ref": "#/responses/validationError"
-          },
-          "default": {
-            "$ref": "#/responses/genericError"
+            "$ref": "#/responses/skatepark"
           }
         }
       }
