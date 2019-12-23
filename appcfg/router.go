@@ -7,6 +7,13 @@ import (
 	"github.com/gorilla/mux"
 )
 
+// NewSwaggerRouter creates a new swagger router
+func NewSwaggerRouter(directory string) *mux.Router {
+	r := mux.NewRouter()
+	r.PathPrefix("/").Handler(http.FileServer(http.Dir(directory)))
+	return r
+}
+
 // NewBaseRouter creates a new base router with standard health checks
 func NewBaseRouter() (*mux.Router, error) {
 	return mux.NewRouter(), nil

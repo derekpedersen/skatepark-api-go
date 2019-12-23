@@ -84,7 +84,7 @@ func main() {
 	skSvc := service.NewSkateparksService(imgSvc, skRepo)
 	skCtrl := controller.NewSkateparksAPIController(skSvc)
 
-	// setup health services1
+	// setup health services
 	hsvc := service.NewHealthService()
 	hctrl := controller.NewHealthAPIController(hsvc)
 
@@ -98,6 +98,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("failed to create skateparkRouter: %v", err)
 	}
+	swaggerRouter := appcfg.NewSwaggerRouter("./.docs/swagger") // TODO: this should be an env var
 
 	// setup cors option
 	c := cors.New(cors.Options{
@@ -119,10 +120,18 @@ func main() {
 
 	var wg sync.WaitGroup
 
+	// start the api server
 	wg.Add(1)
 	go func() {
 		defer wg.Done()
 		log.Fatal(http.ListenAndServe(":8080", c.Handler(skateparkRouter)))
+	}()
+
+	// start the swagger server
+	wg.Add(1)
+	go func() {
+		defer wg.Done()
+		log.Fatal(http.ListenAndServe(":8080", c.Handler(swaggerRouter)))
 	}()
 
 	wg.Wait()
