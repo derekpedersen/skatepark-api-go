@@ -7,10 +7,14 @@ metadata:
   namespace: default
 spec:
   ports:
-  - name: 8080-to-8080-tcp
+  - name: api
     port: 8080
     protocol: TCP
     targetPort: 8080
+  - name: swagger
+    port: 3000
+    protocol: TCP
+    targetPort: 3000
   selector:
     app: skatepark-api-go-deployment
   type: ClusterIP

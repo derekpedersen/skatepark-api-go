@@ -22,4 +22,4 @@ COPY ./.docs/swagger/ ./.docs/swagger/
 CMD /go/bin/skatepark-api-go
 
 # Document that the service listens on port 8080.
-EXPOSE 8080
+EXPOSE 8080 3000
