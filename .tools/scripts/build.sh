@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # clean out existing build artifacts
 rm -rf bin

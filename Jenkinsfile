@@ -17,6 +17,13 @@ pipeline {
                 }
             }
         }
+        stage('Swagger') {
+            steps {
+                dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                    sh 'make swagger'
+                }
+            }
+        }
         stage('Test') {
             steps {
                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {

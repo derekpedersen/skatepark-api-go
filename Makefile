@@ -1,37 +1,16 @@
 export GIT_COMMIT_SHA = $(shell git rev-parse HEAD)
 
-mocks:
-	rm -fr mock
-	mkdir mock
-	# repositories
-	mockgen -source=repository/skateparks.go -destination=mock/mock_skateparks_repository.go -package=mock
-	# services
-	mockgen -source=service/skateparks.go -destination=mock/mock_skateparks_service.go -package=mock
-	mockgen -source=service/health.go -destination=mock/mock_health_service.go -package=mock
-	# controllres
-	mockgen -source=controller/skateparks.go -destination=mock/mock_skateparks_controller.go -package=mock
-	mockgen -source=controller/health.go -destination=mock/mock_health_controller.go -package=mock
-	# external deps
-	mockgen -source=vendor/github.com/derekpedersen/imgur-go/service/album.go -destination=mock/mock_album_service.go -package=mock
-
-test: mocks
-	go test ./... -covermode=count -v -coverprofile cp.out
-	go get github.com/t-yuki/gocover-cobertura
-	go tool cover -html=cp.out -o cp.html && gocover-cobertura < cp.out > cp.xml
-	go tool cover -func=cp.out
+test:
+	.tools/scripts/test.sh
 
 swagger:
-	rm -f .docs/swagger/swagger.json
-	go generate
-	swagger validate .docs/swagger/swagger.json
+	.tools/scripts/swagger.sh
 
 swagger-view: swagger
 	swagger serve .docs/swagger/swagger.json
 
 build:
-	rm -rf bin
-	dep ensure
-	go build -o bin/skatepark-api-go
+	.tools/scripts/build.sh
 
 run: build
 	./bin/skatepark-api-go
