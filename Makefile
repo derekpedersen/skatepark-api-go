@@ -30,4 +30,4 @@ deploy:
 secret:
 	kubectl create -f .kubernetes/secret.yaml
 
-kubernetes: build test docker publish deploy
+kubernetes: build test docker publish
