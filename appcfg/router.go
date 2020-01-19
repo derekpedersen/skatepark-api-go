@@ -143,6 +143,6 @@ func NewSkateparkAPIRouter(
 	//
 	//     Responses:
 	//       200: skateparks
-	api.HandleFunc("/skateparks/{state}/{city}/{skateparks}", skatectrl.GetSkateparksByName).Methods(http.MethodGet, http.MethodOptions)
+	api.HandleFunc("/skateparks/{state}/{city}/{skatepark}", skatectrl.GetSkateparksByName).Methods(http.MethodGet, http.MethodOptions)
 	return router, nil
 }
