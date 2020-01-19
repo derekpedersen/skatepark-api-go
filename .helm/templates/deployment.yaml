@@ -29,11 +29,10 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             - name: IMGUR_API_KEY
-              value: "test"
-              # valueFrom:
-              #   secretKeyRef:
-              #     name: skateparks-secrets
-              #     key: imgurAPIKey
+              valueFrom:
+                secretKeyRef:
+                  name: imgur-api
+                  key: imgurAPIKey
             - name: SKATEPARKS_FILE
               value: "./repository/json/"
           ports:
