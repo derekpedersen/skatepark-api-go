@@ -32,7 +32,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: imgur-api
-                  key: imgurAPIKey
+                  key: imgurApiKey
             - name: SKATEPARKS_FILE
               value: "./repository/json/"
           ports:
