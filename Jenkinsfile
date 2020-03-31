@@ -34,6 +34,7 @@ pipeline {
         stage('Docker') {
             steps {
                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                    sh 'dockerd &'
                     sh 'make docker'
                 }
             }
