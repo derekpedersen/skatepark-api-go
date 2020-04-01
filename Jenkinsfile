@@ -40,7 +40,9 @@ pipeline {
                 label 'docker'
             }
             steps {
-                sh "PYTHONUNBUFFERED=1 gcloud builds submit -t skatepark-api-go:latest ."
+                container('docker') {
+                    sh "PYTHONUNBUFFERED=1 gcloud builds submit -t skatepark-api-go:latest ."
+                }
                 // dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                 //     // sh 'dockerd &'
                 //     // sh 'make docker'
