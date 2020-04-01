@@ -1,9 +1,10 @@
 pipeline {
-    agent {
-        label 'build-golang-stable'
-    }
+    agent none
     stages {
         stage('Checkout') {
+            agent {
+                label 'build-golang-stable'
+            }
             steps{
                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                     checkout scm
@@ -11,6 +12,9 @@ pipeline {
             }
         }
         stage('Build') {
+            agent {
+                label 'build-golang-stable'
+            }
             steps{
                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                     sh 'make build'
