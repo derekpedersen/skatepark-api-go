@@ -66,7 +66,7 @@
         "deprecated": true,
         "responses": {
           "200": {
-            "$ref": "#/responses/skatepark"
+            "$ref": "#/responses/skateparks"
           }
         }
       }

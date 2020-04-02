@@ -24,13 +24,13 @@ pipeline {
         //         }
         //     }
         // }
-        // stage('Test') {
-        //     steps {
-        //         dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
-        //             sh 'make test'
-        //         }
-        //     }
-        // }
+        stage('Test') {
+            steps {
+                dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                    sh 'make test'
+                }
+            }
+        }
         stage('Docker') {
             steps {
                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
@@ -38,18 +38,18 @@ pipeline {
                 }
             }
         }
-    //     stage('Publish') {
-    //         when {
-    //             expression { env.BRANCH_NAME == 'master' }
-    //         }
-    //         steps {
-    //             withCredentials([[$class: 'StringBinding', credentialsId: 'GCLOUD_PROJECT_ID', variable: 'GCLOUD_PROJECT_ID']]) {
-    //                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
-    //                     sh 'make publish'
-    //                 }
-    //             }
-    //         }
-    //     }
+        stage('Publish') {
+            when {
+                expression { env.BRANCH_NAME == 'master' }
+            }
+            steps {
+                withCredentials([[$class: 'StringBinding', credentialsId: 'GCLOUD_PROJECT_ID', variable: 'GCLOUD_PROJECT_ID']]) {
+                    dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                        sh 'make publish'
+                    }
+                }
+            }
+        }
     //     stage('Deploy') {
     //         when {
     //             expression { env.BRANCH_NAME == 'master' }
