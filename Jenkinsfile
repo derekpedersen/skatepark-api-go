@@ -37,20 +37,30 @@ pipeline {
         // }
         stage('Docker') {
             agent {
-                label 'dind'
+                label 'build-golang-stable'
             }
-            steps {
-                container('dind') {
-                //     sh "PYTHONUNBUFFERED=1 gcloud builds submit -t us.gcr.io/sleipnir/skatepark-api-go:latest ."
-                // }
-                //dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
-                    // sh 'dockerd &'
+            steps{
+                dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                    sh 'docker build ./ -t skatepark-api-go:latest --no-cache'
-                    //sh "PYTHONUNBUFFERED=1 gcloud builds submit -t skatepark-api-go:latest ."
-                //}
                 }
             }
         }
+        // stage('Docker') {
+        //     agent {
+        //         label 'dind'
+        //     }
+        //     steps {
+        //         //container('dind') {
+        //         //     sh "PYTHONUNBUFFERED=1 gcloud builds submit -t us.gcr.io/sleipnir/skatepark-api-go:latest ."
+        //         // }
+        //         //dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+        //             // sh 'dockerd &'
+        //            sh 'docker build ./ -t skatepark-api-go:latest --no-cache'
+        //             //sh "PYTHONUNBUFFERED=1 gcloud builds submit -t skatepark-api-go:latest ."
+        //         //}
+        //         //}
+        //     }
+        // }
     //     stage('Publish') {
     //         when {
     //             expression { env.BRANCH_NAME == 'master' }
