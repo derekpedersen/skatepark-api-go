@@ -43,11 +43,11 @@ pipeline {
                 // container('cloud-builders') {
                 //     sh "PYTHONUNBUFFERED=1 gcloud builds submit -t us.gcr.io/sleipnir/skatepark-api-go:latest ."
                 // }
-                dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                //dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                     // sh 'dockerd &'
                    sh 'docker build ./ -t skatepark-api-go:latest --no-cache'
                     //sh "PYTHONUNBUFFERED=1 gcloud builds submit -t skatepark-api-go:latest ."
-                }
+                //}
             }
         }
     //     stage('Publish') {
