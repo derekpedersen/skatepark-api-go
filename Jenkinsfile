@@ -37,15 +37,15 @@ pipeline {
         // }
         stage('Docker') {
             agent {
-                label 'docker'
+                label 'dind'
             }
             steps {
-                container('cloud-builders') {
-                    sh "PYTHONUNBUFFERED=1 gcloud builds submit -t us.gcr.io/sleipnir/skatepark-api-go:latest ."
-                }
+                // container('cloud-builders') {
+                //     sh "PYTHONUNBUFFERED=1 gcloud builds submit -t us.gcr.io/sleipnir/skatepark-api-go:latest ."
+                // }
                 // dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
                 //     // sh 'dockerd &'
-                //     // sh 'make docker'
+                    sh 'make docker'
                 //     sh "PYTHONUNBUFFERED=1 gcloud builds submit -t skatepark-api-go:latest ."
                 // }
             }
