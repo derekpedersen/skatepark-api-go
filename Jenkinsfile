@@ -40,7 +40,7 @@ pipeline {
                 label 'dind'
             }
             steps {
-                // container('cloud-builders') {
+                container('dind') {
                 //     sh "PYTHONUNBUFFERED=1 gcloud builds submit -t us.gcr.io/sleipnir/skatepark-api-go:latest ."
                 // }
                 //dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
