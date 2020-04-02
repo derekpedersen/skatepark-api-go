@@ -48,6 +48,7 @@ pipeline {
                    sh 'docker build ./ -t skatepark-api-go:latest --no-cache'
                     //sh "PYTHONUNBUFFERED=1 gcloud builds submit -t skatepark-api-go:latest ."
                 //}
+                }
             }
         }
     //     stage('Publish') {
