@@ -142,7 +142,7 @@ func NewSkateparkAPIRouter(
 	//       oauth: read, write
 	//
 	//     Responses:
-	//       200: skateparks
+	//       200: []skatepark
 	api.HandleFunc("/skateparks/{state}/{city}/{skatepark}", skatectrl.GetSkateparksByName).Methods(http.MethodGet, http.MethodOptions)
 	return router, nil
 }

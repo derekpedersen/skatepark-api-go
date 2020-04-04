@@ -1,4 +1,4 @@
-//go:generate swagger generate spec -o .docs/swagger/swagger.json
+//go:generate swagger generate spec -m -o .docs/swagger/swagger.json
 
 // Package classification Petstore API.
 //
@@ -21,37 +21,9 @@
 //
 //     Consumes:
 //     - application/json
-//     - application/xml
 //
 //     Produces:
-//     - application/json
-//     - application/xml
-//
-//     Security:
-//     - api_key:
-//
-//     SecurityDefinitions:
-//     api_key:
-//          type: apiKey
-//          name: KEY
-//          in: header
-//     oauth2:
-//         type: oauth2
-//         authorizationUrl: /oauth2/auth
-//         tokenUrl: /oauth2/token
-//         in: header
-//         scopes:
-//           bar: foo
-//         flow: accessCode
-//
-//     Extensions:
-//     x-meta-value: value
-//     x-meta-array:
-//       - value1
-//       - value2
-//     x-meta-array-obj:
-//       - name: obj
-//         value: field
+//     - application/jsons
 //
 // swagger:meta
 package main

@@ -1,11 +1,9 @@
 {
   "consumes": [
-    "application/json",
-    "application/xml"
+    "application/json"
   ],
   "produces": [
-    "application/json",
-    "application/xml"
+    "application/jsons"
   ],
   "schemes": [
     "http",
@@ -66,43 +64,177 @@
         "deprecated": true,
         "responses": {
           "200": {
-            "$ref": "#/responses/skateparks"
+            "description": "skatepark",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/skatepark"
+              }
+            }
           }
         }
       }
     }
   },
-  "securityDefinitions": {
-    "api_key": {
-      "type": "apiKey",
-      "name": "KEY",
-      "in": "header"
+  "definitions": {
+    "Address": {
+      "description": "Address model",
+      "type": "object",
+      "properties": {
+        "addressLine1": {
+          "type": "string",
+          "x-go-name": "AddressLine1"
+        },
+        "addressLine2": {
+          "type": "string",
+          "x-go-name": "AddressLine2"
+        },
+        "city": {
+          "type": "string",
+          "x-go-name": "City"
+        },
+        "googleMaps": {
+          "$ref": "#/definitions/googleMaps"
+        },
+        "state": {
+          "type": "string",
+          "x-go-name": "State"
+        },
+        "zipCode": {
+          "type": "string",
+          "x-go-name": "ZipCode"
+        }
+      },
+      "x-go-package": "github.com/derekpedersen/skatepark-api-go/model"
     },
-    "oauth2": {
-      "type": "oauth2",
-      "in": "header",
-      "flow": "accessCode",
-      "authorizationUrl": "/oauth2/auth",
-      "tokenUrl": "/oauth2/token",
-      "scopes": {
-        "bar": "foo"
-      }
+    "Album": {
+      "description": "Album struct represents the imgur album",
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "object",
+          "x-go-name": "Description"
+        },
+        "id": {
+          "type": "string",
+          "x-go-name": "ID"
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "description": {
+                "type": "string",
+                "x-go-name": "Description"
+              },
+              "id": {
+                "type": "string",
+                "x-go-name": "ID"
+              },
+              "link": {
+                "type": "string",
+                "x-go-name": "Link"
+              },
+              "name": {
+                "type": "object",
+                "x-go-name": "Name"
+              },
+              "title": {
+                "type": "object",
+                "x-go-name": "Title"
+              }
+            }
+          },
+          "x-go-name": "Images"
+        },
+        "title": {
+          "type": "string",
+          "x-go-name": "Title"
+        }
+      },
+      "x-go-package": "github.com/derekpedersen/skatepark-api-go/vendor/github.com/derekpedersen/imgur-go/model"
+    },
+    "CitySkateparkMap": {
+      "description": "CitySkateparkMap is a map of skateparks with the city as a key",
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/Skateparks"
+      },
+      "x-go-package": "github.com/derekpedersen/skatepark-api-go/domain"
+    },
+    "Skateparks": {
+      "description": "Skateparks represents the collection of skateparks",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/skatepark"
+      },
+      "x-go-package": "github.com/derekpedersen/skatepark-api-go/domain"
+    },
+    "StateSkateparkMap": {
+      "description": "StateSkateparkMap is a map of skateparks with the state as a key",
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/CitySkateparkMap"
+      },
+      "x-go-package": "github.com/derekpedersen/skatepark-api-go/domain"
+    },
+    "googleMaps": {
+      "description": "GoogleMaps model",
+      "type": "object",
+      "properties": {
+        "ShareLink": {
+          "type": "string"
+        },
+        "embedMap": {
+          "type": "string",
+          "x-go-name": "EmbedMap"
+        }
+      },
+      "x-go-name": "GoogleMaps",
+      "x-go-package": "github.com/derekpedersen/skatepark-api-go/model"
+    },
+    "healthMessage": {
+      "description": "HealthMessage struct represents the alive messaging",
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string",
+          "x-go-name": "Message"
+        }
+      },
+      "x-go-name": "HealthMessage",
+      "x-go-package": "github.com/derekpedersen/skatepark-api-go/model"
+    },
+    "skatepark": {
+      "description": "Skatepark model",
+      "type": "object",
+      "properties": {
+        "address": {
+          "$ref": "#/definitions/Address"
+        },
+        "album": {
+          "$ref": "#/definitions/Album"
+        },
+        "albumId": {
+          "type": "string",
+          "x-go-name": "AlbumID"
+        },
+        "description": {
+          "type": "string",
+          "x-go-name": "Description"
+        },
+        "id": {
+          "type": "string",
+          "x-go-name": "ID"
+        },
+        "name": {
+          "type": "string",
+          "x-go-name": "Name"
+        }
+      },
+      "x-go-name": "Skatepark",
+      "x-go-package": "github.com/derekpedersen/skatepark-api-go/model"
     }
-  },
-  "security": [
-    {
-      "api_key": []
-    }
-  ],
-  "x-meta-array": [
-    "value1",
-    "value2"
-  ],
-  "x-meta-array-obj": [
-    {
-      "name": "obj",
-      "value": "field"
-    }
-  ],
-  "x-meta-value": "value"
+  }
 }

@@ -3,7 +3,7 @@ package model
 import imgurModel "github.com/derekpedersen/imgur-go/model"
 
 // Skatepark model
-// swagger:model
+// swagger:model skatepark
 type Skatepark struct {
 	ID          string            `json:"id"`
 	Name        string            `json:"name"`
