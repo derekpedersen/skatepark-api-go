@@ -16,7 +16,7 @@ COPY ./bin/skatepark-api-go /go/bin/
 COPY ./repository/json/ /repository/json/
 
 # Copy the swagger files
-COPY ./.docs/swagger/ ./.docs/swagger/
+# COPY ./.docs/swagger/ ./.docs/swagger/
 
 # Run the command by default when the container starts.
 CMD /go/bin/skatepark-api-go
