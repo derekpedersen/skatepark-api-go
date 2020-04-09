@@ -77,36 +77,6 @@
     }
   },
   "definitions": {
-    "Address": {
-      "description": "Address model",
-      "type": "object",
-      "properties": {
-        "addressLine1": {
-          "type": "string",
-          "x-go-name": "AddressLine1"
-        },
-        "addressLine2": {
-          "type": "string",
-          "x-go-name": "AddressLine2"
-        },
-        "city": {
-          "type": "string",
-          "x-go-name": "City"
-        },
-        "googleMaps": {
-          "$ref": "#/definitions/googleMaps"
-        },
-        "state": {
-          "type": "string",
-          "x-go-name": "State"
-        },
-        "zipCode": {
-          "type": "string",
-          "x-go-name": "ZipCode"
-        }
-      },
-      "x-go-package": "github.com/derekpedersen/skatepark-api-go/model"
-    },
     "Album": {
       "description": "Album struct represents the imgur album",
       "type": "object",
@@ -179,6 +149,37 @@
       },
       "x-go-package": "github.com/derekpedersen/skatepark-api-go/domain"
     },
+    "address": {
+      "description": "Address model",
+      "type": "object",
+      "properties": {
+        "addressLine1": {
+          "type": "string",
+          "x-go-name": "AddressLine1"
+        },
+        "addressLine2": {
+          "type": "string",
+          "x-go-name": "AddressLine2"
+        },
+        "city": {
+          "type": "string",
+          "x-go-name": "City"
+        },
+        "googleMaps": {
+          "$ref": "#/definitions/googleMaps"
+        },
+        "state": {
+          "type": "string",
+          "x-go-name": "State"
+        },
+        "zipCode": {
+          "type": "string",
+          "x-go-name": "ZipCode"
+        }
+      },
+      "x-go-name": "Address",
+      "x-go-package": "github.com/derekpedersen/skatepark-api-go/model"
+    },
     "googleMaps": {
       "description": "GoogleMaps model",
       "type": "object",
@@ -211,7 +212,7 @@
       "type": "object",
       "properties": {
         "address": {
-          "$ref": "#/definitions/Address"
+          "$ref": "#/definitions/address"
         },
         "album": {
           "$ref": "#/definitions/Album"

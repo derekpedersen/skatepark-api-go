@@ -1,7 +1,7 @@
 package model
 
 // Address model
-// swagger:model
+// swagger:model address
 type Address struct {
 	AddressLine1 string     `json:"addressLine1"`
 	AddressLine2 string     `json:"addressLine2"`
