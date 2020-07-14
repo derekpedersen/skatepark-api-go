@@ -1,6 +1,9 @@
 export GIT_COMMIT_SHA = $(shell git rev-parse HEAD)
 
-test:
+mocks:
+	.tools/scripts/mocks.sh
+
+test: mocks
 	.tools/scripts/test.sh
 
 swagger:

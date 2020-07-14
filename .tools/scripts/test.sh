@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# generate mocsk
-$MOCKS_SCRIPT="./mocks.sh"
-. "$MOCKS_SCRIPT"
-
 # execute golang tests
 go test ./... -covermode=count -v -coverprofile cp.out
 
