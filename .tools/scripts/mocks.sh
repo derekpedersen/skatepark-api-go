@@ -1,5 +1,7 @@
 #!/bin/bash
 
+go versionn
+
 # clean out existing mocks
 rm -fr mock
 mkdir mock

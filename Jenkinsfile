@@ -6,6 +6,7 @@ pipeline {
         stage('Environment') {
             steps {
                 sh 'go version'
+                sh 'GO111MODULE=on go get github.com/golang/mock/mockgen@1.4.3'
             }
         }
         stage('Checkout') {
