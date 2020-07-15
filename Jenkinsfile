@@ -3,6 +3,11 @@ pipeline {
         label 'build-golang-stable'
     }
     stages {
+        stage('Environment') {
+            steps {
+                sh 'go version'
+            }
+        }
         stage('Checkout') {
             steps{
                 dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
