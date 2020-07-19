@@ -63,7 +63,7 @@ pipeline {
             steps {    
                 withCredentials([file(credentialsId: 'k8s_json', variable: 'k8s_json')]) {
                     dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
-                        sh 'gcloud config set account odin-1985 --key-file=k8s_json'
+                        sh 'gcloud auth activate-service-account odin-1985 --key-file=k8s_json'
                         sh 'make deploy'
                     }
                 }
