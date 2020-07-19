@@ -60,9 +60,12 @@ pipeline {
             when {
                 expression { env.BRANCH_NAME == 'master' }
             }
-            steps {
-                dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
-                    sh 'make deploy'
+            steps {    
+                withCredentials([file(credentialsId: 'sleipnir-1b67b2b11be6.json', variable: 'sleipnir-1b67b2b11be6.json')]) {
+                    dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                        sh 'gcloud config set account odin-1985 --key-file=sleipnir-1b67b2b11be6.json'
+                        sh 'make deploy'
+                    }
                 }
             }
         }
