@@ -1,0 +1,20 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Burlington Skateboard Park",
+        "description": "Got a cool little roller section",
+        "address": {
+            "addressLine1": "729 S Section St",
+            "addressLine2": "",
+            "city": "Burlington",
+            "state": "WA",
+            "zipCode": "98233",
+            "country": "United States",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10581.216740327398!2d-122.3142821!3d48.4698787!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73316daf3c20cc44!2sBurlington%20Skate%20Park!5e0!3m2!1sen!2sus!4v1597268862583!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/8VqrHh9TyLaHzvxB6"
+            }
+        },
+        "albumId": "97TjjSV"
+    }
+]
