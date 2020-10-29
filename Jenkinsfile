@@ -38,7 +38,10 @@ pipeline {
             }
         }
         stage('Docker') {
-            steps {
+            steps {    
+                dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                    sh 'make docker'
+                }
             }
         }
         stage('Publish') {
