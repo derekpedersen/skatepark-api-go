@@ -26,7 +26,7 @@ publish:
 	gcloud docker -- push us.gcr.io/${GCLOUD_PROJECT_ID}/skatepark-api-go:${GIT_COMMIT_SHA}
 
 deploy:
-	helm upgrade skatepark-api .helm
+	helm install skatepark-api .helm
 
 secret:
 	kubectl create -f .kubernetes/secret.yaml

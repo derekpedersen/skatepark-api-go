@@ -39,9 +39,6 @@ pipeline {
         }
         stage('Docker') {
             steps {
-                dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
-                    sh 'make docker'
-                }
             }
         }
         stage('Publish') {
@@ -61,12 +58,8 @@ pipeline {
                 expression { env.BRANCH_NAME == 'master' }
             }
             steps {    
-                withCredentials([file(credentialsId: 'k8s_json', variable: 'k8s_json')]) {
-                    dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
-                        sh "cp \$k8s_json k8s_json.json"
-                        sh 'gcloud auth activate-service-account --key-file=k8s_json.json'
-                        sh 'make deploy'
-                    }
+                dir('/root/workspace/go/src/github.com/derekpedersen/skatepark-api-go') {
+                    sh 'make deploy'
                 }
             }
         }
