@@ -54,17 +54,15 @@ func NewSkateparkAPIRouter(
 	//
 	//     Schemes: http, https, ws, wss
 	//
-	//     Deprecated: true
-	//
 	//     Security:
 	//       api_key:
 	//       oauth: read, write
 	//
 	//     Responses:
-	//       200: stateSkateparkMap
+	//       200: []skatepark
 	api.HandleFunc("/skateparks", skatectrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
 
-	// swagger:route GET /skateparks skateparks listSkateparks
+	// swagger:route GET /skateparks/:state stateSkatepArks listStateSkateparks
 	//
 	// Lists skateparks filtered by some parameters.
 	//
@@ -80,8 +78,6 @@ func NewSkateparkAPIRouter(
 	//     - application/x-protobuf
 	//
 	//     Schemes: http, https, ws, wss
-	//
-	//     Deprecated: true
 	//
 	//     Security:
 	//       api_key:
@@ -91,7 +87,7 @@ func NewSkateparkAPIRouter(
 	//       200: stateSkateparkMap
 	api.HandleFunc("/skateparks/{state}", skatectrl.GetSkateparksByState).Methods(http.MethodGet, http.MethodOptions)
 
-	// swagger:route GET /skateparks skateparks listSkateparks
+	// swagger:route GET /skateparks/:state/:city citySkateparks listCitySkateparks
 	//
 	// Lists skateparks filtered by some parameters.
 	//
@@ -107,8 +103,6 @@ func NewSkateparkAPIRouter(
 	//     - application/x-protobuf
 	//
 	//     Schemes: http, https, ws, wss
-	//
-	//     Deprecated: true
 	//
 	//     Security:
 	//       api_key:
@@ -118,7 +112,7 @@ func NewSkateparkAPIRouter(
 	//       200: citySkateparkMap
 	api.HandleFunc("/skateparks/{state}/{city}", skatectrl.GetSkateparksByCity).Methods(http.MethodGet, http.MethodOptions)
 
-	// swagger:route GET /skateparks skateparks listSkateparks
+	// swagger:route GET /skateparks/:state/:city/:skatepark skateparks getSkatepark
 	//
 	// Lists skateparks filtered by some parameters.
 	//
@@ -142,7 +136,7 @@ func NewSkateparkAPIRouter(
 	//       oauth: read, write
 	//
 	//     Responses:
-	//       200: []skatepark
+	//       200: skatepark
 	api.HandleFunc("/skateparks/{state}/{city}/{skatepark}", skatectrl.GetSkateparksByName).Methods(http.MethodGet, http.MethodOptions)
 	return router, nil
 }

@@ -7,7 +7,7 @@ test: mocks
 	.tools/scripts/test.sh
 
 swagger:
-	# .tools/scripts/swagger.sh
+	.tools/scripts/swagger.sh
 
 swagger-view: swagger
 	swagger serve .docs/swagger/swagger.json

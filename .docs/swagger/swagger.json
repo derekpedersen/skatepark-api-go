@@ -61,7 +61,6 @@
         ],
         "summary": "Lists skateparks filtered by some parameters.",
         "operationId": "listSkateparks",
-        "deprecated": true,
         "responses": {
           "200": {
             "description": "skatepark",
@@ -70,6 +69,136 @@
               "items": {
                 "$ref": "#/definitions/skatepark"
               }
+            }
+          }
+        }
+      }
+    },
+    "/skateparks/:state": {
+      "get": {
+        "security": [
+          {
+            "api_key": []
+          },
+          {
+            "oauth": [
+              "read",
+              "write"
+            ]
+          }
+        ],
+        "description": "This will show all available skateparks by default.\nYou can get the skateparks that are out of stock",
+        "consumes": [
+          "application/json",
+          "application/x-protobuf"
+        ],
+        "produces": [
+          "application/json",
+          "application/x-protobuf"
+        ],
+        "schemes": [
+          "http",
+          "https",
+          "ws",
+          "wss"
+        ],
+        "tags": [
+          "stateSkatepArks"
+        ],
+        "summary": "Lists skateparks filtered by some parameters.",
+        "operationId": "listStateSkateparks",
+        "responses": {
+          "200": {
+            "description": "stateSkateparkMap",
+            "schema": {
+              "$ref": "#/definitions/stateSkateparkMap"
+            }
+          }
+        }
+      }
+    },
+    "/skateparks/:state/:city": {
+      "get": {
+        "security": [
+          {
+            "api_key": []
+          },
+          {
+            "oauth": [
+              "read",
+              "write"
+            ]
+          }
+        ],
+        "description": "This will show all available skateparks by default.\nYou can get the skateparks that are out of stock",
+        "consumes": [
+          "application/json",
+          "application/x-protobuf"
+        ],
+        "produces": [
+          "application/json",
+          "application/x-protobuf"
+        ],
+        "schemes": [
+          "http",
+          "https",
+          "ws",
+          "wss"
+        ],
+        "tags": [
+          "citySkateparks"
+        ],
+        "summary": "Lists skateparks filtered by some parameters.",
+        "operationId": "listCitySkateparks",
+        "responses": {
+          "200": {
+            "description": "citySkateparkMap",
+            "schema": {
+              "$ref": "#/definitions/citySkateparkMap"
+            }
+          }
+        }
+      }
+    },
+    "/skateparks/:state/:city/:skatepark": {
+      "get": {
+        "security": [
+          {
+            "api_key": []
+          },
+          {
+            "oauth": [
+              "read",
+              "write"
+            ]
+          }
+        ],
+        "description": "This will show all available skateparks by default.\nYou can get the skateparks that are out of stock",
+        "consumes": [
+          "application/json",
+          "application/x-protobuf"
+        ],
+        "produces": [
+          "application/json",
+          "application/x-protobuf"
+        ],
+        "schemes": [
+          "http",
+          "https",
+          "ws",
+          "wss"
+        ],
+        "tags": [
+          "skateparks"
+        ],
+        "summary": "Lists skateparks filtered by some parameters.",
+        "operationId": "getSkatepark",
+        "deprecated": true,
+        "responses": {
+          "200": {
+            "description": "skatepark",
+            "schema": {
+              "$ref": "#/definitions/skatepark"
             }
           }
         }
@@ -125,27 +254,11 @@
       },
       "x-go-package": "github.com/derekpedersen/skatepark-api-go/vendor/github.com/derekpedersen/imgur-go/model"
     },
-    "CitySkateparkMap": {
-      "description": "CitySkateparkMap is a map of skateparks with the city as a key",
-      "type": "object",
-      "additionalProperties": {
-        "$ref": "#/definitions/Skateparks"
-      },
-      "x-go-package": "github.com/derekpedersen/skatepark-api-go/domain"
-    },
     "Skateparks": {
       "description": "Skateparks represents the collection of skateparks",
       "type": "array",
       "items": {
         "$ref": "#/definitions/skatepark"
-      },
-      "x-go-package": "github.com/derekpedersen/skatepark-api-go/domain"
-    },
-    "StateSkateparkMap": {
-      "description": "StateSkateparkMap is a map of skateparks with the state as a key",
-      "type": "object",
-      "additionalProperties": {
-        "$ref": "#/definitions/CitySkateparkMap"
       },
       "x-go-package": "github.com/derekpedersen/skatepark-api-go/domain"
     },
@@ -179,6 +292,15 @@
       },
       "x-go-name": "Address",
       "x-go-package": "github.com/derekpedersen/skatepark-api-go/model"
+    },
+    "citySkateparkMap": {
+      "description": "CitySkateparkMap is a map of skateparks with the city as a key",
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/Skateparks"
+      },
+      "x-go-name": "CitySkateparkMap",
+      "x-go-package": "github.com/derekpedersen/skatepark-api-go/domain"
     },
     "googleMaps": {
       "description": "GoogleMaps model",
@@ -236,6 +358,15 @@
       },
       "x-go-name": "Skatepark",
       "x-go-package": "github.com/derekpedersen/skatepark-api-go/model"
+    },
+    "stateSkateparkMap": {
+      "description": "StateSkateparkMap is a map of skateparks with the state as a key",
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/citySkateparkMap"
+      },
+      "x-go-name": "StateSkateparkMap",
+      "x-go-package": "github.com/derekpedersen/skatepark-api-go/domain"
     }
   }
 }

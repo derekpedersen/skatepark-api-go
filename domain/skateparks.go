@@ -14,11 +14,11 @@ func (dom Skateparks) Swap(i, j int)      { dom[i], dom[j] = dom[j], dom[i] }
 func (dom Skateparks) Less(i, j int) bool { return dom[i].Address.State < dom[j].Address.State }
 
 // CitySkateparkMap is a map of skateparks with the city as a key
-// swagger:model
+// swagger:model citySkateparkMap
 type CitySkateparkMap map[string]Skateparks
 
 // StateSkateparkMap is a map of skateparks with the state as a key
-// swagger:model
+// swagger:model stateSkateparkMap
 type StateSkateparkMap map[string]CitySkateparkMap
 
 // GetSkateparkByName does just that!

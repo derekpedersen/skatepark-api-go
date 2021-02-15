@@ -1,6 +1,6 @@
 #!/bin/bash
 
-go versionn
+go version
 
 # clean out existing mocks
 rm -fr mock
