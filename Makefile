@@ -12,6 +12,9 @@ swagger:
 swagger-view: swagger
 	swagger serve .docs/swagger/swagger.json
 
+set-version:
+	./.helm/set-version.sh
+
 build:
 	.tools/scripts/build.sh
 
@@ -25,7 +28,7 @@ publish:
 	docker tag skatepark-api-go us.gcr.io/${GCLOUD_PROJECT_ID}/skatepark-api-go:${GIT_COMMIT_SHA}
 	gcloud docker -- push us.gcr.io/${GCLOUD_PROJECT_ID}/skatepark-api-go:${GIT_COMMIT_SHA}
 
-deploy:
+deploy: set-version
 	helm upgrade skatepark-api .helm
 
 secret:
