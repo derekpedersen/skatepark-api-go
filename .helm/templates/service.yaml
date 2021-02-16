@@ -12,7 +12,7 @@ spec:
       protocol: TCP
       name: http
     - port: {{ .Values.service.swagger }}
-      targetPort: swagger
+      targetPort: 3000
       protocol: TCP
       name: swagger
   selector:
