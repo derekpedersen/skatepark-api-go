@@ -70,7 +70,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("failed to create skateparkRouter: %v", err)
 	}
-	swaggerRouter := appcfg.NewSwaggerRouter("./.docs/swagger") // TODO: this should be an env var
+	swaggerRouter := appcfg.NewSwaggerRouter("./.docs/swagger/") // TODO: this should be an env var
 
 	// setup cors option
 	c := cors.New(cors.Options{
