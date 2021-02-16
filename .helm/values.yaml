@@ -33,6 +33,7 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 8080
+  swagger: 3000
 
 ingress:
   enabled: false
