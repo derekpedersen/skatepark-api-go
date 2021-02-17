@@ -87,7 +87,7 @@ func main() {
 		},
 		AllowCredentials: true,
 		// Enable Debugging for testing, consider disabling in production
-		//Debug: true,
+		// Debug: true,
 	})
 
 	var wg sync.WaitGroup
