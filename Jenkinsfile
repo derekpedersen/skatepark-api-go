@@ -3,7 +3,7 @@ pipeline {
         label 'build-golang-stable'
     }
     options {
-    skipDefaultCheckout true
+        skipDefaultCheckout true
     }
     stages {
         stage('Environment') {
