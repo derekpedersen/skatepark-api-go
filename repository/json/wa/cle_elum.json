@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Cle Elum Skatepark",
+        "description": "Not a fan of metal ramps but this shaded perfect is absolutely perfect for stopping on I-90 roadtrips to give the little one a time to exercise.",
+        "address": {
+            "addressLine1": "Alpha Way",
+            "addressLine2": "",
+            "city": "Cle Elum",
+            "state": "WA",
+            "zipCode": "98922",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.998904453432!2d-120.95252578438361!3d47.197033979159656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549a110c71c72477%3A0x46ff746f2dd20d72!2sCle%20Elum%20Skatepark!5e0!3m2!1sen!2sus!4v1622151625328!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/mqYLaF5nD1oiPYzq6"
+            }
+        },
+        "albumId": "IfRZb4i"
+    }
+]
