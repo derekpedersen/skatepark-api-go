@@ -4,7 +4,7 @@
 rm -rf bin
 
 # gather dependencies
-dep ensure -v
+go mod download
 
 # build binary
 go build -o bin/skatepark-api-go
