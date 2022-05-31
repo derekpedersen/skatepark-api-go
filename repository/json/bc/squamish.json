@@ -1,0 +1,20 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Squamish Skatepark",
+        "description": "This is where I want to retire. There is no better place on planet Earth than the Sea to Sky highway.",
+        "address": {
+            "addressLine1": "Unnamed Road",
+            "addressLine2": "",
+            "city": "Squamish",
+            "state": "BC",
+            "zipCode": "V8B 0K6",
+            "country": "Canada",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.119593504446!2d-123.15332638401472!3d49.70855017937988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486f9769609a3f1%3A0xb2ae03b7b150a56!2sSquamish%20Skatepark!5e0!3m2!1sen!2sus!4v1654021884237!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/fm4wv4SEPPfSY7bm6"
+            }
+        },
+        "albumId": "NAGfamd"
+    }
+]
