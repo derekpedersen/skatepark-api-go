@@ -5,19 +5,13 @@
 
 My skatepark api written in golang. It exposes all of the skateparks that I have been too.
 
-## [dep](https://github.com/golang/dep) ##
+## gomod
 
-This project currently uses `dep` as it's dependency management.
-
-- go get -u github.com/golang/dep/cmd/dep (curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh)
-- dep init
-- dep ensure
-- dep ensure -add github.com/foo/bar
+This project has been updated to use `gomod`, yay!
 
 ## Logging ##
 
 - https://github.com/sirupsen/logrus
-- dep ensure -add github.com/sirupsen/logrus
 
 ## Swagger ##
 
