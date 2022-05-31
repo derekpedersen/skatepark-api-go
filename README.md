@@ -24,8 +24,7 @@ Tests? Who needs tests... I have some, but not enough.
 ### [gomock](https://github.com/golang/mock) ###
 
 ```bash
-go get github.com/golang/mock/gomock
-go install github.com/golang/mock/mockgen
+go install github.com/golang/mock/mockgen@v1.6.0
 ```
 
 #### [cgo](https://github.com/golang/go/wiki/cgo) ####
