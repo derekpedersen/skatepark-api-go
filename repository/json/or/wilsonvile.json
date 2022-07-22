@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "New Wilsonvile Skatepark",
+        "description": "Skateboarding has become so popular that apparently this new subdivision included one among there many of other park spaces. Very cool.",
+        "address": {
+            "addressLine1": "",
+            "addressLine2": "",
+            "city": "Wilsonvile",
+            "state": "OR",
+            "zipCode": "97070",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22445.399786289574!2d-122.82929238437498!3d45.3149909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54956e98d91d938d%3A0xfda7581e79fdf290!2sNew%20Wilsonville%20Skatepark!5e0!3m2!1sen!2sus!4v1658462573450!5m2!1sen!2sus\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/YfANeBjNsTunHnZ47"
+            }
+        },
+        "albumId": "abwp9r9"
+    }
+]
