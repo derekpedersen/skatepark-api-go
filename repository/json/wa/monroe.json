@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Monroe Skatepark",
+        "description": "Has a cool mini ramp area with hump/wave in the middle. Has a decent size street area but it doesn't really appeal to me anymre.",
+        "address": {
+            "addressLine1": " 14964 Fryelands Blvd",
+            "addressLine2": "",
+            "city": "Monroe",
+            "state": "WA",
+            "zipCode": "98272",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2676.794936964424!2d-122.01197168446188!3d47.86293457822832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549aa7b3ff3fdef7%3A0x2c9ade5e0bdeb5bf!2sMonroe%20Wa%20Skatepark!5e0!3m2!1sen!2sus!4v1661633587525!5m2!1sen!2sus\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://goo.gl/maps/oCMXFsMfPosDepHr7"
+            }
+        },
+        "albumId": "tLOgAiu"
+    }
+]
