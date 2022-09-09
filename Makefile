@@ -25,11 +25,11 @@ docker: build
 	docker build ./ -t skatepark-api-go:latest --no-cache
 
 publish:
-	docker tag skatepark-api-go us.gcr.io/${GCLOUD_PROJECT_ID}/skatepark-api-go:${GIT_COMMIT_SHA}
-	gcloud docker -- push us.gcr.io/${GCLOUD_PROJECT_ID}/skatepark-api-go:${GIT_COMMIT_SHA}
+	docker tag skatepark-api-go us.gcr.io/sleipnir/skatepark-api-go:${GIT_COMMIT_SHA}
+	gcloud docker -- push us.gcr.io/sleipnir/skatepark-api-go:${GIT_COMMIT_SHA}
 
 deploy: set-version
-	helm upgrade skatepark-api .helm
+	helm install skatepark-api .helm
 
 secret:
 	kubectl create -f .kubernetes/secret.yaml

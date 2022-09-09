@@ -48,14 +48,15 @@ ingress:
     kubernetes.io/ingress.class: nginx
     cert-manager.io/cluster-issuer: letsencrypt-prod
   hosts:
-    - host: api.celebrityskateboards.com
+    - host: celebrityskateboards.com
       paths:
-        - path: /
+        - path: /api/skateparks
           pathType: ImplementationSpecific
   tls:
-   - secretName: skatepark-api-tls
+   - secretName: celebrityskateboards-com-tls
      hosts:
-      - api.celebrityskateboards.com
+       - celebrityskateboards.com
+       - www.celebrityskateboards.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
