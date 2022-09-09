@@ -11,9 +11,5 @@ spec:
       targetPort: http
       protocol: TCP
       name: http
-    - port: {{ .Values.service.swagger }}
-      targetPort: 3000
-      protocol: TCP
-      name: swagger
   selector:
     {{- include "skatepark-api.selectorLabels" . | nindent 4 }}
