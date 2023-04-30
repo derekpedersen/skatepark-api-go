@@ -1,6 +1,6 @@
 # Start from a Debian image with the latest version of Go installed
 # and a workspace (GOPATH) configured at /go.
-FROM debian:stretch-slim
+FROM debian:stable-slim
 
 # Install wget and install/updates certificates
 RUN apt-get update \
