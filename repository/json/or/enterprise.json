@@ -15,5 +15,22 @@
             }
         },
         "albumId": "tLkdC"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Enterprise Skatepark v2",
+        "description": "Passed by this skatepark on my way to Lake Wallowa to do some fishing and decided to stop and do a few drop ins. Obviously not the greatest skatepark but it sure as hell beats nothing. I get the feeling that it's mostly used by BMX bikers.",
+        "address": {
+            "addressLine1": "",
+            "addressLine2": "",
+            "city": "Enterprise",
+            "state": "OR",
+            "zipCode": "97828",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m13!1m11!1m3!1d599.6711049405196!2d-117.2731148631298!3d45.42022799173233!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1502771401214\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://www.google.com/maps/@45.420228,-117.2731149,138m/data=!3m1!1e3"
+            }
+        },
+        "albumId": "D6plOta"
     }
 ]
