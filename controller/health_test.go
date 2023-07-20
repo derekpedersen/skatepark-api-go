@@ -19,9 +19,10 @@ func TestNewHealthAPIController(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
 	svc := mock.NewMockHealthService(ctrl)
+	skateSvc := mock.NewMockSkateparksService(ctrl)
 
 	// Act
-	r := controller.NewHealthAPIController(svc)
+	r := controller.NewHealthAPIController(svc, skateSvc)
 
 	// Assert
 	if r == nil {
@@ -34,7 +35,8 @@ func TestGetAliveMessage(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
 	svc := mock.NewMockHealthService(ctrl)
-	api := controller.NewHealthAPIController(svc)
+	skateSvc := mock.NewMockSkateparksService(ctrl)
+	api := controller.NewHealthAPIController(svc, skateSvc)
 
 	type args struct {
 		method string
@@ -91,7 +93,8 @@ func TestGetReadyMessage(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
 	svc := mock.NewMockHealthService(ctrl)
-	api := controller.NewHealthAPIController(svc)
+	skateSvc := mock.NewMockSkateparksService(ctrl)
+	api := controller.NewHealthAPIController(svc, skateSvc)
 
 	type args struct {
 		method string
@@ -148,7 +151,8 @@ func TestGetHealthyMessage(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
 	svc := mock.NewMockHealthService(ctrl)
-	api := controller.NewHealthAPIController(svc)
+	skateSvc := mock.NewMockSkateparksService(ctrl)
+	api := controller.NewHealthAPIController(svc, skateSvc)
 
 	type args struct {
 		method string

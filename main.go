@@ -58,7 +58,7 @@ func main() {
 
 	// setup health services
 	hsvc := service.NewHealthService()
-	hctrl := controller.NewHealthAPIController(hsvc)
+	hctrl := controller.NewHealthAPIController(hsvc, skSvc)
 
 	// setup api routers
 	baseRouter, err := appcfg.NewBaseRouter()

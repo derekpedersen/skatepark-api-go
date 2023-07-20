@@ -32,7 +32,8 @@ func TestAddHealthRoutes(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
 	svc := service.NewHealthService()
-	api := controller.NewHealthAPIController(svc)
+	skateSvc := mock.NewMockSkateparksService(ctrl)
+	api := controller.NewHealthAPIController(svc, skateSvc)
 	router, err := appcfg.NewBaseRouter()
 	if err != nil {
 		t.Fatalf("encountered unexpected error: %v", err)
