@@ -8,6 +8,7 @@ import (
 	"github.com/gorilla/mux"
 
 	"github.com/derekpedersen/skatepark-api-go/controller"
+	"github.com/derekpedersen/skatepark-api-go/domain"
 	"github.com/derekpedersen/skatepark-api-go/mock"
 	"github.com/derekpedersen/skatepark-api-go/model"
 
@@ -62,9 +63,14 @@ func TestGetAliveMessage(t *testing.T) {
 		Message: "Howdy",
 	}
 
+	skateparks := domain.Skateparks(
+		[]model.Skatepark{},
+	)
+
 	gomock.InOrder(
 		// GetAliveMessage: 200
 		svc.EXPECT().GetAliveMessage().Return(&msg),
+		skateSvc.EXPECT().GetSkateparks().Return(skateparks, nil),
 	)
 
 	// Act
@@ -120,9 +126,14 @@ func TestGetReadyMessage(t *testing.T) {
 		Message: "Howdy",
 	}
 
+	skateparks := domain.Skateparks(
+		[]model.Skatepark{},
+	)
+
 	gomock.InOrder(
 		// GetAliveMessage: 200
 		svc.EXPECT().GetReadyMessage().Return(&msg),
+		skateSvc.EXPECT().GetSkateparks().Return(skateparks, nil),
 	)
 
 	// Act
@@ -178,9 +189,14 @@ func TestGetHealthyMessage(t *testing.T) {
 		Message: "Howdy",
 	}
 
+	skateparks := domain.Skateparks(
+		[]model.Skatepark{},
+	)
+
 	gomock.InOrder(
 		// GetHealthyMessage: 200
 		svc.EXPECT().GetHealthyMessage().Return(&msg),
+		skateSvc.EXPECT().GetSkateparks().Return(skateparks, nil),
 	)
 
 	// Act
