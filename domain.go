@@ -1,17 +1,6 @@
-package domain
+package skatepark_api
 
-import (
-	"strings"
-
-	"github.com/derekpedersen/skatepark-api-go/model"
-)
-
-// Skateparks represents the collection of skateparks
-type Skateparks []model.Skatepark
-
-func (dom Skateparks) Len() int           { return len(dom) }
-func (dom Skateparks) Swap(i, j int)      { dom[i], dom[j] = dom[j], dom[i] }
-func (dom Skateparks) Less(i, j int) bool { return dom[i].Address.State < dom[j].Address.State }
+import "strings"
 
 // CitySkateparkMap is a map of skateparks with the city as a key
 // swagger:model citySkateparkMap
@@ -22,8 +11,8 @@ type CitySkateparkMap map[string]Skateparks
 type StateSkateparkMap map[string]CitySkateparkMap
 
 // GetSkateparkByName does just that!
-func (dom Skateparks) GetSkateparkByName(name string) model.Skatepark {
-	s := model.Skatepark{}
+func (dom Skateparks) GetSkateparkByName(name string) Skatepark {
+	s := Skatepark{}
 	for i := range dom {
 		if strings.ToLower(dom[i].Name) == strings.ToLower(name) {
 			s = dom[i]
@@ -37,7 +26,7 @@ func (dom Skateparks) CitySkateparkMap() CitySkateparkMap {
 	cities := make(CitySkateparkMap)
 	for i := range dom {
 		if _, ok := cities[dom[i].Address.City]; !ok {
-			cities[dom[i].Address.City] = []model.Skatepark{
+			cities[dom[i].Address.City] = []Skatepark{
 				dom[i],
 			}
 			continue

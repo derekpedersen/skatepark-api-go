@@ -12,21 +12,21 @@
 //
 // there are no TOS at this moment, use at your own risk we take no responsibility
 //
-//     Schemes: http, https
-//     Host: localhost
-//     BasePath: /v2
-//     Version: 0.0.1
-//     License: MIT http://opensource.org/licenses/MIT
-//     Contact: John Doe<john.doe@example.com> http://john.doe.com
+//	Schemes: http, https
+//	Host: localhost
+//	BasePath: /v2
+//	Version: 0.0.1
+//	License: MIT http://opensource.org/licenses/MIT
+//	Contact: John Doe<john.doe@example.com> http://john.doe.com
 //
-//     Consumes:
-//     - application/json
+//	Consumes:
+//	- application/json
 //
-//     Produces:
-//     - application/jsons
+//	Produces:
+//	- application/jsons
 //
 // swagger:meta
-package main
+package skatepark_api
 
 import (
 	"net/http"
@@ -34,10 +34,6 @@ import (
 	"sync"
 
 	imgurService "github.com/derekpedersen/imgur-go/service"
-	"github.com/derekpedersen/skatepark-api-go/appcfg"
-	"github.com/derekpedersen/skatepark-api-go/controller"
-	"github.com/derekpedersen/skatepark-api-go/repository"
-	"github.com/derekpedersen/skatepark-api-go/service"
 	"github.com/rs/cors"
 
 	log "github.com/sirupsen/logrus"
@@ -52,25 +48,25 @@ func main() {
 	imgSvc := imgurService.NewAlbumService(apiKey)
 
 	// setup skatepark services
-	skRepo := repository.NewSkateparkRepository()
-	skSvc := service.NewSkateparksService(imgSvc, skRepo)
-	skCtrl := controller.NewSkateparksAPIController(skSvc)
+	if _, err := ParseSkateparks(os.Getenv("SKATEPARKS_FILE")); err != nil {
+		log.Fatal(err)
+	}
 
 	// setup health services
-	hsvc := service.NewHealthService()
-	hctrl := controller.NewHealthAPIController(hsvc)
+	hsvc := NewHealthService()
+	hctrl := NewHealthAPIController(hsvc)
 
 	// setup api routers
-	baseRouter, err := appcfg.NewBaseRouter()
+	baseRouter, err := NewBaseRouter()
 	if err != nil {
 		log.Fatalf("failed to create baseRouter: %v", err)
 	}
-	appcfg.AddHealthRoutes(baseRouter, hctrl)
-	skateparkRouter, err := appcfg.NewSkateparkAPIRouter(baseRouter, skCtrl)
+	AddHealthRoutes(baseRouter, hctrl)
+	skateparkRouter, err := NewSkateparkAPIRouter(baseRouter)
 	if err != nil {
 		log.Fatalf("failed to create skateparkRouter: %v", err)
 	}
-	swaggerRouter := appcfg.NewSwaggerRouter("./.docs/swagger/") // TODO: this should be an env var
+	swaggerRouter := NewSwaggerRouter("./.docs/swagger/") // TODO: this should be an env var
 
 	// setup cors option
 	c := cors.New(cors.Options{
