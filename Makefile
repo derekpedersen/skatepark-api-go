@@ -39,6 +39,6 @@ deploy: set-version
 	helm upgrade skatepark-api .helm
 
 secret:
-	kubectl create -f .kubernetes/secret.yaml
+	kubectl apply -f .kubernetes/secret.yaml
 
 kubernetes: build test docker publish deploy
