@@ -1,13 +1,21 @@
 export GIT_COMMIT_SHA = $(shell git rev-parse HEAD)
 
+dependencies:
+	go mod tidy && \
+	go mod download
+
 mocks:
 	.tools/scripts/mocks.sh
 
 test: mocks
-	.tools/scripts/test.sh
+	go test ./... -covermode=count -v -coverprofile cp.out && \
+	go tool cover -html=cp.out -o cp.html && \
+	go tool cover -func=cp.out
 
 swagger:
-	.tools/scripts/swagger.sh
+	rm -f .docs/swagger/swagger.json && \
+	go generate && \
+	swagger validate .docs/swagger/swagger.json
 
 swagger-view: swagger
 	swagger serve .docs/swagger/swagger.json
@@ -15,8 +23,10 @@ swagger-view: swagger
 set-version:
 	./.helm/set-version.sh
 
-build:
-	.tools/scripts/build.sh
+build: dependencies
+	rm -rf bin && \
+	cd cmd && \
+	build -o ../bin/skatepark-api-go
 
 run: build
 	./bin/skatepark-api-go

@@ -15,6 +15,7 @@ func NewSwaggerRouter(directory string) *mux.Router {
 
 // NewBaseRouter creates a new base router with standard health checks
 func NewBaseRouter() (*mux.Router, error) {
+
 	return mux.NewRouter(), nil
 }
 

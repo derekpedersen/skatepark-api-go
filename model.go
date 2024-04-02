@@ -1,6 +1,6 @@
 package skatepark_api
 
-import imgurModel "github.com/derekpedersen/imgur-go/model"
+import "github.com/derekpedersen/imgur-go/album"
 
 // swagger:model googleMaps
 type GoogleMaps struct {
@@ -20,12 +20,12 @@ type Address struct {
 
 // swagger:model skatepark
 type Skatepark struct {
-	ID          string            `json:"id"`
-	Name        string            `json:"name"`
-	Description string            `json:"description"`
-	Address     Address           `json:"address"`
-	AlbumID     string            `json:"albumId"`
-	Album       *imgurModel.Album `json:"album"`
+	ID          string       `json:"id"`
+	Name        string       `json:"name"`
+	Description string       `json:"description"`
+	Address     Address      `json:"address"`
+	AlbumID     string       `json:"albumId"`
+	Album       *album.Album `json:"album"`
 }
 
 // swagger:model skateparks

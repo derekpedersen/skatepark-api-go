@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"time"
 
-	imgurService "github.com/derekpedersen/imgur-go/service"
+	"github.com/derekpedersen/imgur-go/album"
 )
 
 var (
 	SKATEPARKS     = Skateparks{}
-	IMGUR_SVC      imgurService.AlbumService
+	IMGUR_SVC      album.AlbumService
 	last_loaded_at = time.Time{}
 )
 
