@@ -15,5 +15,22 @@
             }
         },
         "albumId": "tLkdC"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Enterprise Skatepark v2",
+        "description": "A nice resurfacing with skatelite and some new features. Love to see a mini ramp like this out there.",
+        "address": {
+            "addressLine1": "",
+            "addressLine2": "",
+            "city": "Enterprise",
+            "state": "OR",
+            "zipCode": "97828",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.4529895880532!2d-117.27569498651135!3d45.42036913623922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a3f9f762a270c3%3A0xd5ea2423b4dfc4dc!2sEnterprise%20Skatepark!5e0!3m2!1sen!2sus!4v1712032111317!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/CUwtFwHREPNFuVxg7"
+            }
+        },
+        "albumId": "D6plOta"
     }
 ]

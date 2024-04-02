@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Riverside Skatepark",
+        "description": "A nice park layout, but lots of sun in the summer.",
+        "address": {
+            "addressLine1": "832 N Howard St",
+            "addressLine2": "",
+            "city": "Spokane",
+            "state": "WA",
+            "zipCode": "99201",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.1119280084554!2d-117.42337428646645!3d47.662821983971035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549e19f5d1e4c8a5%3A0x4bb7bc1da91fef4a!2sRiverfront%20Skate%20%26%20Wheels%20Park!5e0!3m2!1sen!2sus!4v1712031832866!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/vTXJjoKUmBUZFteb6"
+            }
+        },
+        "albumId": "3y0OoW8"
+    }
+]

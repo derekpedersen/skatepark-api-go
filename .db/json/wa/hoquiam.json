@@ -1,0 +1,20 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Hoquiam skate Park",
+        "description": "Better than nothing",
+        "address": {
+            "addressLine1": "501 W Emerson Ave",
+            "addressLine2": "",
+            "city": "Hoquiam",
+            "state": "WA",
+            "zipCode": "98550",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2721.9869967236114!2d-123.91635288648044!3d46.98159003080573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54923909164aa763%3A0x4e4db1d2cda9b435!2sHoquiam%20Skate%20Park!5e0!3m2!1sen!2sus!4v1712031479366!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/CuLKAtHaBU9BVqeZ6"
+            }
+        },
+        "albumId": "PpD0NUA"
+    }
+]
+
