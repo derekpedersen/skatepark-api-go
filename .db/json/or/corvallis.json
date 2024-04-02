@@ -1,17 +1,17 @@
 [
     {
         "id": "00000000-0000-0000-0000-000000000000",
-        "name": "Corvallis Skatepark",
+        "name": "Eric Scott McKinley Skatepark",
         "description": "It's under a bridge and full of bums.",
         "address": {
-            "addressLine1": "",
+            "addressLine1": "648 SW 2nd St Suite 120",
             "addressLine2": "",
             "city": "Corvallis",
             "state": "OR",
-            "zipCode": "",
+            "zipCode": "97333",
             "googleMaps": {
-                "embedMap": "",
-                "ShareLink": ""
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2842.9238202587508!2d-123.26551068652807!3d44.55766349334246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c040c39e647327%3A0xe5715bb5815a5143!2sEric%20Scott%20McKinley%20Skate%20Park!5e0!3m2!1sen!2sus!4v1712032939283!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/MB2Jh5TCsNtjqx866"
             }
         },
         "albumId": "BBYCOs6"
