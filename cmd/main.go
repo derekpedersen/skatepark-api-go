@@ -36,7 +36,7 @@ import (
 
 	"github.com/derekpedersen/imgur-go/album"
 	"github.com/derekpedersen/imgur-go/authorization"
-	skatepark_api "github.com/derekpedersen/skatepark-api-go"
+	skatepark_api "github.com/derekpedersen/skatepark-api-go/src"
 	"github.com/rs/cors"
 
 	log "github.com/sirupsen/logrus"

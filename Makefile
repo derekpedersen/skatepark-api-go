@@ -24,12 +24,12 @@ set-version:
 	./.helm/set-version.sh
 
 build: dependencies
-	rm -rf bin && \
+	rm -rf .bin && \
 	cd cmd && \
-	build -o ../bin/skatepark-api-go
+	go build -o ../.bin/skatepark-api-go
 
 run: build
-	./bin/skatepark-api-go
+	.bin/skatepark-api-go
 
 docker: build
 	docker build ./ -t skatepark-api-go:latest --no-cache

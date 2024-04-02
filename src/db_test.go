@@ -3,7 +3,7 @@ package skatepark_api_test
 import (
 	"testing"
 
-	skatepark_api "github.com/derekpedersen/skatepark-api-go"
+	skatepark_api "github.com/derekpedersen/skatepark-api-go/src"
 )
 
 const testfile = "../.tools/test-data/good/"
