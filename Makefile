@@ -4,10 +4,7 @@ dependencies:
 	go mod tidy && \
 	go mod download
 
-mocks:
-	.tools/scripts/mocks.sh
-
-test: mocks
+test:
 	go test ./... -covermode=count -v -coverprofile cp.out && \
 	go tool cover -html=cp.out -o cp.html && \
 	go tool cover -func=cp.out
@@ -17,7 +14,7 @@ swagger:
 	go generate && \
 	swagger validate .docs/swagger/swagger.json
 
-swagger-view: swagger
+swagger-view:
 	swagger serve .docs/swagger/swagger.json
 
 set-version:
@@ -28,10 +25,10 @@ build: dependencies
 	cd cmd && \
 	go build -o ../.bin/skatepark-api-go
 
-run: build
+run: 
 	.bin/skatepark-api-go
 
-docker: build
+docker: 
 	docker build ./ -t skatepark-api-go:latest --no-cache
 
 publish:
