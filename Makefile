@@ -32,7 +32,7 @@ docker:
 	docker build ./ -t skatepark-api:latest --no-cache
 
 publish:
-	docker tag derekpedersen/skatepark-api:${GIT_COMMIT_SHA}
+	docker tag skatepark-api derekpedersen/skatepark-api:${GIT_COMMIT_SHA}
 	docker push derekpedersen/skatepark-api:${GIT_COMMIT_SHA}
 
 deploy: set-version
