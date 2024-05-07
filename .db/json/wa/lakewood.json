@@ -10,10 +10,59 @@
             "state": "WA",
             "zipCode": "98499",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1032.348376690697!2d-122.51862437693786!3d47.17524186156051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x84e7874d879e6dc2!2sKiwanis+Skatepark!5e1!3m2!1sen!2sus!4v1511458279686\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1032.348376690697!2d-122.51862437693786!3d47.17524186156051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x84e7874d879e6dc2!2sKiwanis+Skatepark!5e1!3m2!1sen!2sus!4v1511458279686\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/Kiwanis+Skatepark/@47.1752419,-122.5186244,237m/data=!3m1!1e3!4m8!1m2!2m1!1sLakewood+Skatepark!3m4!1s0x0:0x84e7874d879e6dc2!8m2!3d47.1752852!4d-122.5178468"
             }
         },
-        "albumId": "bF1dT"
+        "albumId": "bF1dT",
+        "album": {
+            "id": "bF1dT",
+            "title": "skatepark - wa - lakewood",
+            "description": null,
+            "images": [
+                {
+                    "id": "QlxRDMl",
+                    "link": "https://i.imgur.com/QlxRDMl.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "gotta push through the flat bottom"
+                },
+                {
+                    "id": "dvjMC08",
+                    "link": "https://i.imgur.com/dvjMC08.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "lots of flat"
+                },
+                {
+                    "id": "xeoZQUO",
+                    "link": "https://i.imgur.com/xeoZQUO.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "extra sized pyramid"
+                },
+                {
+                    "id": "c38n2RR",
+                    "link": "https://i.imgur.com/c38n2RR.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "open face bowl"
+                },
+                {
+                    "id": "ieqvDAS",
+                    "link": "https://i.imgur.com/ieqvDAS.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "the features on the left side were quite enjoyable"
+                },
+                {
+                    "id": "368CMLg",
+                    "link": "https://i.imgur.com/368CMLg.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "mini-ramp to the right"
+                }
+            ]
+        }
     }
 ]

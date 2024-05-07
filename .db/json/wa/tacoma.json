@@ -10,10 +10,59 @@
             "state": "WA",
             "zipCode": "98406",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d567.9545631772172!2d-122.50892527470904!3d47.26958758123294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549054c6b163d87b%3A0x721576b667fcae87!2sKandle+Skatepark!5e1!3m2!1sen!2sus!4v1511458615844\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d567.9545631772172!2d-122.50892527470904!3d47.26958758123294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549054c6b163d87b%3A0x721576b667fcae87!2sKandle+Skatepark!5e1!3m2!1sen!2sus!4v1511458615844\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/Kandle+Skatepark/@47.2695876,-122.5089253,130m/data=!3m1!1e3!4m12!1m6!3m5!1s0x549054c6b163d87b:0x721576b667fcae87!2sKandle+Skatepark!8m2!3d47.2694741!4d-122.5083252!3m4!1s0x549054c6b163d87b:0x721576b667fcae87!8m2!3d47.2694741!4d-122.5083252"
             }
         },
-        "albumId": "AHbRD"
+        "albumId": "AHbRD",
+        "album": {
+            "id": "AHbRD",
+            "title": "skatepark - wa - tacoma  (kandle park)",
+            "description": null,
+            "images": [
+                {
+                    "id": "fPuCk3R",
+                    "link": "https://i.imgur.com/fPuCk3R.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "rounded pyramid inside the mini-bowl"
+                },
+                {
+                    "id": "mJgoZ4i",
+                    "link": "https://i.imgur.com/mJgoZ4i.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "so much fun"
+                },
+                {
+                    "id": "tNqJnRD",
+                    "link": "https://i.imgur.com/tNqJnRD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "lines galore"
+                },
+                {
+                    "id": "Gjzqpjs",
+                    "link": "https://i.imgur.com/Gjzqpjs.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "wax it up"
+                },
+                {
+                    "id": "dxaICaZ",
+                    "link": "https://i.imgur.com/dxaICaZ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "pockets"
+                },
+                {
+                    "id": "OVGEO81",
+                    "link": "https://i.imgur.com/OVGEO81.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "early morning shadow (9 am in mid-october)"
+                }
+            ]
+        }
     }
 ]

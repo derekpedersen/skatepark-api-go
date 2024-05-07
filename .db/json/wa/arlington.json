@@ -10,10 +10,150 @@
             "state": "WA",
             "zipCode": "98223",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1394007.7693805874!2d-123.66054023365676!3d46.9681454445228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54854fd7889f6a31%3A0x4109522df1ccd54f!2sArlington%20Skate%20Park!5e0!3m2!1sen!2sus!4v1712033299385!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1394007.7693805874!2d-123.66054023365676!3d46.9681454445228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54854fd7889f6a31%3A0x4109522df1ccd54f!2sArlington%20Skate%20Park!5e0!3m2!1sen!2sus!4v1712033299385!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://maps.app.goo.gl/TFPKzNq2Pfn5UxWA9"
             }
         },
-        "albumId": "KFtmFaE"
+        "albumId": "KFtmFaE",
+        "album": {
+            "id": "KFtmFaE",
+            "title": "skatepark - wa - arlington",
+            "description": null,
+            "images": [
+                {
+                    "id": "sWWdj0G",
+                    "link": "https://i.imgur.com/sWWdj0G.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "bxnnj3f",
+                    "link": "https://i.imgur.com/bxnnj3f.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "NbbxYQS",
+                    "link": "https://i.imgur.com/NbbxYQS.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "5WOH55v",
+                    "link": "https://i.imgur.com/5WOH55v.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "Q43IToV",
+                    "link": "https://i.imgur.com/Q43IToV.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "XeKNRBv",
+                    "link": "https://i.imgur.com/XeKNRBv.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "Gk6BZ5I",
+                    "link": "https://i.imgur.com/Gk6BZ5I.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "KUcLtVK",
+                    "link": "https://i.imgur.com/KUcLtVK.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "jVlYdf5",
+                    "link": "https://i.imgur.com/jVlYdf5.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "bj5Hgoe",
+                    "link": "https://i.imgur.com/bj5Hgoe.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "Q7uN12Z",
+                    "link": "https://i.imgur.com/Q7uN12Z.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "KZlquAm",
+                    "link": "https://i.imgur.com/KZlquAm.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "p1xBrF7",
+                    "link": "https://i.imgur.com/p1xBrF7.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "tbbpKIT",
+                    "link": "https://i.imgur.com/tbbpKIT.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "2QB3Bzc",
+                    "link": "https://i.imgur.com/2QB3Bzc.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "9KOim90",
+                    "link": "https://i.imgur.com/9KOim90.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "AFVJAay",
+                    "link": "https://i.imgur.com/AFVJAay.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "osomUkS",
+                    "link": "https://i.imgur.com/osomUkS.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "lfiGkYx",
+                    "link": "https://i.imgur.com/lfiGkYx.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                }
+            ]
+        }
     }
 ]

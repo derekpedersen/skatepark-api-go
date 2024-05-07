@@ -10,10 +10,52 @@
             "state": "WA",
             "zipCode": "98155",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424.557069498733!2d-122.31970916483695!3d47.74100682812878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490110518d05c39%3A0xdf601913a740e7bb!2sShoreline+Skatepark!5e1!3m2!1sen!2sus!4v1503010791751\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424.557069498733!2d-122.31970916483695!3d47.74100682812878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490110518d05c39%3A0xdf601913a740e7bb!2sShoreline+Skatepark!5e1!3m2!1sen!2sus!4v1503010791751\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/Shoreline+Skatepark/@47.7410068,-122.3197092,97m/data=!3m1!1e3!4m5!3m4!1s0x5490110518d05c39:0xdf601913a740e7bb!8m2!3d47.7410194!4d-122.319312"
             }
         },
-        "albumId": "oWxGp"
+        "albumId": "oWxGp",
+        "album": {
+            "id": "oWxGp",
+            "title": "skatepark - wa - shoreline",
+            "description": null,
+            "images": [
+                {
+                    "id": "DwH2JMd",
+                    "link": "https://i.imgur.com/DwH2JMd.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Clearing the pyramid is such a good feeling."
+                },
+                {
+                    "id": "4p09wVW",
+                    "link": "https://i.imgur.com/4p09wVW.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Beware, this place can be a scooter haven."
+                },
+                {
+                    "id": "ia2VZzZ",
+                    "link": "https://i.imgur.com/ia2VZzZ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It doesn't have that much but has great flow and makes me dabble in some street skating."
+                },
+                {
+                    "id": "PL1AGqV",
+                    "link": "https://i.imgur.com/PL1AGqV.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lots of ledges."
+                },
+                {
+                    "id": "Rk2GHrw",
+                    "link": "https://i.imgur.com/Rk2GHrw.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I like how a lot of parks now have mini-picnic tables."
+                }
+            ]
+        }
     }
 ]

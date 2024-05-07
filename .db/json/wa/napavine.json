@@ -10,10 +10,87 @@
             "state": "WA",
             "zipCode": "98532",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2742.5712804983036!2d-122.91454678422188!3d46.57594277912997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5493e2dead16c45b%3A0xa5fb7a0b5b6f3c80!2sNapavine%20Skate%20Park!5e0!3m2!1sen!2sus!4v1658462277939!5m2!1sen!2sus\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2742.5712804983036!2d-122.91454678422188!3d46.57594277912997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5493e2dead16c45b%3A0xa5fb7a0b5b6f3c80!2sNapavine%20Skate%20Park!5e0!3m2!1sen!2sus!4v1658462277939!5m2!1sen!2sus\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://goo.gl/maps/J8xTRqWqPyJ3jupG9"
             }
         },
-        "albumId": "60YltA7"
+        "albumId": "60YltA7",
+        "album": {
+            "id": "60YltA7",
+            "title": "skatepark - wa - napavine",
+            "description": null,
+            "images": [
+                {
+                    "id": "V00jRhC",
+                    "link": "https://i.imgur.com/V00jRhC.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "VNcmYY3",
+                    "link": "https://i.imgur.com/VNcmYY3.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "6ocKzDi",
+                    "link": "https://i.imgur.com/6ocKzDi.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "lZMdtcI",
+                    "link": "https://i.imgur.com/lZMdtcI.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "mK5WMCl",
+                    "link": "https://i.imgur.com/mK5WMCl.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "tijbmRO",
+                    "link": "https://i.imgur.com/tijbmRO.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "bWNnZ5z",
+                    "link": "https://i.imgur.com/bWNnZ5z.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "BD7ijqH",
+                    "link": "https://i.imgur.com/BD7ijqH.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "aVq2Tmj",
+                    "link": "https://i.imgur.com/aVq2Tmj.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "jcE7CkC",
+                    "link": "https://i.imgur.com/jcE7CkC.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                }
+            ]
+        }
     }
 ]

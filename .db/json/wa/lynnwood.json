@@ -10,11 +10,81 @@
             "state": "WA",
             "zipCode": "98087",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d297.1592138952896!2d-122.23760394468188!3d47.86501473239643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa701c80924b67c16!2sSkateboard+Park!5e1!3m2!1sen!2sus!4v1503011786682\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d297.1592138952896!2d-122.23760394468188!3d47.86501473239643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa701c80924b67c16!2sSkateboard+Park!5e1!3m2!1sen!2sus!4v1503011786682\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/Skateboard+Park/@47.8650147,-122.2376039,68m/data=!3m1!1e3!4m12!1m6!3m5!1s0x5490042b414e62c3:0x33cbcd2fa49091d!2sMartha+Lake+Airport+Park!8m2!3d47.8625461!4d-122.2378681!3m4!1s0x0:0xa701c80924b67c16!8m2!3d47.8650133!4d-122.2373293"
             }
         },
-        "albumId": "BOB6E"
+        "albumId": "BOB6E",
+        "album": {
+            "id": "BOB6E",
+            "title": "skatepark - wa - martha lake",
+            "description": null,
+            "images": [
+                {
+                    "id": "UyIrPec",
+                    "link": "https://i.imgur.com/UyIrPec.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This park has a nice layout, if the mini-ramp had real coping instead of this tiny 1.5\" OD stuff it would be awesome."
+                },
+                {
+                    "id": "6Se5RoI",
+                    "link": "https://i.imgur.com/6Se5RoI.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Mini-ramp with a spine."
+                },
+                {
+                    "id": "qUL9xwK",
+                    "link": "https://i.imgur.com/qUL9xwK.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Thought the manny-pad disks were a nice touch."
+                },
+                {
+                    "id": "XW0YRSj",
+                    "link": "https://i.imgur.com/XW0YRSj.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Nice ledges all around the park."
+                },
+                {
+                    "id": "Xretj2m",
+                    "link": "https://i.imgur.com/Xretj2m.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Manny-pad down a bank."
+                },
+                {
+                    "id": "GOIRpTq",
+                    "link": "https://i.imgur.com/GOIRpTq.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A 1.5 foot vert quarter pipe."
+                },
+                {
+                    "id": "iKtqnfi",
+                    "link": "https://i.imgur.com/iKtqnfi.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This A-Frame style feature was awesome to mess around on."
+                },
+                {
+                    "id": "pvPZtWb",
+                    "link": "https://i.imgur.com/pvPZtWb.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Looks like a lot of stuff packed into a tight area but it's layed out well."
+                },
+                {
+                    "id": "PRrqwVo",
+                    "link": "https://i.imgur.com/PRrqwVo.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I think I'll come back to this place."
+                }
+            ]
+        }
     },
     {
         "id": "00000000-0000-0000-0000-000000000000",
@@ -27,10 +97,52 @@
             "state": "WA",
             "zipCode": "98037",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234.24417206708023!2d-122.33333841238822!3d47.830221397557125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb94f86b4c609a9cf!2sLynndale+Park+Skate+Park!5e1!3m2!1sen!2sus!4v1503011917749\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234.24417206708023!2d-122.33333841238822!3d47.830221397557125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb94f86b4c609a9cf!2sLynndale+Park+Skate+Park!5e1!3m2!1sen!2sus!4v1503011917749\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/Lynndale+Park+Skate+Park/@47.8302214,-122.3333384,54m/data=!3m1!1e3!4m8!1m2!2m1!1sMeadowdale+Skatepark!3m4!1s0x0:0xb94f86b4c609a9cf!8m2!3d47.8302437!4d-122.3331358"
             }
         },
-        "albumId": "CAcE3"
+        "albumId": "CAcE3",
+        "album": {
+            "id": "CAcE3",
+            "title": "skatepark - wa - meadowdale",
+            "description": null,
+            "images": [
+                {
+                    "id": "rHkepe0",
+                    "link": "https://i.imgur.com/rHkepe0.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "These banks are awesome, super steep and perfect for powersliding."
+                },
+                {
+                    "id": "EZuLB5z",
+                    "link": "https://i.imgur.com/EZuLB5z.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Bank."
+                },
+                {
+                    "id": "58DOZ7H",
+                    "link": "https://i.imgur.com/58DOZ7H.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Technically this is an art installation titled \"fluid in motion\". Supposedly that's how they got the budget to build a skatepark was through the already allotted art funds."
+                },
+                {
+                    "id": "OILfWuI",
+                    "link": "https://i.imgur.com/OILfWuI.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The bowl in the distance is disappointing, could have been awesome but it's a roll in all around so there's no lip."
+                },
+                {
+                    "id": "a9Nxiyz",
+                    "link": "https://i.imgur.com/a9Nxiyz.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I used to kick flip this block all the time, now no one is here. Look at all that vegetation growth at the base."
+                }
+            ]
+        }
     }
 ]

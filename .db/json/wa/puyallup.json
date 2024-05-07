@@ -10,10 +10,59 @@
             "state": "WA",
             "zipCode": "98371",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1360.6524809903517!2d-122.29911496101057!3d47.202140719655105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490f94cda4880e5%3A0x9ed52f3fd53e770c!2sPuyallup+Skatepark!5e1!3m2!1sen!2sus!4v1511458179253\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1360.6524809903517!2d-122.29911496101057!3d47.202140719655105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490f94cda4880e5%3A0x9ed52f3fd53e770c!2sPuyallup+Skatepark!5e1!3m2!1sen!2sus!4v1511458179253\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/Puyallup+Skatepark/@47.2021407,-122.299115,312m/data=!3m1!1e3!4m5!3m4!1s0x5490f94cda4880e5:0x9ed52f3fd53e770c!8m2!3d47.2022625!4d-122.2979378"
             }
         },
-        "albumId": "nehEp"
+        "albumId": "nehEp",
+        "album": {
+            "id": "nehEp",
+            "title": "skatepark - wa - puyallup",
+            "description": null,
+            "images": [
+                {
+                    "id": "Qb8BycD",
+                    "link": "https://i.imgur.com/Qb8BycD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "wood mini-ramp with a spine"
+                },
+                {
+                    "id": "a12gu0K",
+                    "link": "https://i.imgur.com/a12gu0K.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "fun boxes galore"
+                },
+                {
+                    "id": "lMVfeZS",
+                    "link": "https://i.imgur.com/lMVfeZS.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "friends don't let friends ride wood parks"
+                },
+                {
+                    "id": "yzGUIE6",
+                    "link": "https://i.imgur.com/yzGUIE6.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "flat bar"
+                },
+                {
+                    "id": "L5XG4rD",
+                    "link": "https://i.imgur.com/L5XG4rD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "other side of the fun boxes"
+                },
+                {
+                    "id": "YkHjP5T",
+                    "link": "https://i.imgur.com/YkHjP5T.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "3 foot mini-ramp"
+                }
+            ]
+        }
     }
 ]

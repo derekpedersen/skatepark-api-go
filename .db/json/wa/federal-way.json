@@ -10,10 +10,59 @@
             "state": "WA",
             "zipCode": "98003",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2258.9712836583767!2d-122.30043709980991!3d47.32165668890243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24964f4fed75cb87!2sSteel+lake+Skatepark!5e1!3m2!1sen!2sus!4v1511457873045\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2258.9712836583767!2d-122.30043709980991!3d47.32165668890243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24964f4fed75cb87!2sSteel+lake+Skatepark!5e1!3m2!1sen!2sus!4v1511457873045\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/Steel+lake+Skatepark/@47.3216567,-122.3004371,519m/data=!3m1!1e3!4m8!1m2!2m1!1sFederal+Way+Skatepark!3m4!1s0x0:0x24964f4fed75cb87!8m2!3d47.3218651!4d-122.2982168"
             }
         },
-        "albumId": "PIRuI"
+        "albumId": "PIRuI",
+        "album": {
+            "id": "PIRuI",
+            "title": "skatepark - wa - federal way",
+            "description": null,
+            "images": [
+                {
+                    "id": "d7MLvTe",
+                    "link": "https://i.imgur.com/d7MLvTe.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "skate bench"
+                },
+                {
+                    "id": "XUZEJYo",
+                    "link": "https://i.imgur.com/XUZEJYo.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "fun box"
+                },
+                {
+                    "id": "tkWi7IG",
+                    "link": "https://i.imgur.com/tkWi7IG.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "notice all the graffiti paint and chain link fence"
+                },
+                {
+                    "id": "85E0CSM",
+                    "link": "https://i.imgur.com/85E0CSM.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "nice tall bank - was probably my favorite feature"
+                },
+                {
+                    "id": "8cj7Qns",
+                    "link": "https://i.imgur.com/8cj7Qns.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "spine in the middle of the park"
+                },
+                {
+                    "id": "tVkbl25",
+                    "link": "https://i.imgur.com/tVkbl25.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "some real steep stair sets"
+                }
+            ]
+        }
     }
 ]

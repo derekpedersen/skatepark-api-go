@@ -10,10 +10,80 @@
             "state": "WA",
             "zipCode": "98012",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258.2144706298095!2d-122.21798686514838!3d47.87190441587479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549006885a1bebf7%3A0xcd7cd7ec82841485!2sMill+Creek+Skatepark!5e1!3m2!1sen!2sus!4v1503028692434\" frameborder=\"0\" style=\"width: 100%; height: 100%; border:0;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258.2144706298095!2d-122.21798686514838!3d47.87190441587479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549006885a1bebf7%3A0xcd7cd7ec82841485!2sMill+Creek+Skatepark!5e1!3m2!1sen!2sus!4v1503028692434\" frameborder=\"0\" style=\"width: 100%; height: 100%; border:0;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/Mill+Creek+Skatepark/@47.8719044,-122.2179869,59m/data=!3m1!1e3!4m8!1m2!2m1!1smill+creek+skatepark!3m4!1s0x549006885a1bebf7:0xcd7cd7ec82841485!8m2!3d47.8718996!4d-122.2178618"
             }
         },
-        "albumId": "JPTXl"
+        "albumId": "JPTXl",
+        "album": {
+            "id": "JPTXl",
+            "title": "skatepark - wa - mill creek",
+            "description": null,
+            "images": [
+                {
+                    "id": "2e4PbO9",
+                    "link": "https://i.imgur.com/2e4PbO9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Really wish this bowl existed 20 years ago."
+                },
+                {
+                    "id": "jV8Ymdo",
+                    "link": "https://i.imgur.com/jV8Ymdo.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The deep end."
+                },
+                {
+                    "id": "s49TMHF",
+                    "link": "https://i.imgur.com/s49TMHF.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Got a real nice curve to it."
+                },
+                {
+                    "id": "pD5Dj1T",
+                    "link": "https://i.imgur.com/pD5Dj1T.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Street section. Got some nice features, but it all heads in one direction so I imagine traffic jams back in the day must have been frequent."
+                },
+                {
+                    "id": "VUuxlOV",
+                    "link": "https://i.imgur.com/VUuxlOV.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Why are skateparks always empty now?"
+                },
+                {
+                    "id": "XAwBtWV",
+                    "link": "https://i.imgur.com/XAwBtWV.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A little 2 set."
+                },
+                {
+                    "id": "TU5Utrh",
+                    "link": "https://i.imgur.com/TU5Utrh.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "All going in one direction."
+                },
+                {
+                    "id": "j6cUVio",
+                    "link": "https://i.imgur.com/j6cUVio.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Such a nice bowl."
+                },
+                {
+                    "id": "gV0AOsk",
+                    "link": "https://i.imgur.com/gV0AOsk.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Took me a couple tries to find a line I liked, but after a while you can start to cruise this thing."
+                }
+            ]
+        }
     }
 ]

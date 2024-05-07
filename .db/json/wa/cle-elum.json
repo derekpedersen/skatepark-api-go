@@ -10,11 +10,81 @@
             "state": "WA",
             "zipCode": "98922",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.998904453432!2d-120.95252578438361!3d47.197033979159656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549a110c71c72477%3A0x46ff746f2dd20d72!2sCle%20Elum%20Skatepark!5e0!3m2!1sen!2sus!4v1622151625328!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.998904453432!2d-120.95252578438361!3d47.197033979159656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549a110c71c72477%3A0x46ff746f2dd20d72!2sCle%20Elum%20Skatepark!5e0!3m2!1sen!2sus!4v1622151625328!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://goo.gl/maps/mqYLaF5nD1oiPYzq6"
             }
         },
-        "albumId": "IfRZb4i"
+        "albumId": "IfRZb4i",
+        "album": {
+            "id": "IfRZb4i",
+            "title": "skatepark - wa - cle elum",
+            "description": null,
+            "images": [
+                {
+                    "id": "IRVvGHb",
+                    "link": "https://i.imgur.com/IRVvGHb.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "FcbPEEc",
+                    "link": "https://i.imgur.com/FcbPEEc.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "O9iSvjd",
+                    "link": "https://i.imgur.com/O9iSvjd.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "SQrWu7w",
+                    "link": "https://i.imgur.com/SQrWu7w.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "0450dYi",
+                    "link": "https://i.imgur.com/0450dYi.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "iNyHE7k",
+                    "link": "https://i.imgur.com/iNyHE7k.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "xZdAAJD",
+                    "link": "https://i.imgur.com/xZdAAJD.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "rrK5S6O",
+                    "link": "https://i.imgur.com/rrK5S6O.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "UdZY6Xz",
+                    "link": "https://i.imgur.com/UdZY6Xz.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                }
+            ]
+        }
     },
     {
         "id": "00000000-0000-0000-0000-000000000000",
@@ -27,10 +97,157 @@
             "state": "WA",
             "zipCode": "98922",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.998904453432!2d-120.95252578438361!3d47.197033979159656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549a110c71c72477%3A0x46ff746f2dd20d72!2sCle%20Elum%20Skatepark!5e0!3m2!1sen!2sus!4v1622151625328!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.998904453432!2d-120.95252578438361!3d47.197033979159656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549a110c71c72477%3A0x46ff746f2dd20d72!2sCle%20Elum%20Skatepark!5e0!3m2!1sen!2sus!4v1622151625328!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://goo.gl/maps/mqYLaF5nD1oiPYzq6"
             }
         },
-        "albumId": "oaOn9Mv"
+        "albumId": "oaOn9Mv",
+        "album": {
+            "id": "oaOn9Mv",
+            "title": "skatepark - wa - cle elum - v2",
+            "description": null,
+            "images": [
+                {
+                    "id": "lqzYkMv",
+                    "link": "https://i.imgur.com/lqzYkMv.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_174937778.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "Tl42Y4X",
+                    "link": "https://i.imgur.com/Tl42Y4X.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_174941271.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "D0pDDHn",
+                    "link": "https://i.imgur.com/D0pDDHn.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_174631343.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "oY0IpSA",
+                    "link": "https://i.imgur.com/oY0IpSA.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_174737542.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "toRuKWB",
+                    "link": "https://i.imgur.com/toRuKWB.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_174830149.MP.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "g2lKvb5",
+                    "link": "https://i.imgur.com/g2lKvb5.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_174832038.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "aA90cis",
+                    "link": "https://i.imgur.com/aA90cis.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_174833127.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "A1scOm9",
+                    "link": "https://i.imgur.com/A1scOm9.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_174936284.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "tQcfY6P",
+                    "link": "https://i.imgur.com/tQcfY6P.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_174939539.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "GpX0E7V",
+                    "link": "https://i.imgur.com/GpX0E7V.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_175021093.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "yNPOAvG",
+                    "link": "https://i.imgur.com/yNPOAvG.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_175023251.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "LIfnfsf",
+                    "link": "https://i.imgur.com/LIfnfsf.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_175024699.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "o4NXfZs",
+                    "link": "https://i.imgur.com/o4NXfZs.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_175025471.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "fp6fDAJ",
+                    "link": "https://i.imgur.com/fp6fDAJ.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_175135160.MP.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "aMWVqCU",
+                    "link": "https://i.imgur.com/aMWVqCU.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_175136058.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "6tNOsun",
+                    "link": "https://i.imgur.com/6tNOsun.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_175229019.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "GQeN7fq",
+                    "link": "https://i.imgur.com/GQeN7fq.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_175230229.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "OlB8Nrw",
+                    "link": "https://i.imgur.com/OlB8Nrw.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_175239215.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "Xk6PhpN",
+                    "link": "https://i.imgur.com/Xk6PhpN.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_175239790.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "T3Ac1kk",
+                    "link": "https://i.imgur.com/T3Ac1kk.jpg",
+                    "title": null,
+                    "name": "PXL_20230714_175243253.jpg",
+                    "description": ""
+                }
+            ]
+        }
     }
 ]

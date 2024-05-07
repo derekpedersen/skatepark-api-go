@@ -9,12 +9,81 @@
             "city": "Parksville",
             "state": "BC",
             "zipCode": "V9P 2S5",
-            "country": "Canada",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d539.6923044879256!2d-124.30901213874002!3d49.32407090996432!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85a99aa208303cfd!2sParksville+Skatepark!5e1!3m2!1sen!2sus!4v1525410650711\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d539.6923044879256!2d-124.30901213874002!3d49.32407090996432!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85a99aa208303cfd!2sParksville+Skatepark!5e1!3m2!1sen!2sus!4v1525410650711\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://goo.gl/maps/TqeEQUAkcNG2"
             }
         },
-        "albumId": "aZXTn"
+        "albumId": "aZXTn",
+        "album": {
+            "id": "aZXTn",
+            "title": "skatepark - bc - parksville",
+            "description": null,
+            "images": [
+                {
+                    "id": "dOluVuL",
+                    "link": "https://i.imgur.com/dOluVuL.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Equal amounts graffiti and geese poop."
+                },
+                {
+                    "id": "wZxGMOM",
+                    "link": "https://i.imgur.com/wZxGMOM.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "some nasty crack through out"
+                },
+                {
+                    "id": "oynOhAx",
+                    "link": "https://i.imgur.com/oynOhAx.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "a quarter pipe that has seen better days"
+                },
+                {
+                    "id": "CFD3Kql",
+                    "link": "https://i.imgur.com/CFD3Kql.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "got a lot of flat"
+                },
+                {
+                    "id": "QXeabmr",
+                    "link": "https://i.imgur.com/QXeabmr.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I wasn't quite sure why there were sunken mini-ramps on each side"
+                },
+                {
+                    "id": "oFdAxp2",
+                    "link": "https://i.imgur.com/oFdAxp2.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "coping"
+                },
+                {
+                    "id": "oEdN41O",
+                    "link": "https://i.imgur.com/oEdN41O.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "lots of space"
+                },
+                {
+                    "id": "jOxc650",
+                    "link": "https://i.imgur.com/jOxc650.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "wouldn't have been the design I would have gone with"
+                },
+                {
+                    "id": "iUnGO9l",
+                    "link": "https://i.imgur.com/iUnGO9l.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "definitely has seen better days"
+                }
+            ]
+        }
     }
 ]

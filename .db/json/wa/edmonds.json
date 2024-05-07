@@ -10,10 +10,73 @@
             "state": "WA",
             "zipCode": "98020",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356.1056375847713!2d-122.3742025103973!3d47.8126160626736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901ae4d0899b81%3A0xeba5178bcca3508a!2sEdmonds+Skatepark!5e1!3m2!1sen!2sus!4v1503011411630\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356.1056375847713!2d-122.3742025103973!3d47.8126160626736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901ae4d0899b81%3A0xeba5178bcca3508a!2sEdmonds+Skatepark!5e1!3m2!1sen!2sus!4v1503011411630\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/Edmonds+Skatepark/@47.8126161,-122.3742025,82m/data=!3m1!1e3!4m5!3m4!1s0x54901ae4d0899b81:0xeba5178bcca3508a!8m2!3d47.8127038!4d-122.3739272"
             }
         },
-        "albumId": "a1pM9"
+        "albumId": "a1pM9",
+        "album": {
+            "id": "a1pM9",
+            "title": "skatepark - wa - edmonds",
+            "description": null,
+            "images": [
+                {
+                    "id": "zysQ6qR",
+                    "link": "https://i.imgur.com/zysQ6qR.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Modular mini-ramp."
+                },
+                {
+                    "id": "VlCiAjV",
+                    "link": "https://i.imgur.com/VlCiAjV.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "As far as modular parks go, this one isn't that bad."
+                },
+                {
+                    "id": "bmXB1H4",
+                    "link": "https://i.imgur.com/bmXB1H4.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Curved ledge."
+                },
+                {
+                    "id": "2BSKCCO",
+                    "link": "https://i.imgur.com/2BSKCCO.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Mini-ramp with a spine. Fun, but I wish the quarter pipes were a bit bigger and a had a steeper tranny."
+                },
+                {
+                    "id": "prxoaa9",
+                    "link": "https://i.imgur.com/prxoaa9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Table top with a ledge and rail."
+                },
+                {
+                    "id": "QZGVmdb",
+                    "link": "https://i.imgur.com/QZGVmdb.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Nice big bank in the distance."
+                },
+                {
+                    "id": "8hHOPAo",
+                    "link": "https://i.imgur.com/8hHOPAo.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This mini-ramp spine combo is what would probably bring me back."
+                },
+                {
+                    "id": "0fBN2iS",
+                    "link": "https://i.imgur.com/0fBN2iS.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "And the bigger mini-ramp is actually a little skateable, but the modular metal skirts freak me out."
+                }
+            ]
+        }
     }
 ]
