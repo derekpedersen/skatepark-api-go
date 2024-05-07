@@ -51,9 +51,21 @@ func ParseSkateparks(
 
 			for k := range m {
 
-				m[k].Album, err = IMGUR_SVC.GetAlbum(m[k].AlbumID)
+				if m[k].Album == nil || len(m[k].Album.Images) <= 0 {
 
+					m[k].Album, err = IMGUR_SVC.GetAlbum(m[k].AlbumID)
+
+					if err != nil {
+						return err
+					}
+				}
+
+				raw, err := json.Marshal(m)
 				if err != nil {
+					return err
+				}
+
+				if err := ioutil.WriteFile(path, raw, 0644); err != nil {
 					return err
 				}
 			}
