@@ -18,6 +18,7 @@ var (
 
 func ParseSkateparks(
 	dir string,
+	loadImgurAlbums bool,
 ) (
 	skateparks Skateparks,
 	err error,
@@ -85,6 +86,7 @@ func ParseSkateparks(
 
 func GetSkateparks(
 	refresh bool,
+	loadImgurAlbums bool,
 ) (
 	skateparks Skateparks,
 	err error,
@@ -95,7 +97,7 @@ func GetSkateparks(
 		refresh ||
 		time.Now().UTC().Sub(last_loaded_at).Hours() > 24 {
 
-		if skateparks, err = ParseSkateparks(os.Getenv("SKATEPARKS_FILE")); err != nil {
+		if skateparks, err = ParseSkateparks(os.Getenv("SKATEPARKS_FILE"), loadImgurAlbums); err != nil {
 			return nil, err
 		}
 	}

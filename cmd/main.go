@@ -29,9 +29,11 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"net/http"
 	"os"
+	"strconv"
 	"sync"
 
 	"github.com/derekpedersen/imgur-go/album"
@@ -41,6 +43,22 @@ import (
 
 	log "github.com/sirupsen/logrus"
 )
+
+func parseBoolEnvVar(
+	envVar string,
+) (
+	result bool,
+) {
+
+	result, err := strconv.ParseBool(envVar)
+	if err != nil {
+		return false
+	}
+
+	return result
+}
+
+var LOAD_IMGUR_ALBUMS = flag.Bool("load-imgur-albums", parseBoolEnvVar(os.Getenv("LOAD_IMGUR_ALBUMS")), "Load Imgur Albums controls if albums are refreshed")
 
 func main() {
 
@@ -59,7 +77,7 @@ func main() {
 	}
 
 	log.Debug("Loading skateparks db...")
-	if _, err := skatepark_api.ParseSkateparks(os.Getenv("SKATEPARKS_FILE")); err != nil {
+	if _, err := skatepark_api.GetSkateparks(true, *LOAD_IMGUR_ALBUMS); err != nil {
 		log.Fatalf("failed to parse skateparks: %v", err)
 	}
 
