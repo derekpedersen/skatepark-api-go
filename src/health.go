@@ -3,12 +3,6 @@ package skatepark_api
 import (
 	"encoding/json"
 	"net/http"
-<<<<<<< HEAD:controller/health.go
-
-	"github.com/derekpedersen/skatepark-api-go/service"
-	log "github.com/sirupsen/logrus"
-=======
->>>>>>> master:src/health.go
 )
 
 const (
@@ -74,30 +68,19 @@ type HealthAPIController interface {
 
 // HealthAPIControllerImpl struct
 type HealthAPIControllerImpl struct {
-	svc           service.HealthService
-	skateparksSvc service.SkateparksService
+	svc HealthService
 }
 
 // NewHealthAPIController creates a new HealthAPIController
-func NewHealthAPIController(svc service.HealthService, skateparksSvc service.SkateparksService) HealthAPIController {
-
+func NewHealthAPIController(svc HealthService) HealthAPIController {
 	return &HealthAPIControllerImpl{
-		svc:           svc,
-		skateparksSvc: skateparksSvc,
+		svc: svc,
 	}
 }
-
 
 // GetAliveMessage controller
 func (api *HealthAPIControllerImpl) GetAliveMessage(w http.ResponseWriter, r *http.Request) {
 	alive := api.svc.GetAliveMessage()
-
-	_, err := api.skateparksSvc.GetSkateparks()
-	if err != nil {
-		log.Errorf("Error in getting skateparks:\n %v", err)
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
 
 	js, err := json.Marshal(*alive)
 	if err != nil {
@@ -113,13 +96,6 @@ func (api *HealthAPIControllerImpl) GetAliveMessage(w http.ResponseWriter, r *ht
 func (api *HealthAPIControllerImpl) GetReadyMessage(w http.ResponseWriter, r *http.Request) {
 	alive := api.svc.GetReadyMessage()
 
-	_, err := api.skateparksSvc.GetSkateparks()
-	if err != nil {
-		log.Errorf("Error in getting skateparks:\n %v", err)
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
-
 	js, err := json.Marshal(*alive)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -133,13 +109,6 @@ func (api *HealthAPIControllerImpl) GetReadyMessage(w http.ResponseWriter, r *ht
 // GetHealthyMessage controller
 func (api *HealthAPIControllerImpl) GetHealthyMessage(w http.ResponseWriter, r *http.Request) {
 	alive := api.svc.GetHealthyMessage()
-
-	_, err := api.skateparksSvc.GetSkateparks()
-	if err != nil {
-		log.Errorf("Error in getting skateparks:\n %v", err)
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
 
 	js, err := json.Marshal(*alive)
 	if err != nil {
