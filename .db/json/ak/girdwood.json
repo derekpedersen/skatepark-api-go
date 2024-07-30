@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Girdwood Skatepark",
+        "description": "Wood ramps in Alaska? Has a decent looking 6' mini-ramp.",
+        "address": {
+            "addressLine1": "Alyeska Hwy",
+            "addressLine2": "",
+            "city": "Girdwood",
+            "state": "AK",
+            "zipCode": "99587",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1936.6488495731555!2d-149.1384020861589!3d60.96146457922066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c87b07e675b8db%3A0xe73048817ce4040c!2sGirdwood%20Skatepark!5e0!3m2!1sen!2sus!4v1712032699406!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/CYSJ2pzFbTwiDWhD8"
+            }
+        },
+        "albumId": "4TZhhtk"
+    }
+]

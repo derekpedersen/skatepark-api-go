@@ -34,11 +34,21 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
-            - name: IMGUR_API_KEY
+            - name: IMGUR_CLIENT_ID
               valueFrom:
                 secretKeyRef:
                   name: imgur-api
-                  key: imgurApiKey
+                  key: imgurClientId
+            - name: IMGUR_CLIENT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: imgur-api
+                  key: imgurClientSecret
+            - name: IMGUR_REFRESH_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: imgur-api
+                  key: imgurRefreshToken
             - name: SKATEPARKS_FILE
               value: "./repository/json/"
           ports:

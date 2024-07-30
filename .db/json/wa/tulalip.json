@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Debra Barto Memorial Skatepark",
+        "description": "An absolute gem. This skatepark hits all the right notes.",
+        "address": {
+            "addressLine1": "6710 Totem Beach Rd",
+            "addressLine2": "",
+            "city": "Marysville",
+            "state": "WA",
+            "zipCode": "98271",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42669.41295649577!2d-122.34816515136717!3d48.055459600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548555c6a339699b%3A0x27323cfe7393e04b!2sDebra%20Barto%20Memorial%20Skatepark%20-%20Tulalip!5e0!3m2!1sen!2sus!4v1712033739751!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/yWrEq9uav9YaTQwv5"
+            }
+        },
+        "albumId": "hcJSApi"
+    }
+]

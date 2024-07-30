@@ -10,10 +10,10 @@ RUN apt-get update \
  && rm -r /var/lib/apt/lists/*
 
 # Copy the local package files to the container's workspace.
-COPY ./bin/skatepark-api-go /go/bin/
+COPY ./.bin/skatepark-api-go /go/bin/
 
 # Copy the json repository files
-COPY ./repository/json/ /repository/json/
+COPY ./.db/json/ /repository/json/
 
 # Copy the swagger files
 COPY ./.docs/swagger/* ./.docs/swagger/

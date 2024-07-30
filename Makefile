@@ -1,27 +1,34 @@
 export GIT_COMMIT_SHA = $(shell git rev-parse HEAD)
 
-mocks:
-	.tools/scripts/mocks.sh
+dependencies:
+	go mod tidy && \
+	go mod download
 
-test: mocks
-	.tools/scripts/test.sh
+test:
+	go test ./... -covermode=count -v -coverprofile cp.out && \
+	go tool cover -html=cp.out -o cp.html && \
+	go tool cover -func=cp.out
 
 swagger:
-	.tools/scripts/swagger.sh
+	rm -f .docs/swagger/swagger.json && \
+	go generate && \
+	swagger validate .docs/swagger/swagger.json
 
-swagger-view: swagger
+swagger-view:
 	swagger serve .docs/swagger/swagger.json
 
 set-version:
 	./.helm/set-version.sh
 
-build:
-	.tools/scripts/build.sh
+build: dependencies
+	rm -rf .bin && \
+	cd cmd && \
+	go build -o ../.bin/skatepark-api-go
 
-run: build
-	./bin/skatepark-api-go
+run: 
+	.bin/skatepark-api-go
 
-docker: build
+docker: 
 	docker build ./ -t skatepark-api-go:latest --no-cache
 
 publish:
@@ -32,6 +39,6 @@ deploy: set-version
 	helm upgrade skatepark-api .helm
 
 secret:
-	kubectl create -f .kubernetes/secret.yaml
+	kubectl apply -f .kubernetes/secret.yaml
 
 kubernetes: build test docker publish deploy

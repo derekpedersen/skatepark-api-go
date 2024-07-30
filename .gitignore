@@ -25,7 +25,7 @@ vendor/*
 _vendor*
 
 # Build artifacts
-bin/*
+.bin/*
 
 # Deploy artifacts
 *.sed.yaml
@@ -33,3 +33,4 @@ bin/*
 # VS Code
 .vscode/*
 debug
+Makefile

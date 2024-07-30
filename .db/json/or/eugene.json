@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "WJ Skatepark",
+        "description": "Easily one of the best skateparks I've ever been to.",
+        "address": {
+            "addressLine1": "Washington St and Jefferson St",
+            "addressLine2": "",
+            "city": "Eugene",
+            "state": "OR",
+            "zipCode": "97401",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45874.62104122743!2d-123.15747343475954!3d44.05932584718306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c11e0c9f51f493%3A0x8aae7904628171b2!2sWJ%20Skatepark%20%2B%20Urban%20Plaza!5e0!3m2!1sen!2sus!4v1712033184798!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/BgZNkxom2UaFVZCv5"
+            }
+        },
+        "albumId": "xHRLSwl"
+    }
+]

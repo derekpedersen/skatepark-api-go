@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Carrie Blake Park",
+        "description": "Another huge walled park that I wonder who it was built for",
+        "address": {
+            "addressLine1": "202 N Blake Ave",
+            "addressLine2": "",
+            "city": "Sequim",
+            "state": "WA",
+            "zipCode": "98382",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2043.1892877682233!2d-123.08699048043998!3d48.08154014156129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548fbf602c59b3b7%3A0x8176eb4359e81115!2sCarrie%20Blake%20Park!5e0!3m2!1sen!2sus!4v1712031208092!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/UZJy7c9DNDfZrwks7"
+            }
+        },
+        "albumId": "UPS2sJV"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Rotary Skatepark",
+        "description": "I've always wanted to visit this park as I pass it every time I drive to Portland, slightly aged in it's build quality, it did not disappoint.",
+        "address": {
+            "addressLine1": "1400 Burcham St",
+            "addressLine2": "",
+            "city": "Kelso",
+            "state": "WA",
+            "zipCode": "98525",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55343.53320783989!2d-122.94430728478135!3d46.184517373252596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54946cb3f0a255e1%3A0xa33f2c8a48e068c5!2sRotary%20Skatepark!5e0!3m2!1sen!2sus!4v1712033391968!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/sXdyKU6zSttPFU9L8"
+            }
+        },
+        "albumId": "bTd6ciL"
+    }
+]

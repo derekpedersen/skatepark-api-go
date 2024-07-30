@@ -1,0 +1,36 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Pioneer Skatepark",
+        "description": "By it's design this park feels older than it actually is. There is no coping, nor any ledge, it's all roll in around the entire park. There was one fidget spinner looking element that had been waxed up, but that was about it for grinding.",
+        "address": {
+            "addressLine1": "Pioneer Park",
+            "addressLine2": "",
+            "city": "Wenatchee",
+            "state": "WA",
+            "zipCode": "98801",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21599.917558882375!2d-120.35246568603144!3d47.412142169205204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549bcccf7e1f532b%3A0xd2f4efc66b3ffeeb!2sPioneer%20Skate%20Park!5e0!3m2!1sen!2sus!4v1712033860901!5m2!1sen!2sus\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/tjsJwYu4kw7Li42v9"
+            }
+        },
+        "albumId": "oxuOt"
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Hale Skatepark",
+        "description": "Has probably my faorite bowl design ever.",
+        "address": {
+            "addressLine1": "720 S Worthen St",
+            "addressLine2": "",
+            "city": "Wenatchee",
+            "state": "WA",
+            "zipCode": "98801",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21599.917558882375!2d-120.35246568603144!3d47.412142169205204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549bcd0e526542f1%3A0xa5114663f834e55!2sHale%20Skatepark!5e0!3m2!1sen!2sus!4v1712035846119!5m2!1sen!2sus\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/tKQmRAzjYN2TS2Mr9"
+            }
+        },
+        "albumId": "HzUWjvZ"
+    }
+ ]

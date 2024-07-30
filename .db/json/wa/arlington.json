@@ -1,0 +1,19 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Arlington Skatepark",
+        "description": "A grindline skatepark that is starting to show it's age at 15+ years old.",
+        "address": {
+            "addressLine1": "18501 59th Ave NE",
+            "addressLine2": "",
+            "city": "Arlington",
+            "state": "WA",
+            "zipCode": "98223",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1394007.7693805874!2d-123.66054023365676!3d46.9681454445228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54854fd7889f6a31%3A0x4109522df1ccd54f!2sArlington%20Skate%20Park!5e0!3m2!1sen!2sus!4v1712033299385!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/TFPKzNq2Pfn5UxWA9"
+            }
+        },
+        "albumId": "KFtmFaE"
+    }
+]
