@@ -34,3 +34,4 @@ _vendor*
 .vscode/*
 debug
 Makefile
+__debug*
