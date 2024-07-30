@@ -10,10 +10,101 @@
             "state": "AK",
             "zipCode": "99587",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1936.6488495731555!2d-149.1384020861589!3d60.96146457922066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c87b07e675b8db%3A0xe73048817ce4040c!2sGirdwood%20Skatepark!5e0!3m2!1sen!2sus!4v1712032699406!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1936.6488495731555!2d-149.1384020861589!3d60.96146457922066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c87b07e675b8db%3A0xe73048817ce4040c!2sGirdwood%20Skatepark!5e0!3m2!1sen!2sus!4v1712032699406!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://maps.app.goo.gl/CYSJ2pzFbTwiDWhD8"
             }
         },
-        "albumId": "4TZhhtk"
+        "albumId": "4TZhhtk",
+        "album": {
+            "id": "4TZhhtk",
+            "title": "skatepark - ak - girdwood",
+            "description": null,
+            "images": [
+                {
+                    "id": "mWnyhmL",
+                    "link": "https://i.imgur.com/mWnyhmL.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "VzV5xJL",
+                    "link": "https://i.imgur.com/VzV5xJL.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "pJ5dqab",
+                    "link": "https://i.imgur.com/pJ5dqab.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "IUh3lE1",
+                    "link": "https://i.imgur.com/IUh3lE1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "ybnqvV1",
+                    "link": "https://i.imgur.com/ybnqvV1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "ECLh0lO",
+                    "link": "https://i.imgur.com/ECLh0lO.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "WV9CUtr",
+                    "link": "https://i.imgur.com/WV9CUtr.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "78xi5Kf",
+                    "link": "https://i.imgur.com/78xi5Kf.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "K0ScSyX",
+                    "link": "https://i.imgur.com/K0ScSyX.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "iH3ei1V",
+                    "link": "https://i.imgur.com/iH3ei1V.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "EvyqdPg",
+                    "link": "https://i.imgur.com/EvyqdPg.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "EWrhADk",
+                    "link": "https://i.imgur.com/EWrhADk.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                }
+            ]
+        }
     }
 ]

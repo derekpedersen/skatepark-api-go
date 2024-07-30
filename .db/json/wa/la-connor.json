@@ -9,12 +9,81 @@
             "city": "La Connor",
             "state": "WA",
             "zipCode": "98257",
-            "country": "United States",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2649.102100298364!2d-122.49265048400703!3d48.396982379245024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548565a248f409db%3A0xe9daf8d0afec567!2sLa%20Conner%20Skatepark!5e0!3m2!1sen!2sus!4v1597269071740!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2649.102100298364!2d-122.49265048400703!3d48.396982379245024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548565a248f409db%3A0xe9daf8d0afec567!2sLa%20Conner%20Skatepark!5e0!3m2!1sen!2sus!4v1597269071740!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://goo.gl/maps/i6pHbpFKQ26sixyZ7"
             }
         },
-        "albumId": "xPFUtLn"
+        "albumId": "xPFUtLn",
+        "album": {
+            "id": "xPFUtLn",
+            "title": "skatepark - wa - la connor",
+            "description": null,
+            "images": [
+                {
+                    "id": "89ryErX",
+                    "link": "https://i.imgur.com/89ryErX.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "X4cgVp1",
+                    "link": "https://i.imgur.com/X4cgVp1.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "J8k1loX",
+                    "link": "https://i.imgur.com/J8k1loX.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "zkhlop6",
+                    "link": "https://i.imgur.com/zkhlop6.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "njAjNiS",
+                    "link": "https://i.imgur.com/njAjNiS.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "m1tIcjk",
+                    "link": "https://i.imgur.com/m1tIcjk.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "Ve4URCw",
+                    "link": "https://i.imgur.com/Ve4URCw.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "Tarrg7z",
+                    "link": "https://i.imgur.com/Tarrg7z.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "O1Rl9vZ",
+                    "link": "https://i.imgur.com/O1Rl9vZ.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                }
+            ]
+        }
     }
 ]

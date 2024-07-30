@@ -10,10 +10,45 @@
             "state": "WA",
             "zipCode": "98290",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d292.8329349609678!2d-122.08677529961435!3d47.913485838749025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549aa9b244166983%3A0xf598accc71bbca30!2sSnohomish+Skatepark!5e1!3m2!1sen!2sus!4v1503012149886\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d292.8329349609678!2d-122.08677529961435!3d47.913485838749025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549aa9b244166983%3A0xf598accc71bbca30!2sSnohomish+Skatepark!5e1!3m2!1sen!2sus!4v1503012149886\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/Snohomish+Skatepark/@47.9134858,-122.0867753,67m/data=!3m1!1e3!4m5!3m4!1s0x549aa9b244166983:0xf598accc71bbca30!8m2!3d47.9135204!4d-122.0865386"
             }
         },
-        "albumId": "bwqbW"
+        "albumId": "bwqbW",
+        "album": {
+            "id": "bwqbW",
+            "title": "skatepark - wa - snohomish",
+            "description": null,
+            "images": [
+                {
+                    "id": "q6DvprM",
+                    "link": "https://i.imgur.com/q6DvprM.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The park has a decent layout with a little bit of flow, but hard to cruise around it due to all the intersections."
+                },
+                {
+                    "id": "jOMFI0h",
+                    "link": "https://i.imgur.com/jOMFI0h.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The coping all around the park was severely tore up from bike pegs though its' Snohomish so its' what you would expect."
+                },
+                {
+                    "id": "g2HxNsd",
+                    "link": "https://i.imgur.com/g2HxNsd.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Evidence that this place was overrun with children."
+                },
+                {
+                    "id": "YHo9oV1",
+                    "link": "https://i.imgur.com/YHo9oV1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The pyramids were a little funky, they seemed to small for the amount of speed you could generate."
+                }
+            ]
+        }
     }
 ]

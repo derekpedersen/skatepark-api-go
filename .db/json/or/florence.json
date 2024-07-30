@@ -10,10 +10,143 @@
             "state": "OR",
             "zipCode": "97439",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.863744320115!2d-124.10699128429988!3d43.98286727911138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c181ef81f1abdf%3A0xc033b5e123bf984d!2sFlorence%20Skatepark!5e0!3m2!1sen!2sus!4v1658463429800!5m2!1sen!2sus\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.863744320115!2d-124.10699128429988!3d43.98286727911138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c181ef81f1abdf%3A0xc033b5e123bf984d!2sFlorence%20Skatepark!5e0!3m2!1sen!2sus!4v1658463429800!5m2!1sen!2sus\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://goo.gl/maps/v145FGKCpPckfpGg9"
             }
         },
-        "albumId": "9qGWxYN"
+        "albumId": "9qGWxYN",
+        "album": {
+            "id": "9qGWxYN",
+            "title": "skatepark - or - florence",
+            "description": null,
+            "images": [
+                {
+                    "id": "BVXgzlG",
+                    "link": "https://i.imgur.com/BVXgzlG.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_155657924.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "SyfUkbU",
+                    "link": "https://i.imgur.com/SyfUkbU.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_155659633.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "7qknZ2z",
+                    "link": "https://i.imgur.com/7qknZ2z.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_155702545.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "qVba3S5",
+                    "link": "https://i.imgur.com/qVba3S5.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_155752380.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "2vlJ3Ig",
+                    "link": "https://i.imgur.com/2vlJ3Ig.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_155754026.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "Z0QHlao",
+                    "link": "https://i.imgur.com/Z0QHlao.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_155758976.MP.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "CpAqLqQ",
+                    "link": "https://i.imgur.com/CpAqLqQ.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_155800863.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "zJsduqW",
+                    "link": "https://i.imgur.com/zJsduqW.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_155838180.MP.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "lbqvOQ9",
+                    "link": "https://i.imgur.com/lbqvOQ9.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_155905703.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "iMY4pxh",
+                    "link": "https://i.imgur.com/iMY4pxh.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_155917163.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "pIwsa6e",
+                    "link": "https://i.imgur.com/pIwsa6e.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_155929261.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "jq5ogh0",
+                    "link": "https://i.imgur.com/jq5ogh0.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_155931904.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "TyY2TMw",
+                    "link": "https://i.imgur.com/TyY2TMw.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_160123850.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "7xRPmTF",
+                    "link": "https://i.imgur.com/7xRPmTF.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_160125699.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "8dClfJJ",
+                    "link": "https://i.imgur.com/8dClfJJ.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_160610501.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "5ilatRK",
+                    "link": "https://i.imgur.com/5ilatRK.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_160614345.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "PQL2PEX",
+                    "link": "https://i.imgur.com/PQL2PEX.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_160722457.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "ni6CZup",
+                    "link": "https://i.imgur.com/ni6CZup.jpg",
+                    "title": null,
+                    "name": "PXL_20220711_160731583.jpg",
+                    "description": ""
+                }
+            ]
+        }
     }
 ]

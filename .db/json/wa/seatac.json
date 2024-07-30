@@ -10,11 +10,60 @@
             "state": "WA",
             "zipCode": "98168",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d323.8669797356379!2d-122.30555728401524!3d47.48094837263808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1503008987881\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d323.8669797356379!2d-122.30555728401524!3d47.48094837263808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1503008987881\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/@47.4809484,-122.3055573,74m/data=!3m1!1e3"
             }
         },
-        "albumId": "iqvao"
+        "albumId": "iqvao",
+        "album": {
+            "id": "iqvao",
+            "title": "skatepark - wa - seatac",
+            "description": null,
+            "images": [
+                {
+                    "id": "lZaU210",
+                    "link": "https://i.imgur.com/lZaU210.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Standard street features, good for the youth."
+                },
+                {
+                    "id": "kyRJhKG",
+                    "link": "https://i.imgur.com/kyRJhKG.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A rising quarter pipe."
+                },
+                {
+                    "id": "WhV6NpQ",
+                    "link": "https://i.imgur.com/WhV6NpQ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A pretty small park, but beats what I had growing up."
+                },
+                {
+                    "id": "DXvoK63",
+                    "link": "https://i.imgur.com/DXvoK63.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Wish it had rounded hips."
+                },
+                {
+                    "id": "WKgtrFH",
+                    "link": "https://i.imgur.com/WKgtrFH.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Mini-ramp."
+                },
+                {
+                    "id": "0UPqrPD",
+                    "link": "https://i.imgur.com/0UPqrPD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "You can do some cruising around it but not much."
+                }
+            ]
+        }
     },
     {
         "id": "00000000-0000-0000-0000-000000000000",
@@ -26,12 +75,46 @@
             "city": "SeaTac",
             "state": "WA",
             "zipCode": "98188",
-            "country": "United States",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2185.7060362461475!2d-122.27803044926662!3d47.43632467907154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905cbd486374d1%3A0xdae89a2781500453!2sValley+Ridge+Park!5e1!3m2!1sen!2sus!4v1531710262464\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2185.7060362461475!2d-122.27803044926662!3d47.43632467907154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905cbd486374d1%3A0xdae89a2781500453!2sValley+Ridge+Park!5e1!3m2!1sen!2sus!4v1531710262464\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://goo.gl/maps/6t1tZs2fVX62"
             }
         },
-        "albumId": "M89S6fi"
+        "albumId": "M89S6fi",
+        "album": {
+            "id": "M89S6fi",
+            "title": "skatepark - wa - seatac (valley ridge)",
+            "description": null,
+            "images": [
+                {
+                    "id": "zYk9bjV",
+                    "link": "https://i.imgur.com/zYk9bjV.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "p7161Pn",
+                    "link": "https://i.imgur.com/p7161Pn.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "U5QU3ns",
+                    "link": "https://i.imgur.com/U5QU3ns.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "WRzrUC4",
+                    "link": "https://i.imgur.com/WRzrUC4.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                }
+            ]
+        }
     }
 ]

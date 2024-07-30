@@ -9,12 +9,95 @@
             "city": "Sedro Woolley",
             "state": "WA",
             "zipCode": "98284",
-            "country": "United States",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.255934222078!2d-122.23945898400372!3d48.50915827925474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54851295b76a9b9f%3A0x90996990078e6ba6!2sSedro%20Woolley%20Skatepark!5e0!3m2!1sen!2sus!4v1597269422354!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.255934222078!2d-122.23945898400372!3d48.50915827925474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54851295b76a9b9f%3A0x90996990078e6ba6!2sSedro%20Woolley%20Skatepark!5e0!3m2!1sen!2sus!4v1597269422354!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://goo.gl/maps/XJxRVgJbH9W5n4oZA"
             }
         },
-        "albumId": "ewuDr2W"
+        "albumId": "ewuDr2W",
+        "album": {
+            "id": "ewuDr2W",
+            "title": "skatepark - wa - sedro wooley",
+            "description": null,
+            "images": [
+                {
+                    "id": "NjmNwvK",
+                    "link": "https://i.imgur.com/NjmNwvK.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "hMOTV9E",
+                    "link": "https://i.imgur.com/hMOTV9E.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "SFI4TlR",
+                    "link": "https://i.imgur.com/SFI4TlR.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "jtNHxyF",
+                    "link": "https://i.imgur.com/jtNHxyF.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "3bj24G2",
+                    "link": "https://i.imgur.com/3bj24G2.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "F3BvsjZ",
+                    "link": "https://i.imgur.com/F3BvsjZ.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "ZM4N8Cf",
+                    "link": "https://i.imgur.com/ZM4N8Cf.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "tL9Btc5",
+                    "link": "https://i.imgur.com/tL9Btc5.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "naNRQWV",
+                    "link": "https://i.imgur.com/naNRQWV.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "FIUTVdf",
+                    "link": "https://i.imgur.com/FIUTVdf.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                },
+                {
+                    "id": "h0QhCgV",
+                    "link": "https://i.imgur.com/h0QhCgV.jpg",
+                    "title": null,
+                    "name": "",
+                    "description": ""
+                }
+            ]
+        }
     }
 ]

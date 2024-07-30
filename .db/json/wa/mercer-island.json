@@ -4,16 +4,44 @@
         "name": "Mercerdale Park",
         "description": "This park was built a while ago and has limited features. I wanted to go here when I was middle school when it was first built but never got the chance and I think I would have enjoyed it when I was little.",
         "address": {
-            "addressLine1": "77th SE & SE 32nd",
+            "addressLine1": "77th SE \u0026 SE 32nd",
             "addressLine2": "",
             "city": "Mercer Island",
             "state": "WA",
             "zipCode": "98040",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d311.65921869644563!2d-122.23588249553515!3d47.58073914613552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMercer+Island+skatepark!5e1!3m2!1sen!2sus!4v1503011108256\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d311.65921869644563!2d-122.23588249553515!3d47.58073914613552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMercer+Island+skatepark!5e1!3m2!1sen!2sus!4v1503011108256\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/search/Mercer+Island+skatepark/@47.5807391,-122.2358825,72m/data=!3m1!1e3"
             }
         },
-        "albumId": "WHI3t"
+        "albumId": "WHI3t",
+        "album": {
+            "id": "WHI3t",
+            "title": "skatepark - wa - mercer island",
+            "description": null,
+            "images": [
+                {
+                    "id": "LHpYgx2",
+                    "link": "https://i.imgur.com/LHpYgx2.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Not a whole lot to this park. But I would have tore up that mini-picnic table when I was younger."
+                },
+                {
+                    "id": "xrLI8xG",
+                    "link": "https://i.imgur.com/xrLI8xG.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Banked mini-picnic table."
+                },
+                {
+                    "id": "1Xrpub8",
+                    "link": "https://i.imgur.com/1Xrpub8.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Just a lot of ledges mostly."
+                }
+            ]
+        }
     }
 ]

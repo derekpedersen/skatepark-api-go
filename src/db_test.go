@@ -28,7 +28,7 @@ func TestSkateparks_GetSkateparks_Success(t *testing.T) {
 	}
 
 	// Act
-	parks, err := skatepark_api.ParseSkateparks(testfile)
+	parks, err := skatepark_api.ParseSkateparks(testfile, true)
 
 	// Assert
 	if err != nil {
@@ -44,7 +44,7 @@ func TestSkateparks_GetSkateparks_Error_FileRead(t *testing.T) {
 	fp := "../.db/test/bad/"
 
 	// Act
-	_, err := skatepark_api.ParseSkateparks(fp)
+	_, err := skatepark_api.ParseSkateparks(fp, false)
 
 	// Assert
 	if err == nil {
@@ -57,7 +57,7 @@ func TestSkateparks_GetSkateparks_Error_Parse(t *testing.T) {
 	fp := "../.dev/test/bad/"
 
 	// Act
-	_, err := skatepark_api.ParseSkateparks(fp)
+	_, err := skatepark_api.ParseSkateparks(fp, false)
 
 	// Assert
 	if err == nil {

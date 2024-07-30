@@ -10,11 +10,95 @@
             "state": "WA",
             "zipCode": "98031",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d797.7910812156944!2d-122.18805744421311!3d47.38619612552979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905e9760f875fb%3A0x74eb71cd3d1da4f1!2sArbor+Heights+360+Park!5e1!3m2!1sen!2sus!4v1503008644801\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d797.7910812156944!2d-122.18805744421311!3d47.38619612552979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905e9760f875fb%3A0x74eb71cd3d1da4f1!2sArbor+Heights+360+Park!5e1!3m2!1sen!2sus!4v1503008644801\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/Arbor+Heights+360+Park/@47.3861961,-122.1880574,183m/data=!3m1!1e3!4m8!1m2!2m1!1sKent+skatepark!3m4!1s0x54905e9760f875fb:0x74eb71cd3d1da4f1!8m2!3d47.3861922!4d-122.1871576"
             }
         },
-        "albumId": "kn3N4"
+        "albumId": "kn3N4",
+        "album": {
+            "id": "kn3N4",
+            "title": "skatepark - wa - kent (east)",
+            "description": null,
+            "images": [
+                {
+                    "id": "xjc61zr",
+                    "link": "https://i.imgur.com/xjc61zr.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Tight and deep pool."
+                },
+                {
+                    "id": "hAiaDpm",
+                    "link": "https://i.imgur.com/hAiaDpm.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The shallow end is steep."
+                },
+                {
+                    "id": "IUuAtNE",
+                    "link": "https://i.imgur.com/IUuAtNE.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Instead of making a skating pool I think they actually went for a real pool skating feel. Lots of vert."
+                },
+                {
+                    "id": "z5FvuXJ",
+                    "link": "https://i.imgur.com/z5FvuXJ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "A giant S shaped bowl."
+                },
+                {
+                    "id": "7JpPXu9",
+                    "link": "https://i.imgur.com/7JpPXu9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Only had 2 people skating this thing at about 10am on a Saturday."
+                },
+                {
+                    "id": "uzRdHZE",
+                    "link": "https://i.imgur.com/uzRdHZE.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Other side of the full pipe."
+                },
+                {
+                    "id": "QboWhqx",
+                    "link": "https://i.imgur.com/QboWhqx.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This bowl is huge and deep."
+                },
+                {
+                    "id": "datZJY9",
+                    "link": "https://i.imgur.com/datZJY9.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "People stickering up the full pipe."
+                },
+                {
+                    "id": "NcsEbRy",
+                    "link": "https://i.imgur.com/NcsEbRy.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Lots of flow."
+                },
+                {
+                    "id": "KE2dPZX",
+                    "link": "https://i.imgur.com/KE2dPZX.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The \"shallow\" end."
+                },
+                {
+                    "id": "DLt1Syq",
+                    "link": "https://i.imgur.com/DLt1Syq.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Never thought I'd see a full pipe in this state."
+                }
+            ]
+        }
     },
     {
         "id": "00000000-0000-0000-0000-000000000000",
@@ -27,9 +111,52 @@
             "state": "WA",
             "zipCode": "98032",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d560.8231574173672!2d-122.28130921649236!3d47.36978499806071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905bd5af756f17%3A0x3db3b3b4b56ca50e!2sWest+Hill+Skate+Park!5e1!3m2!1sen!2sus!4v1503008753024\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d560.8231574173672!2d-122.28130921649236!3d47.36978499806071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905bd5af756f17%3A0x3db3b3b4b56ca50e!2sWest+Hill+Skate+Park!5e1!3m2!1sen!2sus!4v1503008753024\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/West+Hill+Skate+Park/@47.369785,-122.2813092,129m/data=!3m1!1e3!4m8!1m2!2m1!1sKent+skatepark!3m4!1s0x54905bd5af756f17:0x3db3b3b4b56ca50e!8m2!3d47.3698289!4d-122.2810012"
             }
         },
-        "albumId": "C1Pwz"
-    }]
+        "albumId": "C1Pwz",
+        "album": {
+            "id": "C1Pwz",
+            "title": "skatepark - wa - kent (west)",
+            "description": null,
+            "images": [
+                {
+                    "id": "xnKMtB1",
+                    "link": "https://i.imgur.com/xnKMtB1.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This park has seen better days. The coping was all smashed-in on half of it."
+                },
+                {
+                    "id": "OReUdTi",
+                    "link": "https://i.imgur.com/OReUdTi.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "It's kind of lumpy in spots."
+                },
+                {
+                    "id": "hYLQurL",
+                    "link": "https://i.imgur.com/hYLQurL.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The shallow end is really shallow, only like 1.5 - 2 feet deep."
+                },
+                {
+                    "id": "kOKhrWM",
+                    "link": "https://i.imgur.com/kOKhrWM.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Nothing else here besides the clover bowl."
+                },
+                {
+                    "id": "z2ABBs7",
+                    "link": "https://i.imgur.com/z2ABBs7.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This was the best part of the bowl."
+                }
+            ]
+        }
+    }
+]

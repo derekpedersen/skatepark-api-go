@@ -9,12 +9,291 @@
             "city": "Squamish",
             "state": "BC",
             "zipCode": "V8B 0K6",
-            "country": "Canada",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.119593504446!2d-123.15332638401472!3d49.70855017937988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486f9769609a3f1%3A0xb2ae03b7b150a56!2sSquamish%20Skatepark!5e0!3m2!1sen!2sus!4v1654021884237!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.119593504446!2d-123.15332638401472!3d49.70855017937988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486f9769609a3f1%3A0xb2ae03b7b150a56!2sSquamish%20Skatepark!5e0!3m2!1sen!2sus!4v1654021884237!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://goo.gl/maps/fm4wv4SEPPfSY7bm6"
             }
         },
-        "albumId": "NAGfamd"
+        "albumId": "NAGfamd",
+        "album": {
+            "id": "NAGfamd",
+            "title": "skatepark - bc - squamish",
+            "description": null,
+            "images": [
+                {
+                    "id": "v6DZuJe",
+                    "link": "https://i.imgur.com/v6DZuJe.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161009238.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "uKaxL1U",
+                    "link": "https://i.imgur.com/uKaxL1U.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161011650.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "PxjLwZi",
+                    "link": "https://i.imgur.com/PxjLwZi.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161015239.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "1fj1EPJ",
+                    "link": "https://i.imgur.com/1fj1EPJ.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161018482.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "1PFsdd3",
+                    "link": "https://i.imgur.com/1PFsdd3.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161042649.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "uPmWp8g",
+                    "link": "https://i.imgur.com/uPmWp8g.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161043954.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "oga6z8W",
+                    "link": "https://i.imgur.com/oga6z8W.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161050591.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "VS1zbSS",
+                    "link": "https://i.imgur.com/VS1zbSS.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161051896.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "Z2ZcsqQ",
+                    "link": "https://i.imgur.com/Z2ZcsqQ.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161053422.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "CQf1zxt",
+                    "link": "https://i.imgur.com/CQf1zxt.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161054563.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "723Kwz6",
+                    "link": "https://i.imgur.com/723Kwz6.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161056565.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "Pda0Gdk",
+                    "link": "https://i.imgur.com/Pda0Gdk.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161058013.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "krp8145",
+                    "link": "https://i.imgur.com/krp8145.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161102739.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "gQEMqfK",
+                    "link": "https://i.imgur.com/gQEMqfK.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161110639.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "qIQdqEf",
+                    "link": "https://i.imgur.com/qIQdqEf.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161114990.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "wM7RzaP",
+                    "link": "https://i.imgur.com/wM7RzaP.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161120722.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "XOM1dfs",
+                    "link": "https://i.imgur.com/XOM1dfs.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161126958.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "zLM7Iu4",
+                    "link": "https://i.imgur.com/zLM7Iu4.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161133972.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "iZTLSnu",
+                    "link": "https://i.imgur.com/iZTLSnu.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161137762.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "xYSNHsJ",
+                    "link": "https://i.imgur.com/xYSNHsJ.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161153774.MP.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "pEJWhuk",
+                    "link": "https://i.imgur.com/pEJWhuk.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161157466.MP.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "mmRi8ph",
+                    "link": "https://i.imgur.com/mmRi8ph.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161203880.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "IYGGXab",
+                    "link": "https://i.imgur.com/IYGGXab.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161205980.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "aM9uTij",
+                    "link": "https://i.imgur.com/aM9uTij.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161213016.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "QpUxNpt",
+                    "link": "https://i.imgur.com/QpUxNpt.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161220610.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "oZOjfu3",
+                    "link": "https://i.imgur.com/oZOjfu3.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161229951.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "ny6SZqS",
+                    "link": "https://i.imgur.com/ny6SZqS.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161243670.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "wEwFyYW",
+                    "link": "https://i.imgur.com/wEwFyYW.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161249210.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "uNylkDn",
+                    "link": "https://i.imgur.com/uNylkDn.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161253457.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "29bTpan",
+                    "link": "https://i.imgur.com/29bTpan.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161254597.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "ghXfFA3",
+                    "link": "https://i.imgur.com/ghXfFA3.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161257719.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "4LYzkoS",
+                    "link": "https://i.imgur.com/4LYzkoS.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161259567.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "dAF1j6q",
+                    "link": "https://i.imgur.com/dAF1j6q.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161304611.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "n2WWFHz",
+                    "link": "https://i.imgur.com/n2WWFHz.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161313594.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "pWFdH2Q",
+                    "link": "https://i.imgur.com/pWFdH2Q.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161322824.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "KSsm7Cj",
+                    "link": "https://i.imgur.com/KSsm7Cj.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161325521.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "OmtsCYB",
+                    "link": "https://i.imgur.com/OmtsCYB.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161332128.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "vUjmHk0",
+                    "link": "https://i.imgur.com/vUjmHk0.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161334959.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "qv1Jn5v",
+                    "link": "https://i.imgur.com/qv1Jn5v.jpg",
+                    "title": null,
+                    "name": "PXL_20220425_161339162.jpg",
+                    "description": ""
+                }
+            ]
+        }
     }
 ]
