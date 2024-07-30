@@ -10,11 +10,39 @@
             "state": "OR",
             "zipCode": "97828",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m13!1m11!1m3!1d599.6711049405196!2d-117.2731148631298!3d45.42022799173233!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1502771401214\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m13!1m11!1m3!1d599.6711049405196!2d-117.2731148631298!3d45.42022799173233!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1502771401214\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/@45.420228,-117.2731149,138m/data=!3m1!1e3"
             }
         },
-        "albumId": "tLkdC"
+        "albumId": "tLkdC",
+        "album": {
+            "id": "tLkdC",
+            "title": "",
+            "description": null,
+            "images": [
+                {
+                    "id": "36q7dfi",
+                    "link": "https://i.imgur.com/36q7dfi.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The entire skatepark."
+                },
+                {
+                    "id": "HjKF3B6",
+                    "link": "https://i.imgur.com/HjKF3B6.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Two metal quarter pipes and a funky metal pyramid that isn't really a pyramid. Is it a fun box?"
+                },
+                {
+                    "id": "7SCV3m3",
+                    "link": "https://i.imgur.com/7SCV3m3.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Artsy photo."
+                }
+            ]
+        }
     },
     {
         "id": "00000000-0000-0000-0000-000000000000",
@@ -27,10 +55,255 @@
             "state": "OR",
             "zipCode": "97828",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.4529895880532!2d-117.27569498651135!3d45.42036913623922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a3f9f762a270c3%3A0xd5ea2423b4dfc4dc!2sEnterprise%20Skatepark!5e0!3m2!1sen!2sus!4v1712032111317!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.4529895880532!2d-117.27569498651135!3d45.42036913623922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a3f9f762a270c3%3A0xd5ea2423b4dfc4dc!2sEnterprise%20Skatepark!5e0!3m2!1sen!2sus!4v1712032111317!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://maps.app.goo.gl/CUwtFwHREPNFuVxg7"
             }
         },
-        "albumId": "D6plOta"
+        "albumId": "D6plOta",
+        "album": {
+            "id": "D6plOta",
+            "title": "skatepark - or - enterprise v2",
+            "description": null,
+            "images": [
+                {
+                    "id": "eEjO10G",
+                    "link": "https://i.imgur.com/eEjO10G.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140027778.MP.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "7dTUxhh",
+                    "link": "https://i.imgur.com/7dTUxhh.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140028110.MP.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "vqHVkap",
+                    "link": "https://i.imgur.com/vqHVkap.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140030569.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "lhpkiKd",
+                    "link": "https://i.imgur.com/lhpkiKd.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140032993.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "745UMFB",
+                    "link": "https://i.imgur.com/745UMFB.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140034541.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "JNaBcuK",
+                    "link": "https://i.imgur.com/JNaBcuK.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140035770.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "7QsFvOY",
+                    "link": "https://i.imgur.com/7QsFvOY.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140036779.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "ug1Kske",
+                    "link": "https://i.imgur.com/ug1Kske.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140038185.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "zWign67",
+                    "link": "https://i.imgur.com/zWign67.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140039526.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "7IUyRKG",
+                    "link": "https://i.imgur.com/7IUyRKG.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140040463.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "XZNhN0d",
+                    "link": "https://i.imgur.com/XZNhN0d.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140040976.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "jY2IFH9",
+                    "link": "https://i.imgur.com/jY2IFH9.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140042755.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "YKUhA27",
+                    "link": "https://i.imgur.com/YKUhA27.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140044319.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "GnY0MgL",
+                    "link": "https://i.imgur.com/GnY0MgL.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140052849.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "TDdyOc9",
+                    "link": "https://i.imgur.com/TDdyOc9.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140053455.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "trQ50IN",
+                    "link": "https://i.imgur.com/trQ50IN.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140053915.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "HgzhC4g",
+                    "link": "https://i.imgur.com/HgzhC4g.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140157763.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "b1qr2rb",
+                    "link": "https://i.imgur.com/b1qr2rb.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140158178.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "XNsUoZE",
+                    "link": "https://i.imgur.com/XNsUoZE.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140027778.MP.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "iefPj3y",
+                    "link": "https://i.imgur.com/iefPj3y.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140028110.MP.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "76Ipiyv",
+                    "link": "https://i.imgur.com/76Ipiyv.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140030569.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "eq3bMTO",
+                    "link": "https://i.imgur.com/eq3bMTO.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140032993.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "CNM4f12",
+                    "link": "https://i.imgur.com/CNM4f12.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140034541.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "tLkxmln",
+                    "link": "https://i.imgur.com/tLkxmln.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140035770.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "9GPFlpf",
+                    "link": "https://i.imgur.com/9GPFlpf.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140036779.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "kYrAyq8",
+                    "link": "https://i.imgur.com/kYrAyq8.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140038185.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "jhZOvBH",
+                    "link": "https://i.imgur.com/jhZOvBH.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140039526.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "EWvasDh",
+                    "link": "https://i.imgur.com/EWvasDh.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140040463.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "PIfb4E3",
+                    "link": "https://i.imgur.com/PIfb4E3.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140040976.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "HzY5ccY",
+                    "link": "https://i.imgur.com/HzY5ccY.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140042755.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "XQN4Kge",
+                    "link": "https://i.imgur.com/XQN4Kge.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140044319.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "QudGbWL",
+                    "link": "https://i.imgur.com/QudGbWL.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140052849.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "DS7vc03",
+                    "link": "https://i.imgur.com/DS7vc03.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140053455.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "XSVPiRh",
+                    "link": "https://i.imgur.com/XSVPiRh.jpg",
+                    "title": null,
+                    "name": "PXL_20230603_140053915.jpg",
+                    "description": ""
+                }
+            ]
+        }
     }
 ]

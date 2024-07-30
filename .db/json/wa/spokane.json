@@ -10,10 +10,80 @@
             "state": "WA",
             "zipCode": "99201",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.1119280084554!2d-117.42337428646645!3d47.662821983971035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549e19f5d1e4c8a5%3A0x4bb7bc1da91fef4a!2sRiverfront%20Skate%20%26%20Wheels%20Park!5e0!3m2!1sen!2sus!4v1712031832866!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.1119280084554!2d-117.42337428646645!3d47.662821983971035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549e19f5d1e4c8a5%3A0x4bb7bc1da91fef4a!2sRiverfront%20Skate%20%26%20Wheels%20Park!5e0!3m2!1sen!2sus!4v1712031832866!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://maps.app.goo.gl/vTXJjoKUmBUZFteb6"
             }
         },
-        "albumId": "3y0OoW8"
+        "albumId": "3y0OoW8",
+        "album": {
+            "id": "3y0OoW8",
+            "title": "skatepark - wa - spokane - riverside",
+            "description": null,
+            "images": [
+                {
+                    "id": "VuZdjuT",
+                    "link": "https://i.imgur.com/VuZdjuT.jpg",
+                    "title": null,
+                    "name": "PXL_20230717_200713100.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "nwOrdRn",
+                    "link": "https://i.imgur.com/nwOrdRn.jpg",
+                    "title": null,
+                    "name": "PXL_20230717_200555082.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "VqqX5ss",
+                    "link": "https://i.imgur.com/VqqX5ss.jpg",
+                    "title": null,
+                    "name": "PXL_20230717_200556793.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "oUb9tNT",
+                    "link": "https://i.imgur.com/oUb9tNT.jpg",
+                    "title": null,
+                    "name": "PXL_20230717_200555953.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "xb4Rfm4",
+                    "link": "https://i.imgur.com/xb4Rfm4.jpg",
+                    "title": null,
+                    "name": "PXL_20230717_200712432.MP.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "UspdVb8",
+                    "link": "https://i.imgur.com/UspdVb8.jpg",
+                    "title": null,
+                    "name": "PXL_20230717_200711748.MP.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "lMWYXfO",
+                    "link": "https://i.imgur.com/lMWYXfO.jpg",
+                    "title": null,
+                    "name": "PXL_20230717_200558203.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "eLfbVT7",
+                    "link": "https://i.imgur.com/eLfbVT7.jpg",
+                    "title": null,
+                    "name": "PXL_20230717_200806458.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "sk4fBgu",
+                    "link": "https://i.imgur.com/sk4fBgu.jpg",
+                    "title": null,
+                    "name": "PXL_20230717_200809401.jpg",
+                    "description": ""
+                }
+            ]
+        }
     }
 ]

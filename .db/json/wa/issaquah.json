@@ -10,11 +10,88 @@
             "state": "WA",
             "zipCode": "98027",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d269.12812031708467!2d-122.06222139333242!3d47.540388624426896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfbfa6e2093ffda9c!2sTibbetts+Valley+Park!5e1!3m2!1sen!2sus!4v1525410076020\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d269.12812031708467!2d-122.06222139333242!3d47.540388624426896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfbfa6e2093ffda9c!2sTibbetts+Valley+Park!5e1!3m2!1sen!2sus!4v1525410076020\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://goo.gl/maps/bmnpzzZqrvx"
             }
         },
-        "albumId": "PiDfI"
+        "albumId": "PiDfI",
+        "album": {
+            "id": "PiDfI",
+            "title": "skatepark - wa - issaquah (new)",
+            "description": null,
+            "images": [
+                {
+                    "id": "v32PO6g",
+                    "link": "https://i.imgur.com/v32PO6g.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "yWqU6fN",
+                    "link": "https://i.imgur.com/yWqU6fN.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "wINQhq8",
+                    "link": "https://i.imgur.com/wINQhq8.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "vhoTcfG",
+                    "link": "https://i.imgur.com/vhoTcfG.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "A6PNqbC",
+                    "link": "https://i.imgur.com/A6PNqbC.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "0Z4yO7c",
+                    "link": "https://i.imgur.com/0Z4yO7c.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "oLhgp9a",
+                    "link": "https://i.imgur.com/oLhgp9a.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "JSCsUnF",
+                    "link": "https://i.imgur.com/JSCsUnF.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "YHQLg8T",
+                    "link": "https://i.imgur.com/YHQLg8T.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "VSNt7ix",
+                    "link": "https://i.imgur.com/VSNt7ix.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                }
+            ]
+        }
     },
     {
         "id": "00000000-0000-0000-0000-000000000000",
@@ -27,10 +104,66 @@
             "state": "WA",
             "zipCode": "98027",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.81242108657477!2d-122.03338195461713!3d47.52624138340542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906582105813cb%3A0x729bd48294beb6e3!2sIssaquah+Skate+Park!5e1!3m2!1sen!2sus!4v1525409778258\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.81242108657477!2d-122.03338195461713!3d47.52624138340542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906582105813cb%3A0x729bd48294beb6e3!2sIssaquah+Skate+Park!5e1!3m2!1sen!2sus!4v1525409778258\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://goo.gl/maps/fJNrzHNAbyp"
             }
         },
-        "albumId": "7B0vA"
+        "albumId": "7B0vA",
+        "album": {
+            "id": "7B0vA",
+            "title": "skatepark - wa - issaquah (old)",
+            "description": null,
+            "images": [
+                {
+                    "id": "wLTM7sb",
+                    "link": "https://i.imgur.com/wLTM7sb.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "GE4qrgv",
+                    "link": "https://i.imgur.com/GE4qrgv.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "yI7OUWa",
+                    "link": "https://i.imgur.com/yI7OUWa.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "hkdqlH6",
+                    "link": "https://i.imgur.com/hkdqlH6.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "Ms92405",
+                    "link": "https://i.imgur.com/Ms92405.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "3cAumug",
+                    "link": "https://i.imgur.com/3cAumug.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "uyT77LU",
+                    "link": "https://i.imgur.com/uyT77LU.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                }
+            ]
+        }
     }
 ]

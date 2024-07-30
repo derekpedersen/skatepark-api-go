@@ -10,11 +10,39 @@
             "state": "WA",
             "zipCode": "98801",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21599.917558882375!2d-120.35246568603144!3d47.412142169205204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549bcccf7e1f532b%3A0xd2f4efc66b3ffeeb!2sPioneer%20Skate%20Park!5e0!3m2!1sen!2sus!4v1712033860901!5m2!1sen!2sus\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21599.917558882375!2d-120.35246568603144!3d47.412142169205204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549bcccf7e1f532b%3A0xd2f4efc66b3ffeeb!2sPioneer%20Skate%20Park!5e0!3m2!1sen!2sus!4v1712033860901!5m2!1sen!2sus\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://maps.app.goo.gl/tjsJwYu4kw7Li42v9"
             }
         },
-        "albumId": "oxuOt"
+        "albumId": "oxuOt",
+        "album": {
+            "id": "oxuOt",
+            "title": "skatepark - wa - wenatchee",
+            "description": null,
+            "images": [
+                {
+                    "id": "EnpLCxR",
+                    "link": "https://i.imgur.com/EnpLCxR.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This bowl was completely unskateable. It wasn't even a bowl as so much an inverted pyramid. Sidewalls where chunky and clearly not designed or poured by anyone that cared. The artwork was nice though."
+                },
+                {
+                    "id": "bkTd3rR",
+                    "link": "https://i.imgur.com/bkTd3rR.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Who the hell builds a skatepark with no coping?"
+                },
+                {
+                    "id": "fyOWygh",
+                    "link": "https://i.imgur.com/fyOWygh.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The best feature in the entire park. The fidget spinner was fun to mess around on as it was coated in wax making it the only grind-able element in the entire park."
+                }
+            ]
+        }
     },
     {
         "id": "00000000-0000-0000-0000-000000000000",
@@ -27,10 +55,136 @@
             "state": "WA",
             "zipCode": "98801",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21599.917558882375!2d-120.35246568603144!3d47.412142169205204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549bcd0e526542f1%3A0xa5114663f834e55!2sHale%20Skatepark!5e0!3m2!1sen!2sus!4v1712035846119!5m2!1sen!2sus\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21599.917558882375!2d-120.35246568603144!3d47.412142169205204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549bcd0e526542f1%3A0xa5114663f834e55!2sHale%20Skatepark!5e0!3m2!1sen!2sus!4v1712035846119!5m2!1sen!2sus\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://maps.app.goo.gl/tKQmRAzjYN2TS2Mr9"
             }
         },
-        "albumId": "HzUWjvZ"
+        "albumId": "HzUWjvZ",
+        "album": {
+            "id": "HzUWjvZ",
+            "title": "skatepark - wa - wenatchee- hale park",
+            "description": null,
+            "images": [
+                {
+                    "id": "YP5QSww",
+                    "link": "https://i.imgur.com/YP5QSww.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_223048327.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "Pmfe1OA",
+                    "link": "https://i.imgur.com/Pmfe1OA.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_223050191.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "ZGKT5gy",
+                    "link": "https://i.imgur.com/ZGKT5gy.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_223056470.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "JzQfN5j",
+                    "link": "https://i.imgur.com/JzQfN5j.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_223114135.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "CwyIOfZ",
+                    "link": "https://i.imgur.com/CwyIOfZ.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_223226152.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "Ro4mdYI",
+                    "link": "https://i.imgur.com/Ro4mdYI.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_223229166.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "yrDqt2x",
+                    "link": "https://i.imgur.com/yrDqt2x.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_223931781.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "dyEGAH6",
+                    "link": "https://i.imgur.com/dyEGAH6.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_223933425.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "63Nk5pu",
+                    "link": "https://i.imgur.com/63Nk5pu.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_224042064.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "NlZYaJg",
+                    "link": "https://i.imgur.com/NlZYaJg.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_224044290.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "0CKchjN",
+                    "link": "https://i.imgur.com/0CKchjN.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_224554586.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "URu19hV",
+                    "link": "https://i.imgur.com/URu19hV.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_224555985.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "lGzoKZK",
+                    "link": "https://i.imgur.com/lGzoKZK.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_225021097.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "JVLJbPO",
+                    "link": "https://i.imgur.com/JVLJbPO.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_225030207.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "HvUmSb0",
+                    "link": "https://i.imgur.com/HvUmSb0.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_225032535.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "kCisP7x",
+                    "link": "https://i.imgur.com/kCisP7x.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_225546242.jpg",
+                    "description": ""
+                },
+                {
+                    "id": "8YGKVgQ",
+                    "link": "https://i.imgur.com/8YGKVgQ.jpg",
+                    "title": null,
+                    "name": "PXL_20210521_225548496.jpg",
+                    "description": ""
+                }
+            ]
+        }
     }
- ]
+]

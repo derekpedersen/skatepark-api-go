@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: us.gcr.io/sleipnir/skatepark-api-go
+  repository: derekpedersen/skatepark-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -48,15 +48,29 @@ ingress:
     kubernetes.io/ingress.class: nginx
     cert-manager.io/cluster-issuer: letsencrypt-prod
   hosts:
+    - host: kieranpedersen.com
+      paths:
+        - path: /api/skateparks
+          pathType: ImplementationSpecific
+    - host: www.kieranpedersen.com
+      paths:
+        - path: /api/skateparks
+          pathType: ImplementationSpecific
     - host: celebrityskateboards.com
+      paths:
+        - path: /api/skateparks
+          pathType: ImplementationSpecific
+    - host: www.celebrityskateboards.com
       paths:
         - path: /api/skateparks
           pathType: ImplementationSpecific
   tls:
    - secretName: celebrityskateboards-com-tls
      hosts:
-       - celebrityskateboards.com
-       - www.celebrityskateboards.com
+        - kieranpedersen.com
+        - www.kieranpedersen.com
+        - celebrityskateboards.com
+        - www.celebrityskateboards.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

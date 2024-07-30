@@ -10,11 +10,67 @@
             "state": "WA",
             "zipCode": "98201",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d302.2429545247762!2d-122.19468312193926!3d48.003549425313565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1503012066473\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d302.2429545247762!2d-122.19468312193926!3d48.003549425313565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1503012066473\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/@48.0035494,-122.1946831,69m/data=!3m1!1e3"
             }
         },
-        "albumId": "VB6EM"
+        "albumId": "VB6EM",
+        "album": {
+            "id": "VB6EM",
+            "title": "skatepark - wa - everett (wiggums hollow park)",
+            "description": null,
+            "images": [
+                {
+                    "id": "NpWEugq",
+                    "link": "https://i.imgur.com/NpWEugq.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "DOGTOWN \"Z\" Flex Skateboard"
+                },
+                {
+                    "id": "554BEJI",
+                    "link": "https://i.imgur.com/554BEJI.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I was stoked to see these banks."
+                },
+                {
+                    "id": "ERTiX9x",
+                    "link": "https://i.imgur.com/ERTiX9x.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "All flows in one direction, but its spaced out well enough."
+                },
+                {
+                    "id": "sus4KJE",
+                    "link": "https://i.imgur.com/sus4KJE.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "All street stuff but there was enough for me to mess around on."
+                },
+                {
+                    "id": "rzNLfwz",
+                    "link": "https://i.imgur.com/rzNLfwz.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The steep pyramid was really fun to wall ride down past the stairs."
+                },
+                {
+                    "id": "NzU3DTD",
+                    "link": "https://i.imgur.com/NzU3DTD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "The metal ledges were pretty rounded."
+                },
+                {
+                    "id": "kZ31k8O",
+                    "link": "https://i.imgur.com/kZ31k8O.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "This thing was awesome."
+                }
+            ]
+        }
     },
     {
         "id": "00000000-0000-0000-0000-000000000000",
@@ -27,10 +83,38 @@
             "state": "WA",
             "zipCode": "98204",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d417.71231597964754!2d-122.25129824854109!3d47.91914284041031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sEverett+Skatepark!5e1!3m2!1sen!2sus!4v1503009927626\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d417.71231597964754!2d-122.25129824854109!3d47.91914284041031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sEverett+Skatepark!5e1!3m2!1sen!2sus!4v1503009927626\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/search/Everett+Skatepark/@47.9191428,-122.2512982,96m/data=!3m1!1e3"
             }
         },
-        "albumId": "mTWWp"
+        "albumId": "mTWWp",
+        "album": {
+            "id": "mTWWp",
+            "title": "skatepark - wa - everett",
+            "description": null,
+            "images": [
+                {
+                    "id": "9Cr0CTN",
+                    "link": "https://i.imgur.com/9Cr0CTN.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I grew up on that rail. So many awesome board slides."
+                },
+                {
+                    "id": "2qEek4h",
+                    "link": "https://i.imgur.com/2qEek4h.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "Nice deep bowl."
+                },
+                {
+                    "id": "p83fGhD",
+                    "link": "https://i.imgur.com/p83fGhD.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": "I remember when I use to have to wake up at 6:00 am on a Saturday to get here before 7:00 am so we could get a solid hour in before the huge crowds showed up. No one was here on a Saturday at around 5:00 pm now."
+                }
+            ]
+        }
     }
 ]

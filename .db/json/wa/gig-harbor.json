@@ -10,10 +10,52 @@
             "state": "WA",
             "zipCode": "98335",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420.22772556128325!2d-122.58697560927804!3d47.32186876287358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549052d0803ebc51%3A0xb4a9982a87304c28!2sSkate+Park!5e1!3m2!1sen!2sus!4v1503009456575\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420.22772556128325!2d-122.58697560927804!3d47.32186876287358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549052d0803ebc51%3A0xb4a9982a87304c28!2sSkate+Park!5e1!3m2!1sen!2sus!4v1503009456575\" frameborder=\"0\" style=\"border:0; width: 100%; height: 100%;\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://www.google.com/maps/place/Skate+Park/@47.3218688,-122.5869756,97m/data=!3m1!1e3!4m5!3m4!1s0x549052d0803ebc51:0xb4a9982a87304c28!8m2!3d47.3219128!4d-122.5866237"
             }
         },
-        "albumId": "sHepo"
+        "albumId": "sHepo",
+        "album": {
+            "id": "sHepo",
+            "title": "skatepark - wa - gig harbor",
+            "description": "The Gig Harbor skatepark.",
+            "images": [
+                {
+                    "id": "Xdk1Fdw",
+                    "link": "https://i.imgur.com/Xdk1Fdw.jpg",
+                    "title": null,
+                    "name": "1 - Yv014Pm",
+                    "description": "Snake run."
+                },
+                {
+                    "id": "nZQcgEI",
+                    "link": "https://i.imgur.com/nZQcgEI.jpg",
+                    "title": null,
+                    "name": "2 - oPo6wWl",
+                    "description": "This bowl would be awesome if it was more enclosed."
+                },
+                {
+                    "id": "loOxmZQ",
+                    "link": "https://i.imgur.com/loOxmZQ.jpg",
+                    "title": null,
+                    "name": "6 - L5yFKLM",
+                    "description": "Lots of random features."
+                },
+                {
+                    "id": "oikYJRt",
+                    "link": "https://i.imgur.com/oikYJRt.jpg",
+                    "title": null,
+                    "name": "5 - hANpHeq",
+                    "description": "Get the feeling this was designed by someone who once watched their friend skate when they were 8."
+                },
+                {
+                    "id": "NmwU4Kk",
+                    "link": "https://i.imgur.com/NmwU4Kk.jpg",
+                    "title": null,
+                    "name": "4 - 4fGfyjA",
+                    "description": "It's got a nice 6 foot mini though."
+                }
+            ]
+        }
     }
 ]

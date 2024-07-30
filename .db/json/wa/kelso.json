@@ -10,10 +10,136 @@
             "state": "WA",
             "zipCode": "98525",
             "googleMaps": {
-                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55343.53320783989!2d-122.94430728478135!3d46.184517373252596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54946cb3f0a255e1%3A0xa33f2c8a48e068c5!2sRotary%20Skatepark!5e0!3m2!1sen!2sus!4v1712033391968!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "embedMap": "\u003ciframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55343.53320783989!2d-122.94430728478135!3d46.184517373252596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54946cb3f0a255e1%3A0xa33f2c8a48e068c5!2sRotary%20Skatepark!5e0!3m2!1sen!2sus!4v1712033391968!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
                 "ShareLink": "https://maps.app.goo.gl/sXdyKU6zSttPFU9L8"
             }
         },
-        "albumId": "bTd6ciL"
+        "albumId": "bTd6ciL",
+        "album": {
+            "id": "bTd6ciL",
+            "title": "skatepark - wa - kelso",
+            "description": null,
+            "images": [
+                {
+                    "id": "rcgDqzZ",
+                    "link": "https://i.imgur.com/rcgDqzZ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "EJvHEsI",
+                    "link": "https://i.imgur.com/EJvHEsI.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "j1dBQsk",
+                    "link": "https://i.imgur.com/j1dBQsk.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "gLbmATE",
+                    "link": "https://i.imgur.com/gLbmATE.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "o5nzOTs",
+                    "link": "https://i.imgur.com/o5nzOTs.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "JLUMG3p",
+                    "link": "https://i.imgur.com/JLUMG3p.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "QXOts4a",
+                    "link": "https://i.imgur.com/QXOts4a.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "grU1G1m",
+                    "link": "https://i.imgur.com/grU1G1m.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "c5lCYCu",
+                    "link": "https://i.imgur.com/c5lCYCu.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "bSjpSBz",
+                    "link": "https://i.imgur.com/bSjpSBz.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "CFLyRor",
+                    "link": "https://i.imgur.com/CFLyRor.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "VjwaCiZ",
+                    "link": "https://i.imgur.com/VjwaCiZ.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "oS4oHn5",
+                    "link": "https://i.imgur.com/oS4oHn5.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "W3qR6i4",
+                    "link": "https://i.imgur.com/W3qR6i4.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "fvLNVGS",
+                    "link": "https://i.imgur.com/fvLNVGS.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "ZnqZjnN",
+                    "link": "https://i.imgur.com/ZnqZjnN.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                },
+                {
+                    "id": "CVwifEB",
+                    "link": "https://i.imgur.com/CVwifEB.jpg",
+                    "title": null,
+                    "name": null,
+                    "description": ""
+                }
+            ]
+        }
     }
 ]
