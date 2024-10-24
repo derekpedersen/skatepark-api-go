@@ -6,9 +6,9 @@ This is my skateparks api written in golang. It powers [https://www.celebrityska
 
 These are the skateparks that I've been to in my life. 
 
-## TODO
+### How to Add
 
-1. Update to use ElasticSearchs to store the JSON documents.
-2. Visit more skateparks. 
-3. Add more tests.
-4. Use ElasticSearch to support fuzzy search.
+1. Add entry to appropriate state folder
+2. Run locally (with load imgur albums enabled)
+3. Commit imgur imaage update to json files
+4. How part of the repository
