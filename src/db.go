@@ -72,6 +72,10 @@ func ParseSkateparks(
 						}
 					}
 				}
+
+				if err := ioutil.WriteFile(path, raw, 0644); err != nil {
+					return err
+				}
 			}
 
 			skateparks = append(skateparks, m...)
