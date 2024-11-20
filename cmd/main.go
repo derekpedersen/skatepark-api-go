@@ -62,11 +62,11 @@ var LOAD_IMGUR_ALBUMS = flag.Bool("load-imgur-albums", parseBoolEnvVar(os.Getenv
 
 func main() {
 
-	log.Debug("Intializing application...")
+	log.Debug("intializing application...")
 	log.SetLevel(log.DebugLevel) // TODO: make this a flag
 	log.Infof("log level: %v", log.GetLevel())
 
-	log.Debug("Intializing imgur service...")
+	log.Debug("intializing imgur service...")
 	imgurAuth, err := authorization.NewAuthorization()
 	if err != nil {
 		log.Fatal(err)
@@ -76,31 +76,31 @@ func main() {
 		log.Fatal(fmt.Errorf("failed to load imgur service"))
 	}
 
-	log.Debug("Loading skateparks db...")
+	log.Debug("loading skateparks db...")
 	if _, err := skatepark_api.GetSkateparks(true, *LOAD_IMGUR_ALBUMS); err != nil {
 		log.Fatalf("failed to parse skateparks: %v", err)
 	}
 
-	log.Debug("Intializing health service...")
+	log.Debug("intializing health service...")
 	hsvc := skatepark_api.NewHealthService()
 	hctrl := skatepark_api.NewHealthAPIController(hsvc)
 
-	log.Debug("Intializing api router...")
+	log.Debug("intializing api router...")
 	baseRouter, err := skatepark_api.NewBaseRouter()
 	if err != nil {
 		log.Fatalf("failed to create api base router: %v", err)
 	}
 
-	log.Debug("Adding health routes to api router...")
+	log.Debug("adding health routes to api router...")
 	skatepark_api.AddHealthRoutes(baseRouter, hctrl)
 
-	log.Debug("Adding skatepark routes to api router...")
+	log.Debug("adding skatepark routes to api router...")
 	skateparkRouter, err := skatepark_api.NewSkateparkAPIRouter(baseRouter)
 	if err != nil {
 		log.Fatalf("failed to add skatepark api routes: %v", err)
 	}
 
-	log.Debug("Initialzing swagger router...")
+	log.Debug("initialzing swagger router...")
 	swaggerRouter := skatepark_api.NewSwaggerRouter("./.docs/swagger/") // TODO: this should be an env var
 
 	c := cors.New(cors.Options{
@@ -116,8 +116,7 @@ func main() {
 			"https://celebrityskateboards.com",
 		},
 		AllowCredentials: true,
-		// Enable Debugging for testing, consider disabling in production
-		// Debug: true,
+		Debug:            true,
 	})
 
 	var wg sync.WaitGroup
