@@ -59,7 +59,6 @@ func GetSkateparksByCity(w http.ResponseWriter, r *http.Request) {
 	} else {
 		http.NotFound(w, r)
 	}
-	return
 }
 
 // GetSkateparksByName gets the full collection of skateparks
@@ -76,5 +75,4 @@ func GetSkateparksByName(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	w.Write(js)
-	return
 }

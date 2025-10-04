@@ -14,7 +14,7 @@ type StateSkateparkMap map[string]CitySkateparkMap
 func (dom Skateparks) GetSkateparkByName(name string) Skatepark {
 	s := Skatepark{}
 	for i := range dom {
-		if strings.ToLower(dom[i].Name) == strings.ToLower(name) {
+		if strings.EqualFold(dom[i].Name, name) {
 			s = dom[i]
 		}
 	}
