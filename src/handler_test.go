@@ -80,7 +80,7 @@ func Test_GetSkateparksByCity(t *testing.T) {
 	setup()
 
 	t.Run("Valid city returns skateparks", func(t *testing.T) {
-		req := httptest.NewRequest(http.MethodGet, "/skateparks/city/San Diego", nil)
+		req := httptest.NewRequest(http.MethodGet, "/skateparks/city/San%20Diego", nil)
 		rr := httptest.NewRecorder()
 
 		router := mux.NewRouter()
@@ -96,7 +96,7 @@ func Test_GetSkateparksByCity(t *testing.T) {
 	})
 
 	t.Run("Unknown city returns 404", func(t *testing.T) {
-		req := httptest.NewRequest(http.MethodGet, "/skateparks/city/New York", nil)
+		req := httptest.NewRequest(http.MethodGet, "/skateparks/city/New%20York", nil)
 		rr := httptest.NewRecorder()
 
 		router := mux.NewRouter()
@@ -111,7 +111,7 @@ func Test_GetSkateparksByName(t *testing.T) {
 	setup()
 
 	t.Run("Valid name returns skatepark", func(t *testing.T) {
-		req := httptest.NewRequest(http.MethodGet, "/skateparks/name/Ocean Skate", nil)
+		req := httptest.NewRequest(http.MethodGet, "/skateparks/name/Ocean%20Skate", nil)
 		rr := httptest.NewRecorder()
 
 		router := mux.NewRouter()

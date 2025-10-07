@@ -114,7 +114,7 @@ func Test_NewSkateparkAPIRouter(t *testing.T) {
 		{"State skateparks route", "/api/skateparks/California", http.MethodGet, http.StatusOK},
 		{"City skateparks route", "/api/skateparks/California/SanDiego", http.MethodGet, http.StatusOK},
 		{"Skatepark by name route", "/api/skateparks/California/SanDiego/OceanPark", http.MethodGet, http.StatusOK},
-		{"Not found route", "/api/skateparks/unknown/path", http.MethodPost, http.StatusMethodNotAllowed},
+		{"Not found route", "/api/skateparks/unknown/path", http.MethodPost, http.StatusNotFound},
 	}
 
 	for _, tt := range tests {
