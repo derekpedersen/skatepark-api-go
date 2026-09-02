@@ -1,0 +1,20 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "Omak Skatepark",
+        "description": "A really nice skatepark. Love that these are popping up every where in Eastern WA.",
+        "address": {
+            "addressLine1": "Eastside Park",
+            "addressLine2": "",
+            "city": "Omak",
+            "state": "WA",
+            "zipCode": "98841",
+            "country": "United States",
+            "googleMaps": {
+                "embedMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2648.4547026747755!2d-119.5222448!3d48.40941420000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549ce9006eb05c55%3A0x510c30e33c45da93!2sOmak%20Skate%20Park!5e0!3m2!1sen!2sus!4v1759590745226!5m2!1sen!2sus\" style=\"width: 100%; height: 100%; border:0;\" frameborder=\"0\" allowfullscreen></iframe>",
+                "ShareLink": "https://maps.app.goo.gl/HzTApi3FbAjbYKmR9"
+            }
+        },
+        "albumId": "skatepark-wa-omak-7avi3Ua"
+    }
+]
