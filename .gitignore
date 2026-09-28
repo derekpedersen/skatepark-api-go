@@ -26,6 +26,8 @@ _vendor*
 
 # Build artifacts
 .bin/*
+.old-db/*
+!.old-db/.gitkeep
 
 # Deploy artifacts
 *.sed.yaml

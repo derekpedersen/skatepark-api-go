@@ -100,6 +100,18 @@ func main() {
 		log.Fatalf("failed to add skatepark api routes: %v", err)
 	}
 
+	adminCfg := skatepark_api.NewAdminConfigFromEnv()
+	if adminCfg.Enabled() {
+		adminServer, err := skatepark_api.NewAdminServer(adminCfg)
+		if err != nil {
+			log.Fatalf("failed to initialize admin server: %v", err)
+		}
+		skatepark_api.AddAdminRoutes(skateparkRouter, adminServer)
+		log.Infof("admin routes enabled for GitHub user: %s", adminCfg.AllowedGitHubUser)
+	} else {
+		log.Warn("admin routes disabled: missing GitHub OAuth or session env vars")
+	}
+
 	log.Debug("initialzing swagger router...")
 	swaggerRouter := skatepark_api.NewSwaggerRouter("./.docs/swagger/") // TODO: this should be an env var
 

@@ -4,6 +4,9 @@ dependencies:
 	go mod tidy && \
 	go mod download
 
+backup-db:
+	./.tools/scripts/archive-db.sh
+
 test:
 	go test ./... -covermode=count -v -coverprofile cp.out && \
 	go tool cover -html=cp.out -o cp.html && \
