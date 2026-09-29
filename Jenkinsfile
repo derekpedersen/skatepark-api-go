@@ -9,8 +9,6 @@ pipeline {
 
     environment {
         PROJECT_DIR = '.'
-        DOCKERHUB_CREDENTIALS_ID = 'DOCKERHUB_CREDENTIALS'
-        DOKS_KUBECONFIG_CREDENTIALS_ID = 'DOKS_KUBECONFIG'
     }
 
     stages {
@@ -59,17 +57,12 @@ pipeline {
                 expression { env.BRANCH_NAME == 'main' }
             }
             steps {
-                withCredentials([
-                    usernamePassword(
-                        credentialsId: "${env.DOCKERHUB_CREDENTIALS_ID}",
-                        usernameVariable: 'DOCKERHUB_USERNAME',
-                        passwordVariable: 'DOCKERHUB_TOKEN'
-                    )
-                ]) {
-                    dir("${env.PROJECT_DIR}") {
-                        sh 'echo "$DOCKERHUB_TOKEN" | docker login --username "$DOCKERHUB_USERNAME" --password-stdin'
-                        sh 'make publish'
-                        sh 'docker logout || true'
+                script {
+                    def dockerhubCredentialsId = env.DOCKERHUB_CREDENTIALS_ID ?: 'docker-jenkins-pat'
+                    withDockerRegistry([credentialsId: dockerhubCredentialsId, url: 'https://index.docker.io/v1/']) {
+                        dir("${env.PROJECT_DIR}") {
+                            sh 'make publish'
+                        }
                     }
                 }
             }
@@ -80,14 +73,17 @@ pipeline {
                 expression { env.BRANCH_NAME == 'main' }
             }
             steps {
-                withCredentials([
-                    file(
-                        credentialsId: "${env.DOKS_KUBECONFIG_CREDENTIALS_ID}",
-                        variable: 'KUBECONFIG'
-                    )
-                ]) {
-                    dir("${env.PROJECT_DIR}") {
-                        sh 'make deploy'
+                script {
+                    def doksKubeconfigCredentialsId = env.DOKS_KUBECONFIG_CREDENTIALS_ID ?: 'DOKS_KUBECONFIG'
+                    withCredentials([
+                        file(
+                            credentialsId: doksKubeconfigCredentialsId,
+                            variable: 'KUBECONFIG'
+                        )
+                    ]) {
+                        dir("${env.PROJECT_DIR}") {
+                            sh 'make deploy'
+                        }
                     }
                 }
             }
