@@ -49,6 +49,36 @@ spec:
                 secretKeyRef:
                   name: imgur-api
                   key: imgurRefreshToken
+            - name: GITHUB_OAUTH_CLIENT_ID
+              valueFrom:
+                secretKeyRef:
+                  name: admin-auth
+                  key: githubOAuthClientId
+            - name: GITHUB_OAUTH_CLIENT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: admin-auth
+                  key: githubOAuthClientSecret
+            - name: GITHUB_OAUTH_REDIRECT_URL
+              valueFrom:
+                secretKeyRef:
+                  name: admin-auth
+                  key: githubOAuthRedirectUrl
+            - name: ADMIN_SESSION_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: admin-auth
+                  key: adminSessionSecret
+            - name: ADMIN_ALLOWED_GITHUB_USER
+              value: {{ .Values.admin.allowedGithubUser | quote }}
+            - name: ADMIN_COOKIE_SECURE
+              value: {{ .Values.admin.cookieSecure | quote }}
+            - name: ADMIN_POST_LOGIN_REDIRECT
+              value: {{ .Values.admin.postLoginRedirect | quote }}
+            - name: ADMIN_POST_LOGOUT_REDIRECT
+              value: {{ .Values.admin.postLogoutRedirect | quote }}
+            - name: ADMIN_ALLOWED_REDIRECT_URI
+              value: {{ .Values.admin.allowedRedirectUri | quote }}
             - name: SKATEPARKS_FILE
               value: "./repository/json/"
           ports:

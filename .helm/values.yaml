@@ -41,6 +41,13 @@ service:
   port: 8080
   swagger: 3000
 
+admin:
+  allowedGithubUser: derekpedersen
+  cookieSecure: "true"
+  postLoginRedirect: "/admin/me"
+  postLogoutRedirect: "/admin/me"
+  allowedRedirectUri: ""
+
 ingress:
   enabled: true
   className: ""
