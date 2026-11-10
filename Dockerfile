@@ -1,8 +1,7 @@
-# Start from a Debian image with the latest version of Go installed
-# and a workspace (GOPATH) configured at /go.
-FROM debian:stable-slim
+# Runtime image for the pre-built Go binary.
+FROM debian:trixie-slim
 
-# Install wget and install/updates certificates
+# Install/update CA certificates for outbound HTTPS calls.
 RUN apt-get update \
  && apt-get install -y -q --no-install-recommends \
     ca-certificates \
