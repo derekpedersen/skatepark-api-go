@@ -40,3 +40,8 @@ make backup-db
 ```
 
 This creates a timestamped backup zip file like `.old-db/skatepark-db-YYYYMMDD-HHMMSS.zip`.
+
+## CONTRIBUTING AND AGENT GUIDANCE
+
+- Contributor and workflow contract: `AGENTS.md`
+- Repository-scoped Copilot guidance: `.github/copilot-instructions.md`
